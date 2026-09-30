@@ -1,11 +1,10 @@
-import Image from 'next/image';
 import Link from 'next/link';
+import DeviceMockups from '@/components/DeviceMockups';
 import { apps } from '@/data/apps';
 
 const published = apps.filter((a) => a.url || a.appStoreUrl);
 const rated = apps.filter((a) => a.rating !== '-');
 const averageRating = rated.reduce((sum, a) => sum + Number(a.rating), 0) / rated.length;
-const topApp = apps.find((a) => a.id === 'malaysia-calendar')!;
 
 const stats = [
   { value: '600K+', label: 'Downloads' },
@@ -13,42 +12,6 @@ const stats = [
   { value: String(published.length), label: 'Apps published' },
   { value: String(new Set(apps.flatMap((a) => a.countries)).size), label: 'Countries' },
 ];
-
-// Three columns of icons that scroll past each other; each list is doubled so the loop is seamless.
-const columns = [0, 1, 2].map((c) => apps.filter((_, i) => i % 3 === c));
-const speeds = ['38s', '46s', '42s'];
-
-function IconColumn({ items, index }: { items: typeof apps; index: number }) {
-  return (
-    <div className="flex-1 overflow-hidden">
-      <div
-        className={`flex flex-col gap-4 ${index === 1 ? 'hero-marquee-down' : 'hero-marquee-up'}`}
-        style={{ animationDuration: speeds[index] }}
-      >
-        {[false, true].map((copy) =>
-          items.map((app) => (
-            <Link
-              key={`${app.id}-${copy}`}
-              href={`/${app.id}/`}
-              aria-hidden={copy || undefined}
-              tabIndex={copy ? -1 : undefined}
-              title={app.name}
-              className="relative block rounded-[26%] bg-white p-1.5 shadow-xl shadow-purple-900/10 ring-1 ring-gray-900/5 transition-transform duration-300 hover:-translate-y-1 hover:scale-[1.03]"
-            >
-              <Image
-                src={app.icon}
-                alt={copy ? '' : `${app.name} icon`}
-                width={160}
-                height={160}
-                className="aspect-square w-full rounded-[22%]"
-              />
-            </Link>
-          )),
-        )}
-      </div>
-    </div>
-  );
-}
 
 export default function Hero() {
   return (
@@ -62,7 +25,7 @@ export default function Hero() {
         className="absolute -top-48 left-1/2 -z-10 h-[36rem] w-[64rem] -translate-x-1/2 rounded-full bg-gradient-to-br from-purple-300/50 via-fuchsia-200/30 to-indigo-300/40 blur-3xl"
       />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-[1.1fr_1fr] gap-12 lg:gap-10 items-center pt-14 pb-16 sm:pt-20 lg:pt-24 lg:pb-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-[1.1fr_1fr] gap-12 lg:gap-10 items-center pt-14 pb-12 sm:pt-20 lg:pt-16 lg:pb-12">
         <div className="text-center lg:text-left">
           <Link
             href="/shelfbell/"
@@ -109,9 +72,9 @@ export default function Hero() {
             </Link>
           </div>
 
-          <dl className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-y-6 max-w-xl mx-auto lg:mx-0 sm:divide-x sm:divide-gray-200">
+          <dl className="mt-12 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4 gap-y-6 max-w-xl mx-auto lg:mx-0 sm:divide-x lg:divide-x-0 xl:divide-x sm:divide-gray-200">
             {stats.map((stat) => (
-              <div key={stat.label} className="flex flex-col px-2 sm:px-5 sm:first:pl-0 text-center lg:text-left">
+              <div key={stat.label} className="flex flex-col px-2 sm:px-5 sm:first:pl-0 lg:px-0 xl:px-5 xl:first:pl-0 text-center lg:text-left">
                 <dt className="order-2 mt-1 text-sm text-gray-500">{stat.label}</dt>
                 <dd className="order-1 text-3xl font-extrabold tracking-tight text-gray-950">{stat.value}</dd>
               </div>
@@ -119,26 +82,10 @@ export default function Hero() {
           </dl>
         </div>
 
-        <div className="hero-fade-in relative mx-auto w-full max-w-md lg:max-w-none">
-          <div className="relative h-[22rem] sm:h-[28rem] lg:h-[34rem] rotate-[-4deg] [mask-image:linear-gradient(to_bottom,transparent,black_14%,black_86%,transparent)]">
-            <div className="flex h-full gap-4 sm:gap-5 px-2">
-              {columns.map((items, i) => (
-                <IconColumn key={i} items={items} index={i} />
-              ))}
-            </div>
+        <div className="hero-fade-in flex justify-center lg:justify-end">
+          <div className="[zoom:0.56] min-[400px]:[zoom:0.62] sm:[zoom:0.85] lg:[zoom:0.74] xl:[zoom:0.92]">
+            <DeviceMockups />
           </div>
-          <Link
-            href={`/${topApp.id}/`}
-            className="absolute left-0 bottom-8 sm:-left-6 flex items-center gap-3 rounded-2xl bg-white/90 py-3 pl-3 pr-5 shadow-2xl shadow-purple-900/15 ring-1 ring-gray-900/5 backdrop-blur hover:ring-purple-300 transition"
-          >
-            <Image src={topApp.icon} alt="" width={44} height={44} className="rounded-xl" />
-            <span>
-              <span className="block text-sm font-semibold text-gray-900">{topApp.name}</span>
-              <span className="block text-xs text-gray-500">
-                <span className="text-amber-500">★</span> {topApp.rating} · {topApp.downloads} downloads
-              </span>
-            </span>
-          </Link>
         </div>
       </div>
     </section>

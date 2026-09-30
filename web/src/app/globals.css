@@ -32,3 +32,25 @@ body {
   background: #ddd6fe;
   color: #4c1d95;
 }
+
+/* Landing page icon wall */
+@keyframes hero-marquee-up {
+  from { transform: translateY(0); }
+  to { transform: translateY(calc(-50% - 0.5rem)); }
+}
+@keyframes hero-marquee-down {
+  from { transform: translateY(calc(-50% - 0.5rem)); }
+  to { transform: translateY(0); }
+}
+@keyframes hero-fade-in {
+  from { opacity: 0; transform: translateY(16px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+.hero-marquee-up { animation: hero-marquee-up 40s linear infinite; }
+.hero-marquee-down { animation: hero-marquee-down 40s linear infinite; }
+.hero-fade-in { animation: hero-fade-in 0.8s ease-out both; }
+.hero-fade-in:hover .hero-marquee-up,
+.hero-fade-in:hover .hero-marquee-down { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) {
+  .hero-marquee-up, .hero-marquee-down, .hero-fade-in { animation: none; }
+}

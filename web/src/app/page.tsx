@@ -5,6 +5,14 @@ import AppCard from '@/components/AppCard';
 import AsiaCoverageMap from '@/components/AsiaCoverageMap';
 import { apps } from '@/data/apps';
 import Image from 'next/image';
+import { JsonLd, organizationJsonLd, pageMetadata, SITE_DESCRIPTION } from '@/lib/seo';
+
+export const metadata = pageMetadata({
+  title: 'KF Production: Holiday Calendar and Loan Calculator Apps',
+  description: SITE_DESCRIPTION,
+  path: '/',
+  absoluteTitle: true,
+});
 
 const features = [
   {
@@ -42,6 +50,7 @@ const features = [
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
+      <JsonLd data={organizationJsonLd()} />
       <Navbar />
       <main className="flex-grow">
         <Hero />

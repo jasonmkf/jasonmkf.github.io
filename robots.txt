@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /web/
+
+Sitemap: https://jasonmkf.github.io/sitemap.xml

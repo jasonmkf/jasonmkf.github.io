@@ -4,12 +4,22 @@ import { apps } from '@/data/apps';
 import StoreBadges from '@/components/StoreBadges';
 import Image from 'next/image';
 import Link from 'next/link';
+import { appListJsonLd, JsonLd, pageMetadata } from '@/lib/seo';
+
+export const metadata = pageMetadata({
+  title: 'Our Apps: Holiday Calendars and Loan Calculators',
+  description:
+    'All KF Production apps: holiday and lunar calendars for Asia and Australia, Malaysian car ' +
+    'and home loan calculators, and the Shelfbell expiry date reminder. Free on Android and iPhone.',
+  path: '/apps/',
+});
 
 const hasValue = (v?: string) => v && v !== '-';
 
 export default function AppsPage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <JsonLd data={appListJsonLd(apps)} />
       <Navbar />
       <main className="flex-grow">
         <div className="relative overflow-hidden bg-gradient-to-br from-purple-950 via-purple-900 to-indigo-900 py-20">

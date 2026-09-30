@@ -1,6 +1,16 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Image from 'next/image';
+import { pageMetadata } from '@/lib/seo';
+
+export const metadata = pageMetadata({
+  title: 'About KF Production',
+  description:
+    'KF Production has made Android and iOS apps since 2015: holiday calendars built around ' +
+    'local holidays, languages and traditions, and everyday tools such as loan calculators.',
+  path: '/about/',
+  absoluteTitle: true,
+});
 
 export default function AboutPage() {
   return (

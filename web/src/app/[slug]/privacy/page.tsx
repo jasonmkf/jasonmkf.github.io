@@ -4,7 +4,9 @@ import { notFound } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import PrivacyPolicy from '@/components/PrivacyPolicy';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import { apps, findApp } from '@/data/apps';
+import { pageMetadata } from '@/lib/seo';
 
 // Exported as /<slug>/privacy/index.html; scripts/publish.mjs moves it to /<slug>/privacy.html.
 
@@ -19,8 +21,13 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const app = findApp((await params).slug)!;
   return {
-    title: `Privacy Policy — ${app.name}`,
-    description: `How ${app.name} handles your information.`,
+    ...pageMetadata({
+      title: `Privacy Policy — ${app.name}`,
+      description: `How ${app.name} by KF Production handles your information: what stays on your device, what is sent, and how to delete it.`,
+      path: `/${app.id}/privacy.html`,
+      image: `/og/${app.id}.jpg`,
+      absoluteTitle: true,
+    }),
     icons: { icon: app.icon },
   };
 }
@@ -36,6 +43,15 @@ export default async function PrivacyPage({ params }: Props) {
         <div className="relative overflow-hidden bg-gradient-to-br from-purple-950 via-purple-900 to-indigo-900 py-16">
           <div className="absolute -top-24 -right-24 h-72 w-72 rounded-full bg-purple-500/20 blur-3xl" />
           <div className="absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-indigo-500/20 blur-3xl" />
+          <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 flex justify-center">
+            <Breadcrumbs
+              items={[
+                { name: 'Our Apps', path: '/apps/' },
+                { name: app.name, path: `/${app.id}/` },
+                { name: 'Privacy Policy', path: `/${app.id}/privacy.html` },
+              ]}
+            />
+          </div>
           <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <a href={`/${app.id}/`} className="inline-flex items-center gap-3 group">
               <Image

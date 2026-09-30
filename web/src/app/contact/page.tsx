@@ -1,8 +1,16 @@
-'use client';
-
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Image from 'next/image';
+import { pageMetadata } from '@/lib/seo';
+
+export const metadata = pageMetadata({
+  title: 'Contact KF Production',
+  description:
+    'Contact KF Production for support or business enquiries about our calendar and calculator ' +
+    'apps: jasonmkf2@gmail.com.',
+  path: '/contact/',
+  absoluteTitle: true,
+});
 
 export default function ContactPage() {
   return (

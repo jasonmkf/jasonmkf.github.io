@@ -4,7 +4,10 @@ import { notFound } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import StoreBadges from '@/components/StoreBadges';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import RelatedApps from '@/components/RelatedApps';
 import { apps, findApp } from '@/data/apps';
+import { appJsonLd, JsonLd, pageMetadata } from '@/lib/seo';
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -17,8 +20,13 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const app = findApp((await params).slug)!;
   return {
-    title: app.name,
-    description: `${app.name}: ${app.tagline}`,
+    ...pageMetadata({
+      title: app.seo.title,
+      description: app.seo.description,
+      path: `/${app.id}/`,
+      image: `/og/${app.id}.jpg`,
+      absoluteTitle: true,
+    }),
     icons: { icon: app.icon },
   };
 }
@@ -29,11 +37,15 @@ export default async function AppPage({ params }: Props) {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <JsonLd data={appJsonLd(app)} />
       <Navbar />
       <main className="flex-grow">
         <div className="relative overflow-hidden bg-gradient-to-br from-purple-950 via-purple-900 to-indigo-900 py-16 sm:py-20">
           <div className="absolute -top-24 -right-24 h-72 w-72 rounded-full bg-purple-500/20 blur-3xl" />
           <div className="absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-indigo-500/20 blur-3xl" />
+          <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
+            <Breadcrumbs items={[{ name: 'Our Apps', path: '/apps/' }, { name: app.name, path: `/${app.id}/` }]} />
+          </div>
           <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center gap-6 sm:gap-8 text-center sm:text-left">
             <Image
               src={app.icon}
@@ -159,6 +171,8 @@ export default async function AppPage({ params }: Props) {
             </p>
           )}
         </section>
+
+        <RelatedApps app={app} />
       </main>
       <Footer />
     </div>

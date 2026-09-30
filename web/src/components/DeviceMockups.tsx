@@ -79,7 +79,7 @@ function Galaxy() {
 
             <div className="px-[20px] pt-[34px]">
               <p className="text-[56px] font-extralight leading-none tracking-tight">9:41</p>
-              <p className="mt-[6px] text-[13px] font-medium text-white/85">Sat, 6 February</p>
+              <p className="mt-[6px] text-[13px] font-medium text-white/85">Thu, 1 October</p>
             </div>
 
             <ul className="mt-[30px] grid grid-cols-4 gap-x-[6px] gap-y-[14px] px-[12px]">
@@ -113,34 +113,85 @@ function Galaxy() {
   );
 }
 
-// February 2027 starts on a Monday; the 6th is Chinese New Year.
-function MonthWidget() {
-  const days = [null, ...Array.from({ length: 28 }, (_, i) => i + 1)];
+// The widgets as the apps draw them on 1 October 2026 (Lunar Calendar's day cell; Shelfbell's
+// "Expiring next" widget in dark mode, with an amber bar for anything due within 7 days).
+const SOON_DAYS = 7;
+const expiring = [
+  { name: 'Fresh milk', days: 1, detail: 'Qty 2 · Beverage' },
+  { name: 'Greek yogurt', days: 4, detail: 'Food' },
+  { name: 'Vitamin C', days: 54, detail: 'Supplements' },
+  { name: 'Sunscreen SPF 50', days: 90, detail: 'Skincare' },
+  { name: 'Cough syrup', days: 140, detail: 'Medicine' },
+];
+const daysLeft = (d: number) => (d === 0 ? 'Today' : d === 1 ? 'Tomorrow' : `${d} days`);
+
+function ExpiringCell({ item, detail }: { item: (typeof expiring)[number]; detail: boolean }) {
+  const soon = item.days <= SOON_DAYS;
   return (
-    <div className="rounded-[24px] bg-white/95 px-[14px] py-[11px] text-gray-900 shadow-lg shadow-black/10">
-      <div className="flex items-baseline justify-between">
-        <p className="text-[11px] font-bold uppercase tracking-wide text-red-600">February</p>
-        <p className="text-[10px] font-medium text-gray-500">2027</p>
+    <div className="flex min-h-0 min-w-0 flex-1 items-center gap-[5px]">
+      <span className={`h-[20px] w-[2px] flex-none rounded-full ${soon ? 'bg-[#FBBF24]' : 'bg-[#3C4043]'}`} />
+      <div className="min-w-0">
+        <p className="truncate text-[9.5px] font-medium leading-[1.25] text-[#E6E6E6]">{item.name}</p>
+        <p className="truncate text-[8px] leading-[1.3] text-[#A8ACB0]">
+          <span className={`font-medium ${soon ? 'text-[#FBBF24]' : ''}`}>{daysLeft(item.days)}</span>
+          {detail && ` · ${item.detail}`}
+        </p>
       </div>
-      <div className="mt-[6px] grid grid-cols-7 gap-y-[2px] text-center text-[9.5px] leading-[17px]">
-        {['S', 'M', 'T', 'W', 'T', 'F', 'S'].map((d, i) => (
-          <span key={i} className="font-semibold text-gray-400">
-            {d}
-          </span>
+    </div>
+  );
+}
+
+const WIDGET = 'rounded-[22px] shadow-lg shadow-black/15';
+const widgetLabel = 'mt-[5px] text-center text-[9.5px] font-medium [text-shadow:0_1px_2px_rgba(0,0,0,0.35)]';
+
+function LunarWidget() {
+  return (
+    <div className={`relative h-[112px] bg-white ${WIDGET}`}>
+      <span className="absolute right-[10px] top-[8px] text-[7.5px] text-[#922D2A]">RabAk 20</span>
+      <span
+        lang="zh-Hans"
+        className="absolute left-[8px] top-1/2 flex -translate-y-1/2 flex-col text-[9px] leading-[1.08] text-[#922D2A]"
+      >
+        {['八', '月', '廿', '一'].map((c, i) => (
+          <span key={i}>{c}</span>
         ))}
-        {days.map((d, i) => (
-          <span
-            key={i}
-            className={
-              d === 6
-                ? 'mx-auto h-[17px] w-[17px] rounded-full bg-red-600 font-bold text-white'
-                : i % 7 === 0
-                  ? 'text-red-600'
-                  : ''
-            }
-          >
-            {d ?? ''}
-          </span>
+      </span>
+      <span className="absolute inset-0 flex items-center justify-center text-[50px] font-bold leading-none text-[#00007A]">
+        1
+      </span>
+      <span lang="ta" className="absolute bottom-[8px] right-[10px] text-[7.5px] text-[#181818]">
+        புரட்டாசி 15
+      </span>
+    </div>
+  );
+}
+
+function ShelfbellSmall() {
+  return (
+    <div className={`flex h-[112px] flex-col bg-[#272727] px-[11px] py-[10px] ${WIDGET}`}>
+      <p className="text-[9px] font-bold leading-tight text-[#81C784]">Expiring next</p>
+      {expiring.slice(0, 3).map((item) => (
+        <ExpiringCell key={item.name} item={item} detail={false} />
+      ))}
+    </div>
+  );
+}
+
+function ShelfbellMedium() {
+  return (
+    <div className={`flex h-[112px] gap-[8px] bg-[#272727] px-[12px] py-[10px] ${WIDGET}`}>
+      <div className="flex min-w-0 flex-1 flex-col">
+        <div className="flex-1">
+          <p className="text-[9px] font-bold leading-tight text-[#81C784]">Expiring next</p>
+          <p className="text-[8px] leading-tight text-[#A8ACB0]">1 Oct 2026</p>
+        </div>
+        {expiring.slice(0, 2).map((item) => (
+          <ExpiringCell key={item.name} item={item} detail />
+        ))}
+      </div>
+      <div className="flex min-w-0 flex-1 flex-col">
+        {expiring.slice(2, 5).map((item) => (
+          <ExpiringCell key={item.name} item={item} detail />
         ))}
       </div>
     </div>
@@ -168,52 +219,20 @@ function IPhone() {
               </span>
             </div>
 
-            <div className="mt-[34px] grid grid-cols-2 gap-x-[16px] px-[20px]">
+            <div className="mt-[30px] grid grid-cols-2 gap-x-[16px] px-[18px]">
               <div>
-                <div className="h-[118px] rounded-[24px] bg-white/95 p-[12px] text-gray-900 shadow-lg shadow-black/10">
-                  <p className="text-[10px] font-bold uppercase tracking-wide text-red-600">Saturday</p>
-                  <p className="mt-[2px] text-[38px] font-bold leading-none tracking-tight">6</p>
-                  <p className="text-[10px] text-gray-500">February</p>
-                  <p className="mt-[7px] text-[10px] font-semibold leading-tight text-red-600">Chinese New Year</p>
-                  <p lang="zh-Hans" className="text-[9px] text-gray-500">正月初一</p>
-                </div>
-                <p className="mt-[5px] text-center text-[10px] font-medium [text-shadow:0_1px_2px_rgba(0,0,0,0.35)]">
-                  {lunar.name.replace(' & Holidays', '')}
-                </p>
+                <LunarWidget />
+                <p className={widgetLabel}>{lunar.name.replace(' & Holidays', '')}</p>
               </div>
               <div>
-                <div className="h-[118px] rounded-[24px] bg-white/95 p-[12px] text-gray-900 shadow-lg shadow-black/10">
-                  <p className="text-[10px] font-bold uppercase tracking-wide text-amber-700">Expiring</p>
-                  <ul className="mt-[8px] space-y-[4px] text-[10px]">
-                    <li className="flex justify-between">
-                      <span>Milk</span>
-                      <span className="font-semibold text-amber-700">2 days</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Yogurt</span>
-                      <span className="font-semibold text-amber-700">4 days</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Bread</span>
-                      <span className="font-semibold text-amber-700">5 days</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Rice</span>
-                      <span className="text-gray-500">6 mo</span>
-                    </li>
-                  </ul>
-                </div>
-                <p className="mt-[5px] text-center text-[10px] font-medium [text-shadow:0_1px_2px_rgba(0,0,0,0.35)]">
-                  {shelfbell.name}
-                </p>
+                <ShelfbellSmall />
+                <p className={widgetLabel}>{shelfbell.name}</p>
               </div>
             </div>
 
-            <div className="mt-[14px] px-[20px]">
-              <MonthWidget />
-              <p className="mt-[5px] text-center text-[10px] font-medium [text-shadow:0_1px_2px_rgba(0,0,0,0.35)]">
-                {lunar.name.replace(' & Holidays', '')}
-              </p>
+            <div className="mt-[12px] px-[18px]">
+              <ShelfbellMedium />
+              <p className={widgetLabel}>{shelfbell.name}</p>
             </div>
 
             <div className="absolute bottom-[118px] left-1/2 flex h-[27px] -translate-x-1/2 items-center gap-[5px] rounded-full bg-white/25 px-[13px] text-[11px] font-medium backdrop-blur-md">

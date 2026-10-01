@@ -3,7 +3,8 @@ import Link from 'next/link';
 import { apps, findApp } from '@/data/apps';
 
 // Home screens drawn in CSS: a Galaxy S26 Ultra with the Android apps, and an iPhone 18 Pro Max
-// in front with the iPhone apps. Laid out on a 600 x 720 canvas that Hero scales with `zoom`.
+// in front with the iPhone apps, each on its default wallpaper (Cobalt Violet; Silver Vitra).
+// Laid out on a 600 x 720 canvas that Hero scales with `zoom`.
 
 const androidApps = apps.filter((a) => a.platforms.includes('Android'));
 const iphoneApps = apps.filter((a) => a.platforms.includes('iPhone'));
@@ -66,7 +67,7 @@ function Galaxy() {
       <span className="absolute -right-[2px] top-[240px] h-[44px] w-[4px] rounded-r bg-slate-600" />
       <div className="h-full w-full rounded-[34px] bg-gradient-to-br from-slate-400 via-slate-700 to-slate-900 p-[3px] shadow-[0_40px_80px_-24px_rgba(30,27,75,0.55)]">
         <div className="h-full w-full rounded-[31px] bg-black p-[7px]">
-          <div className="relative h-full w-full overflow-hidden rounded-[25px] bg-[radial-gradient(90%_60%_at_85%_15%,rgba(45,212,191,0.55),transparent_60%),radial-gradient(90%_70%_at_10%_90%,rgba(168,85,247,0.6),transparent_60%),linear-gradient(165deg,#1e3a8a,#312e81_50%,#0f172a)] text-white">
+          <div className="relative h-full w-full overflow-hidden rounded-[25px] bg-[#9b7fe0] bg-[url('/wallpapers/galaxy-s26-ultra-cobalt-violet.webp')] bg-cover bg-center text-white">
             <span className="absolute left-1/2 top-[11px] h-[11px] w-[11px] -translate-x-1/2 rounded-full bg-black ring-1 ring-white/10" />
             <div className="flex items-center justify-between px-[18px] pt-[10px] text-[11px] font-medium">
               <span>9:41</span>
@@ -142,7 +143,7 @@ function ExpiringCell({ item, detail }: { item: (typeof expiring)[number]; detai
 }
 
 const WIDGET = 'rounded-[22px] shadow-lg shadow-black/15';
-const widgetLabel = 'mt-[5px] text-center text-[9.5px] font-medium [text-shadow:0_1px_2px_rgba(0,0,0,0.35)]';
+const widgetLabel = 'mt-[5px] text-center text-[9.5px] font-medium';
 
 function LunarWidget() {
   return (
@@ -208,11 +209,12 @@ function IPhone() {
       <span className="absolute -right-[2px] top-[390px] h-[44px] w-[4px] rounded-r bg-zinc-400" />
       <div className="h-full w-full rounded-[60px] bg-gradient-to-br from-zinc-100 via-zinc-400 to-zinc-600 p-[3px] shadow-[0_50px_90px_-20px_rgba(59,7,100,0.55)]">
         <div className="h-full w-full rounded-[57px] bg-black p-[9px]">
-          <div className="relative h-full w-full overflow-hidden rounded-[48px] bg-[radial-gradient(110%_70%_at_15%_5%,rgba(244,114,182,0.75),transparent_55%),radial-gradient(90%_60%_at_95%_45%,rgba(129,140,248,0.8),transparent_60%),linear-gradient(185deg,#9333ea,#581c87_55%,#2e1065)] text-white">
-            <span className="absolute left-1/2 top-[11px] h-[31px] w-[92px] -translate-x-1/2 rounded-full bg-black" />
-            <div className="flex items-center justify-between pl-[34px] pr-[30px] pt-[17px] text-[14px] font-semibold">
+          <div className="relative h-full w-full overflow-hidden rounded-[48px] bg-[#c9c9cb] bg-[url('/wallpapers/iphone-18-pro-silver.webp')] bg-cover bg-center text-gray-900">
+            <span className="absolute left-1/2 top-[11px] h-[25px] w-[80px] -translate-x-1/2 rounded-full bg-black" />
+            {/* Kept clear of the Dynamic Island, which spans x 98–178 of the 276px screen. */}
+            <div className="flex items-center justify-between pl-[34px] pr-[26px] pt-[15px] text-[13px] font-semibold">
               <span>9:41</span>
-              <span className="flex items-center gap-[5px]">
+              <span className="flex origin-right scale-[0.8] items-center gap-[5px]">
                 <Signal />
                 <Wifi />
                 <Battery />
@@ -235,7 +237,7 @@ function IPhone() {
               <p className={widgetLabel}>{shelfbell.name}</p>
             </div>
 
-            <div className="absolute bottom-[118px] left-1/2 flex h-[27px] -translate-x-1/2 items-center gap-[5px] rounded-full bg-white/25 px-[13px] text-[11px] font-medium backdrop-blur-md">
+            <div className="absolute bottom-[118px] left-1/2 flex h-[27px] -translate-x-1/2 items-center gap-[5px] rounded-full bg-white/45 px-[13px] text-[11px] font-medium backdrop-blur-md">
               <svg width="11" height="11" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fillRule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.45 4.39l3.08 3.08a.75.75 0 11-1.06 1.06l-3.08-3.08A7 7 0 012 9z" clipRule="evenodd" />
               </svg>
@@ -254,7 +256,7 @@ function IPhone() {
                 />
               ))}
             </div>
-            <span className="absolute bottom-[6px] left-1/2 h-[5px] w-[112px] -translate-x-1/2 rounded-full bg-white/85" />
+            <span className="absolute bottom-[6px] left-1/2 h-[5px] w-[112px] -translate-x-1/2 rounded-full bg-black/80" />
           </div>
         </div>
       </div>

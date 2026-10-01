@@ -1,7 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Image from 'next/image';
-import { pageMetadata } from '@/lib/seo';
+import { APP_STORE_DEVELOPER, PLAY_DEVELOPER, pageMetadata } from '@/lib/seo';
 
 export const metadata = pageMetadata({
   title: 'Contact KF Production',
@@ -61,27 +61,46 @@ export default function ContactPage() {
                     </div>
                     
                     <div className="bg-purple-50 p-6 rounded-lg">
-                      <div className="flex justify-center mb-4">
+                      <div className="flex justify-center gap-3 mb-4">
                         <svg className="h-8 w-8 text-purple-800" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                           <path d="M3.609 1.814L13.792 12 3.609 22.186c-.181-.181-.301-.406-.301-.663V2.477c0-.257.12-.482.301-.663zm10.831 10.309l2.128-2.127L21.382 12l-4.814 2.004-2.128-2.127 1.749-1.749-10.836 6.155 9.087-5.156zm7.34-6.497l-2.066 1.066-2.127 2.127L7.298 3.322l10.289 5.301 4.193-2.997zM7.302 20.677l10.288-5.3-2.127-2.128-8.161 7.428z" />
                         </svg>
+                        <svg className="h-8 w-8 text-purple-800" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
+                        </svg>
                       </div>
                       <h3 className="text-xl font-semibold text-purple-900 mb-2">Follow Us</h3>
-                      <p className="text-gray-600 mb-4">Check out our apps on Google Play</p>
-                      <a 
-                        href="https://play.google.com/store/apps/dev?id=8791158212658173660"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-block mt-2"
-                      >
-                        <Image
-                          src="/google-play-badge.png"
-                          alt="View All Apps on Google Play"
-                          width={220}
-                          height={80}
-                          className="h-12 w-auto"
-                        />
-                      </a>
+                      <p className="text-gray-600 mb-4">Check out our apps on Google Play and the App Store</p>
+                      <div className="flex flex-wrap items-center justify-center gap-3">
+                        <a
+                          href={PLAY_DEVELOPER}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-block hover:opacity-90 transition-opacity"
+                        >
+                          <Image
+                            src="/google-play-badge.png"
+                            alt="View All Apps on Google Play"
+                            width={270}
+                            height={80}
+                            className="w-[170px] h-auto"
+                          />
+                        </a>
+                        <a
+                          href={APP_STORE_DEVELOPER}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-block hover:opacity-90 transition-opacity"
+                        >
+                          <Image
+                            src="/app-store-badge.svg"
+                            alt="View All Apps on the App Store"
+                            width={120}
+                            height={40}
+                            className="w-[170px] h-auto"
+                          />
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>

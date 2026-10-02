@@ -43,7 +43,7 @@ export default function StoreBadges({
           <Image
             src="/app-store-badge.svg"
             alt={`Download ${name} on the App Store`}
-            width={120}
+            width={135}
             height={40}
             className={badgeClassName}
           />

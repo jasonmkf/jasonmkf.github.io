@@ -133,7 +133,7 @@ export default function Home() {
                     <Image
                       src="/app-store-badge.svg"
                       alt="View All Apps on the App Store"
-                      width={120}
+                      width={135}
                       height={40}
                       className="w-[190px] h-auto"
                     />

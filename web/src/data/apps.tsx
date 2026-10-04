@@ -642,7 +642,7 @@ export const apps: App[] = [
       'No account and no sign-up. Your items stay on your phone; Google Drive is optional and uses ' +
       'only a hidden folder in your own Drive. The app shows ads from Google AdMob.',
     policy: { kind: 'shelfbell' },
-    updated: '29 September 2026',
+    updated: '4 October 2026',
   },
 ];
 

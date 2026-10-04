@@ -215,33 +215,54 @@ function ShelfbellPolicy() {
     <>
       <p>
         Shelfbell (&quot;the app&quot;) is made by KF Production. This policy explains what the app
-        does with your information. In short: your items stay on your device, and we do not run any
-        servers that receive them.
+        does with your information. In short: there is no account, your items stay on your device or
+        in your own Google Drive, and we run no servers that receive them. We do not collect
+        analytics or crash reports of our own.
       </p>
 
       <h2>What stays on your device</h2>
       <p>
-        Items, dates, notes, categories, reminder settings and photos you add are stored only in the
-        app&apos;s own storage on your device. We cannot see them. The camera is used to take photos
-        and to read barcodes and dates on labels; this reading happens on the device.
+        Items, dates, notes, categories, reminder settings and photos you add are stored in the
+        app&apos;s own storage on your device. We cannot see them. Photos are re-saved without their
+        metadata, so location and camera details in a photo are removed. The camera is used to take
+        photos and to read barcodes and dates on labels; this reading happens on the device.
+      </p>
+
+      <h2>Barcode and label reading</h2>
+      <p>
+        On Android the app reads barcodes and printed dates with Google ML Kit, on the device. The
+        camera images, the text read from them and the barcode numbers stay on the device. ML Kit
+        sends Google usage and diagnostic information so Google can maintain it: the device model and
+        operating system version, the app&apos;s name and version, identifiers for this installation
+        that do not identify you or your device, performance (such as how long reading took) and error
+        codes. Google says it does not pass this information to third parties. On iPhone and iPad the
+        app uses Apple&apos;s Vision framework on the device, and nothing is sent.
       </p>
 
       <h2>Advertising</h2>
       <p>
-        The app shows ads from Google AdMob. The AdMob SDK may collect your device&apos;s
-        advertising ID, IP address, and information about ad interactions and app performance, to
-        serve and measure ads and to prevent fraud. On iPhone the app does not ask to track you, so
-        ads are not personalised. See how Google uses this information: {ADS}
+        The app shows ads from Google AdMob. The AdMob SDK collects your device&apos;s IP address
+        (which may be used to estimate your general location), your interactions with the app and its
+        ads (such as app launches, taps and video views), diagnostic information (such as launch time
+        and responsiveness), and your device&apos;s advertising ID and app set ID. Google uses this to
+        serve and measure ads, for analytics and to prevent fraud. See how Google uses this
+        information: {ADS}
       </p>
-      <p>On Android you can reset or delete your advertising ID in the system settings.</p>
+      <p>
+        On iPhone and iPad the app does not ask to track you, so ads are not personalised. On Android
+        you can reset or delete your advertising ID in the system settings. In the European Economic
+        Area, the UK and Switzerland, Google&apos;s consent form asks for your choices before any ad
+        is loaded, and you can change them at any time under Settings &gt; Ad privacy choices.
+      </p>
 
       <h2>Optional product lookup</h2>
       <p>
         If you turn on online product lookup, the barcode you scan is sent to Open Food Facts (
         <Ext href="https://world.openfoodfacts.org" />
-        ), a free public product database, to find the product&apos;s name and brand. Only the
-        barcode number is sent. Lookup is off until you allow it, and you can turn it off in
-        Settings. See the Open Food Facts privacy policy:{' '}
+        ), a free public product database, to find the product&apos;s name and brand. The request
+        contains only the barcode number and the app&apos;s name and version; like any web request it
+        also reaches Open Food Facts from your IP address. Lookup is off until you allow it, and you
+        can turn it off in Settings. See the Open Food Facts privacy policy:{' '}
         <Ext href="https://world.openfoodfacts.org/privacy" />
       </p>
 
@@ -256,13 +277,20 @@ function ShelfbellPolicy() {
       <h2>Google Drive (optional)</h2>
       <p>
         If you connect Google Drive in Settings, the app keeps its data in a hidden app folder in
-        your own Google Drive account: your items and photos when you turn on sync, backup files
-        when you back up by hand, and the app&apos;s settings (language, theme, reminder defaults)
-        when you turn on Sync settings. The name you enter under Your name is saved with the items
-        you add or change, so others using the same Google account can see who did it. The app asks
-        Google only for access to that folder (the drive.appdata permission); it cannot see your
-        other Drive files. The data goes straight from your device to your Google account. We run no
-        server and cannot read it. Google&apos;s privacy policy applies to your Drive:{' '}
+        your own Google Drive account: your items, notes and photos when you use sync (you can keep
+        photos off Drive with Sync photos: Never), backup files when you back up by hand, and the
+        app&apos;s settings (language, theme, reminder defaults) when you turn on Sync settings. The
+        name you enter under Your name is saved with the items you add or change, so others using
+        the same Google account can see who did it. The app also stores random identifiers there so
+        your devices can tell each other apart. If you move your items to another Google account,
+        the new account&apos;s email address is left in a note in the old account&apos;s folder, so
+        your other devices can offer to switch.
+      </p>
+      <p>
+        The app asks Google only for access to that folder (the drive.appdata permission); it cannot
+        see your other Drive files. Sign-in is handled by Google. The data goes straight from your
+        device to your Google account over an encrypted connection. We run no server and cannot read
+        it. Google&apos;s privacy policy applies to your Drive:{' '}
         <Ext href="https://policies.google.com/privacy" />
       </p>
       <p>

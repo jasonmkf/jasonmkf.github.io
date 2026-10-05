@@ -260,7 +260,8 @@ export default async function AppPage({ params }: Props) {
                   Privacy
                 </h2>
                 <p className="mt-3 text-gray-700 leading-relaxed">{app.privacy}</p>
-                <div className="mt-5 flex flex-col items-start gap-3">
+                {/* a grid column, so every button takes the widest one's width */}
+                <div className="mt-5 inline-grid gap-3">
                   {[
                     { href: `/${app.id}/privacy.html`, label: iphoneApp ? 'Android privacy policy' : 'Privacy Policy' },
                     ...(iphoneApp ? [{ href: `/${iphoneApp.id}/privacy.html`, label: 'iPhone privacy policy' }] : []),
@@ -268,7 +269,7 @@ export default async function AppPage({ params }: Props) {
                     <a
                       key={link.href}
                       href={link.href}
-                      className="inline-flex items-center gap-2 rounded-full bg-purple-700 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-purple-700/25 hover:bg-purple-600 transition-colors"
+                      className="inline-flex items-center justify-center gap-2 rounded-full bg-purple-700 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-purple-700/25 hover:bg-purple-600 transition-colors"
                     >
                       {link.label}
                       <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

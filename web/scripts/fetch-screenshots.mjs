@@ -41,6 +41,8 @@ const APPS = [
   {
     id: 'shelfbell',
     local: { android: join(material, 'Shelfbell/android'), ios: join(material, 'Shelfbell/ios') },
+    // Its Play phone set is 9:16; make it as tall as the iPhone set so the two match.
+    heightenAndroid: true,
   },
 ];
 
@@ -102,6 +104,42 @@ function framed(file, height) {
   });
 }
 
+// Makes a short screenshot taller without cropping or squashing it: the extra height goes in
+// just above the gesture bar, filled by repeating the row there, so a list simply ends with
+// more room and a photo or wallpaper runs on to the bottom.
+function heighten(file, targetHeight) {
+  const magick = (...args) => execFileSync('magick', args).toString().trim();
+  const [w, h] = magick('identify', '-format', '%w %h', file).split(' ').map(Number);
+  if (h >= targetHeight) return h;
+  const spread = (y) =>
+    Number(magick(file, '-crop', `${w}x1+0+${y}`, '+repage', '-format', '%[fx:standard_deviation]', 'info:'));
+  const flat = (y) => spread(y) < 0.01;
+  // Up from the bottom: the plain strip under the bar, the bar itself, then the screen.
+  let y = h - 1;
+  while (y > h - 40 && flat(y)) y--;
+  while (y > h - 40 && !flat(y)) y--;
+  // Repeat the lowest truly plain row, so not even a button's shadow is drawn out, while
+  // staying below the content.
+  for (let up = y; up > y - 60; up--) {
+    if (spread(up) < 0.002) {
+      y = up;
+      break;
+    }
+  }
+  // A plain row becomes one solid colour; a photo or wallpaper row is drawn out as it is.
+  const row = ['(', file, '-crop', `${w}x1+0+${y}`, '+repage'];
+  const fill = flat(y)
+    ? [...row, '-scale', '1x1!', '-scale', `${w}x${targetHeight - h}!`, ')']
+    : [...row, '-scale', `${w}x${targetHeight - h}!`, ')'];
+  execFileSync('magick', [
+    '(', file, '-crop', `${w}x${y}+0+0`, '+repage', ')',
+    ...fill,
+    '(', file, '-crop', `${w}x${h - y}+0+${y}`, '+repage', ')',
+    '-append', '-quality', '82', file,
+  ]);
+  return targetHeight;
+}
+
 const tmp = join(tmpdir(), 'kf-screenshots');
 mkdirSync(tmp, { recursive: true });
 
@@ -145,6 +183,12 @@ for (const app of APPS.filter((a) => only.length === 0 || only.includes(a.id))) 
       if (size) shots.push({ src: `/screenshots/${app.id}/${name}`, ...size });
     }
     if (shots.length) manifest[app.id][platform] = shots;
+  }
+  const iosHeight = manifest[app.id].ios?.[0]?.height;
+  if (app.heightenAndroid && iosHeight) {
+    for (const shot of manifest[app.id].android ?? []) {
+      shot.height = heighten(join(web, 'public', shot.src), iosHeight);
+    }
   }
   console.log(app.id, Object.fromEntries(Object.entries(manifest[app.id]).map(([k, v]) => [k, v.length])));
 }

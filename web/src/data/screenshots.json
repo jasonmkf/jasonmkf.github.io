@@ -92,37 +92,44 @@
    {
     "src": "/screenshots/kalendar-hijrah/android-1.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/kalendar-hijrah/android-2.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/kalendar-hijrah/android-3.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/kalendar-hijrah/android-4.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/kalendar-hijrah/android-5.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/kalendar-hijrah/android-6.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/kalendar-hijrah/android-7.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/kalendar-hijrah/android-8.webp",
@@ -136,42 +143,50 @@
    {
     "src": "/screenshots/housing-loan-calculator/android-1.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/housing-loan-calculator/android-2.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/housing-loan-calculator/android-3.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/housing-loan-calculator/android-4.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/housing-loan-calculator/android-5.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/housing-loan-calculator/android-6.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/housing-loan-calculator/android-7.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/housing-loan-calculator/android-8.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    }
   ],
   "ios": [
@@ -266,42 +281,50 @@
    {
     "src": "/screenshots/vietnamese-calendar/android-1.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/vietnamese-calendar/android-2.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/vietnamese-calendar/android-3.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/vietnamese-calendar/android-4.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/vietnamese-calendar/android-5.webp",
     "width": 480,
-    "height": 1016
+    "height": 1016,
+    "framed": true
    },
    {
     "src": "/screenshots/vietnamese-calendar/android-6.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/vietnamese-calendar/android-7.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/vietnamese-calendar/android-8.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    }
   ]
  },
@@ -310,42 +333,50 @@
    {
     "src": "/screenshots/hong-kong-calendar/android-1.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/hong-kong-calendar/android-2.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/hong-kong-calendar/android-3.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/hong-kong-calendar/android-4.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/hong-kong-calendar/android-5.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/hong-kong-calendar/android-6.webp",
     "width": 480,
-    "height": 1016
+    "height": 1016,
+    "framed": true
    },
    {
     "src": "/screenshots/hong-kong-calendar/android-7.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/hong-kong-calendar/android-8.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    }
   ]
  },
@@ -354,42 +385,50 @@
    {
     "src": "/screenshots/taiwan-calendar/android-1.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/taiwan-calendar/android-2.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/taiwan-calendar/android-3.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/taiwan-calendar/android-4.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/taiwan-calendar/android-5.webp",
     "width": 480,
-    "height": 1016
+    "height": 1016,
+    "framed": true
    },
    {
     "src": "/screenshots/taiwan-calendar/android-6.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/taiwan-calendar/android-7.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/taiwan-calendar/android-8.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    }
   ]
  },
@@ -398,42 +437,50 @@
    {
     "src": "/screenshots/south-korea-calendar/android-1.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/south-korea-calendar/android-2.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/south-korea-calendar/android-3.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/south-korea-calendar/android-4.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/south-korea-calendar/android-5.webp",
     "width": 480,
-    "height": 1016
+    "height": 1016,
+    "framed": true
    },
    {
     "src": "/screenshots/south-korea-calendar/android-6.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/south-korea-calendar/android-7.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/south-korea-calendar/android-8.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    }
   ]
  },
@@ -442,42 +489,50 @@
    {
     "src": "/screenshots/indonesia-calendar/android-1.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/indonesia-calendar/android-2.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/indonesia-calendar/android-3.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/indonesia-calendar/android-4.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/indonesia-calendar/android-5.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/indonesia-calendar/android-6.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/indonesia-calendar/android-7.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/indonesia-calendar/android-8.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    }
   ]
  },
@@ -491,37 +546,44 @@
    {
     "src": "/screenshots/australia-calendar/android-2.webp",
     "width": 480,
-    "height": 1016
+    "height": 1016,
+    "framed": true
    },
    {
     "src": "/screenshots/australia-calendar/android-3.webp",
     "width": 480,
-    "height": 1016
+    "height": 1016,
+    "framed": true
    },
    {
     "src": "/screenshots/australia-calendar/android-4.webp",
     "width": 480,
-    "height": 1016
+    "height": 1016,
+    "framed": true
    },
    {
     "src": "/screenshots/australia-calendar/android-5.webp",
     "width": 480,
-    "height": 1016
+    "height": 1016,
+    "framed": true
    },
    {
     "src": "/screenshots/australia-calendar/android-6.webp",
     "width": 480,
-    "height": 1016
+    "height": 1016,
+    "framed": true
    },
    {
     "src": "/screenshots/australia-calendar/android-7.webp",
     "width": 480,
-    "height": 1016
+    "height": 1016,
+    "framed": true
    },
    {
     "src": "/screenshots/australia-calendar/android-8.webp",
     "width": 480,
-    "height": 1016
+    "height": 1016,
+    "framed": true
    }
   ]
  },
@@ -530,42 +592,50 @@
    {
     "src": "/screenshots/car-loan-calculator/android-1.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/car-loan-calculator/android-2.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/car-loan-calculator/android-3.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/car-loan-calculator/android-4.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/car-loan-calculator/android-5.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/car-loan-calculator/android-6.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/car-loan-calculator/android-7.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    },
    {
     "src": "/screenshots/car-loan-calculator/android-8.webp",
     "width": 480,
-    "height": 1011
+    "height": 1011,
+    "framed": true
    }
   ],
   "ios": [

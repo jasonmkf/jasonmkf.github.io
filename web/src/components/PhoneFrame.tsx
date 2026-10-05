@@ -4,12 +4,14 @@ export interface Screenshot {
   src: string;
   width: number;
   height: number;
+  framed?: boolean; // the listing's image already shows the phone
 }
 
 export type Platform = 'android' | 'ios';
 
 // A store screenshot in a phone body. The screenshots already carry the status bar and the
-// camera cut-out or Dynamic Island, so the frame only draws the body and side buttons.
+// camera cut-out or Dynamic Island, so the frame only draws the body and side buttons; a
+// screenshot that already shows the phone is drawn as it is.
 export default function PhoneFrame({
   shot,
   platform,
@@ -24,6 +26,20 @@ export default function PhoneFrame({
   priority?: boolean;
 }) {
   const ios = platform === 'ios';
+  if (shot.framed) {
+    return (
+      <div className={`relative ${className}`}>
+        <Image
+          src={shot.src}
+          alt={alt}
+          width={shot.width}
+          height={shot.height}
+          priority={priority}
+          className="block h-auto w-full drop-shadow-[0_20px_30px_rgba(59,7,100,0.35)]"
+        />
+      </div>
+    );
+  }
   return (
     <div className={`relative ${className}`}>
       {/* side buttons */}

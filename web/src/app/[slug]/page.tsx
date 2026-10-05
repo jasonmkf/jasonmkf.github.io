@@ -260,27 +260,27 @@ export default async function AppPage({ params }: Props) {
                   Privacy
                 </h2>
                 <p className="mt-3 text-gray-700 leading-relaxed">{app.privacy}</p>
-                <a
-                  href={`/${app.id}/privacy.html`}
-                  className="mt-5 inline-flex items-center gap-2 rounded-full bg-purple-700 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-purple-700/25 hover:bg-purple-600 transition-colors"
-                >
-                  {iphoneApp ? 'Android privacy policy' : 'Privacy Policy'}
-                  <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path
-                      fillRule="evenodd"
-                      d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </a>
-                {iphoneApp && (
-                  <a
-                    href={`/${iphoneApp.id}/privacy.html`}
-                    className="mt-3 block text-sm font-semibold text-purple-800 hover:underline"
-                  >
-                    iPhone privacy policy ({iphoneApp.name})
-                  </a>
-                )}
+                <div className="mt-5 flex flex-col items-start gap-3">
+                  {[
+                    { href: `/${app.id}/privacy.html`, label: iphoneApp ? 'Android privacy policy' : 'Privacy Policy' },
+                    ...(iphoneApp ? [{ href: `/${iphoneApp.id}/privacy.html`, label: 'iPhone privacy policy' }] : []),
+                  ].map((link) => (
+                    <a
+                      key={link.href}
+                      href={link.href}
+                      className="inline-flex items-center gap-2 rounded-full bg-purple-700 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-purple-700/25 hover:bg-purple-600 transition-colors"
+                    >
+                      {link.label}
+                      <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path
+                          fillRule="evenodd"
+                          d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </a>
+                  ))}
+                </div>
               </div>
 
               <div className="bg-white rounded-2xl ring-1 ring-gray-200 p-6">

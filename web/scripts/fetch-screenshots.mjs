@@ -77,6 +77,31 @@ function localShots(dir) {
     .map((f) => join(dir, f));
 }
 
+// Some listings upload screenshots already drawn in a phone. Their edges read: a light metal
+// rim, then a run of near-black bezel, on both sides and at several heights. A plain
+// screenshot, even a dark-mode one, has no light rim before its dark pixels.
+function framed(file, height) {
+  const row = (y, fromRight) => {
+    const crop = fromRight ? `40x1+${WIDTH - 40}+${y}` : `40x1+0+${y}`;
+    const px = execFileSync('magick', [file, '-crop', crop, '+repage', '-depth', '8', 'txt:-'])
+      .toString()
+      .split('\n')
+      .slice(1)
+      .map((l) => /#([0-9A-F]{6})/i.exec(l)?.[1])
+      .filter(Boolean)
+      .map((hex) => Math.max(...[0, 2, 4].map((i) => parseInt(hex.slice(i, i + 2), 16))));
+    return fromRight ? px.reverse() : px;
+  };
+  const bezel = (px) => {
+    const start = px.findIndex((v, i) => px.slice(i, i + 5).length === 5 && px.slice(i, i + 5).every((p) => p < 0x28));
+    return start > 0 && px.slice(0, start).some((v) => v > 0x60);
+  };
+  return [0.3, 0.5, 0.7].every((f) => {
+    const y = Math.round(height * f);
+    return bezel(row(y, false)) && bezel(row(y, true));
+  });
+}
+
 const tmp = join(tmpdir(), 'kf-screenshots');
 mkdirSync(tmp, { recursive: true });
 
@@ -95,7 +120,7 @@ async function save(source, out) {
   if (h / w < 1.7) return null;
   execFileSync('magick', [input, '-resize', `${WIDTH}x`, '-quality', '82', out]);
   const height = Math.round((h * WIDTH) / w);
-  return { width: WIDTH, height };
+  return { width: WIDTH, height, ...(framed(out, height) && { framed: true }) };
 }
 
 const manifestPath = join(web, 'src/data/screenshots.json');

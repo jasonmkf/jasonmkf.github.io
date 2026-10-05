@@ -1,6 +1,8 @@
-# jasonmkf.github.io
+# kf-production.com
 
-KF Production's site, served by GitHub Pages from the root of `main`.
+KF Production's site at https://kf-production.com, served by GitHub Pages from the root of `main`
+(repo `jasonmkf.github.io`). The custom domain is set by `web/public/CNAME`, which each deploy
+copies to the root.
 
 The source is the Next.js app in `web/`. Apps and their pages are in `web/src/data/apps.tsx`,
 the privacy policies in `web/src/components/PrivacyPolicy.tsx`. To change the site:

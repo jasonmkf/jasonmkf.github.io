@@ -2,4 +2,4 @@ User-Agent: *
 Allow: /
 Disallow: /web/
 
-Sitemap: https://jasonmkf.github.io/sitemap.xml
+Sitemap: https://kf-production.com/sitemap.xml

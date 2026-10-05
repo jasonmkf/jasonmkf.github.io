@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import type { App } from '@/data/apps';
 
-export const SITE = 'https://jasonmkf.github.io';
+export const SITE = 'https://kf-production.com';
 export const PLAY_DEVELOPER = 'https://play.google.com/store/apps/dev?id=8791158212658173660';
 export const APP_STORE_DEVELOPER = 'https://apps.apple.com/us/developer/kek-fu-mun/id6804686923';
 

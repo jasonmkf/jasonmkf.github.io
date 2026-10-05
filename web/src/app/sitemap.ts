@@ -1,7 +1,8 @@
 import type { MetadataRoute } from 'next';
 import { allApps } from '@/data/apps';
-import { countries, HOLIDAY_YEARS, holidayPath } from '@/data/holidays';
+import { countries, HOLIDAY_YEARS, holidayPath, viewsFor } from '@/data/holidays';
 import { SITE } from '@/lib/seo';
+import { systemPath } from '@/components/CalendarSystemPage';
 
 export const dynamic = 'force-static';
 
@@ -15,10 +16,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ]),
     ...countries.flatMap((c) =>
       HOLIDAY_YEARS.flatMap((year) =>
-        (c.hasSchool ? (['calendar', 'public', 'school'] as const) : (['calendar', 'public'] as const)).map(
-          (view) => ({ url: `${SITE}${holidayPath(c, view, year)}` }),
-        ),
+        viewsFor(c, year).map((view) => ({ url: `${SITE}${holidayPath(c, view, year)}` })),
       ),
+    ),
+    ...HOLIDAY_YEARS.flatMap((year) =>
+      (['lunar', 'hijri'] as const).map((s) => ({ url: `${SITE}${systemPath(s, year)}` })),
     ),
   ];
 }

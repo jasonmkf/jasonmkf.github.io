@@ -1879,6 +1879,298 @@
      ]
     }
    ]
+  },
+  "2028": {
+   "publicHolidays": [
+    {
+     "date": "2028-01-01",
+     "name": "New Year's Day",
+     "cn": "新年元旦"
+    },
+    {
+     "date": "2028-01-03",
+     "name": "New Year's Day Holiday",
+     "cn": "新年元旦补假"
+    },
+    {
+     "date": "2028-01-26",
+     "name": "Australia Day",
+     "cn": "澳洲国庆日"
+    },
+    {
+     "date": "2028-03-06",
+     "name": "Labour Day",
+     "cn": "劳动节",
+     "states": [
+      "Western Australia"
+     ]
+    },
+    {
+     "date": "2028-03-13",
+     "name": "Labour Day",
+     "cn": "劳动节",
+     "states": [
+      "Victoria"
+     ]
+    },
+    {
+     "date": "2028-03-13",
+     "name": "Eight Hours Day",
+     "cn": "八小时工作日",
+     "states": [
+      "Tasmania"
+     ]
+    },
+    {
+     "date": "2028-03-13",
+     "name": "Canberra Day",
+     "cn": "堪培拉日",
+     "states": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "date": "2028-03-13",
+     "name": "Adelaide Cup Day",
+     "cn": "阿德莱德杯赛马日",
+     "states": [
+      "South Australia"
+     ]
+    },
+    {
+     "date": "2028-04-14",
+     "name": "Good Friday",
+     "cn": "耶稣受难日"
+    },
+    {
+     "date": "2028-04-15",
+     "name": "Easter Saturday",
+     "cn": "复活节星期六",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Northern Territory",
+      "Queensland",
+      "South Australia",
+      "Victoria"
+     ]
+    },
+    {
+     "date": "2028-04-16",
+     "name": "Easter Sunday",
+     "cn": "复活节",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Queensland",
+      "South Australia",
+      "Victoria"
+     ]
+    },
+    {
+     "date": "2028-04-17",
+     "name": "Easter Monday",
+     "cn": "复活节星期一"
+    },
+    {
+     "date": "2028-04-25",
+     "name": "Anzac Day",
+     "cn": "澳纽军团日"
+    },
+    {
+     "date": "2028-05-01",
+     "name": "Labour Day",
+     "cn": "劳动节",
+     "states": [
+      "Queensland"
+     ]
+    },
+    {
+     "date": "2028-05-01",
+     "name": "May Day",
+     "cn": "五一劳动节",
+     "states": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "date": "2028-05-29",
+     "name": "Reconciliation Day",
+     "cn": "和解日",
+     "states": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "date": "2028-06-05",
+     "name": "Western Australia Day",
+     "cn": "西澳州日",
+     "states": [
+      "Western Australia"
+     ]
+    },
+    {
+     "date": "2028-06-12",
+     "name": "King's Birthday",
+     "cn": "英王诞辰",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Northern Territory",
+      "South Australia",
+      "Tasmania",
+      "Victoria"
+     ]
+    },
+    {
+     "date": "2028-08-07",
+     "name": "Picnic Day",
+     "cn": "野餐日",
+     "states": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "date": "2028-09-25",
+     "name": "King's Birthday",
+     "cn": "英王诞辰",
+     "states": [
+      "Western Australia"
+     ]
+    },
+    {
+     "date": "2028-10-02",
+     "name": "Labour Day",
+     "cn": "劳动节",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "South Australia"
+     ]
+    },
+    {
+     "date": "2028-10-02",
+     "name": "King's Birthday",
+     "cn": "英王诞辰",
+     "states": [
+      "Queensland"
+     ]
+    },
+    {
+     "date": "2028-11-07",
+     "name": "Melbourne Cup Day",
+     "cn": "墨尔本杯赛马日",
+     "states": [
+      "Victoria"
+     ]
+    },
+    {
+     "date": "2028-12-25",
+     "name": "Christmas Day",
+     "cn": "圣诞节"
+    },
+    {
+     "date": "2028-12-26",
+     "name": "Boxing Day",
+     "cn": "节礼日",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Northern Territory",
+      "Queensland",
+      "Tasmania",
+      "Victoria",
+      "Western Australia"
+     ]
+    },
+    {
+     "date": "2028-12-26",
+     "name": "Proclamation Day",
+     "cn": "宣告日",
+     "states": [
+      "South Australia"
+     ]
+    }
+   ],
+   "observances": [
+    {
+     "date": "2028-01-25",
+     "name": "Chinese New Year's Eve"
+    },
+    {
+     "date": "2028-01-26",
+     "name": "Chinese New Year"
+    },
+    {
+     "date": "2028-01-27",
+     "name": "Chinese New Year · Day 2"
+    },
+    {
+     "date": "2028-02-04",
+     "name": "Beginning of Spring"
+    },
+    {
+     "date": "2028-02-09",
+     "name": "Lantern Festival"
+    },
+    {
+     "date": "2028-02-14",
+     "name": "Valentine's Day"
+    },
+    {
+     "date": "2028-04-01",
+     "name": "April Fools Day"
+    },
+    {
+     "date": "2028-04-04",
+     "name": "Qing Ming Festival"
+    },
+    {
+     "date": "2028-05-14",
+     "name": "Mother's Day"
+    },
+    {
+     "date": "2028-05-28",
+     "name": "Dragon Boat Festival"
+    },
+    {
+     "date": "2028-08-26",
+     "name": "Chinese Valentine's Day"
+    },
+    {
+     "date": "2028-09-03",
+     "name": "Hungry Ghost Festival"
+    },
+    {
+     "date": "2028-09-03",
+     "name": "Father's Day"
+    },
+    {
+     "date": "2028-10-03",
+     "name": "Mid-Autumn Festival"
+    },
+    {
+     "date": "2028-10-26",
+     "name": "Double Ninth Festival"
+    },
+    {
+     "date": "2028-10-31",
+     "name": "Halloween"
+    },
+    {
+     "date": "2028-12-21",
+     "name": "Dongzhi Festival"
+    },
+    {
+     "date": "2028-12-24",
+     "name": "Christmas Eve"
+    },
+    {
+     "date": "2028-12-31",
+     "name": "New Year's Eve"
+    }
+   ],
+   "school": []
   }
  }
 }

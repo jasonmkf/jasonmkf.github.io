@@ -1911,6 +1911,653 @@
      ]
     }
    ]
+  },
+  "2028": {
+   "publicHolidays": [
+    {
+     "date": "2028-01-01",
+     "name": "New Year's Day",
+     "local": "Tahun Baru Masehi",
+     "cn": "元旦"
+    },
+    {
+     "date": "2028-01-06",
+     "name": "Jambi Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Jambi",
+     "cn": "占碑省成立纪念日",
+     "states": [
+      "Jambi"
+     ]
+    },
+    {
+     "date": "2028-01-09",
+     "name": "Kalimantan Timur Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Kalimantan Timur",
+     "cn": "东加里曼丹省成立纪念日",
+     "states": [
+      "Kalimantan Timur"
+     ]
+    },
+    {
+     "date": "2028-01-26",
+     "name": "Chinese New Year",
+     "local": "Tahun Baru Imlek",
+     "cn": "春节"
+    },
+    {
+     "date": "2028-01-28",
+     "name": "Kalimantan Barat Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Kalimantan Barat",
+     "cn": "西加里曼丹省成立纪念日",
+     "states": [
+      "Kalimantan Barat"
+     ]
+    },
+    {
+     "date": "2028-02-26",
+     "name": "Eid al-Fitr · Day 1",
+     "local": "Hari Raya Idul Fitri",
+     "cn": "开斋节"
+    },
+    {
+     "date": "2028-02-27",
+     "name": "Eid al-Fitr · Day 2",
+     "local": "Hari Raya Idul Fitri · Hari 2",
+     "cn": "开斋节"
+    },
+    {
+     "date": "2028-03-08",
+     "name": "Galungan",
+     "local": "Hari Raya Galungan",
+     "cn": "加隆安节",
+     "states": [
+      "Bali"
+     ]
+    },
+    {
+     "date": "2028-03-18",
+     "name": "Kuningan",
+     "local": "Hari Raya Kuningan",
+     "cn": "库宁安节",
+     "states": [
+      "Bali"
+     ]
+    },
+    {
+     "date": "2028-03-18",
+     "name": "Lampung Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Lampung",
+     "cn": "楠榜省成立纪念日",
+     "states": [
+      "Lampung"
+     ]
+    },
+    {
+     "date": "2028-03-26",
+     "name": "Nyepi · Saka New Year",
+     "local": "Hari Suci Nyepi · Tahun Baru Saka",
+     "cn": "宁静日"
+    },
+    {
+     "date": "2028-03-27",
+     "name": "Ngembak Geni",
+     "cn": "恩贝巴克·吉尼节",
+     "states": [
+      "Bali"
+     ]
+    },
+    {
+     "date": "2028-04-13",
+     "name": "Sulawesi Tengah Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Sulawesi Tengah",
+     "cn": "中苏拉威西省成立纪念日",
+     "states": [
+      "Sulawesi Tengah"
+     ]
+    },
+    {
+     "date": "2028-04-14",
+     "name": "Good Friday",
+     "local": "Wafat Isa Almasih",
+     "cn": "耶稣受难日"
+    },
+    {
+     "date": "2028-04-15",
+     "name": "Sumatera Utara Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Sumatera Utara",
+     "cn": "北苏门答腊省成立纪念日",
+     "states": [
+      "Sumatera Utara"
+     ]
+    },
+    {
+     "date": "2028-04-16",
+     "name": "Easter Sunday",
+     "local": "Kebangkitan Yesus Kristus · Paskah",
+     "cn": "复活节"
+    },
+    {
+     "date": "2028-04-27",
+     "name": "Sulawesi Tenggara Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Sulawesi Tenggara",
+     "cn": "东南苏拉威西省成立纪念日",
+     "states": [
+      "Sulawesi Tenggara"
+     ]
+    },
+    {
+     "date": "2028-05-01",
+     "name": "International Labour Day",
+     "local": "Hari Buruh Internasional",
+     "cn": "国际劳动节"
+    },
+    {
+     "date": "2028-05-05",
+     "name": "Eid al-Adha",
+     "local": "Hari Raya Idul Adha",
+     "cn": "宰牲节"
+    },
+    {
+     "date": "2028-05-09",
+     "name": "Vesak Day",
+     "local": "Hari Raya Waisak",
+     "cn": "卫塞节"
+    },
+    {
+     "date": "2028-05-15",
+     "name": "Sumatera Selatan Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Sumatera Selatan",
+     "cn": "南苏门答腊省成立纪念日",
+     "states": [
+      "Sumatera Selatan"
+     ]
+    },
+    {
+     "date": "2028-05-23",
+     "name": "Kalimantan Tengah Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Kalimantan Tengah",
+     "cn": "中加里曼丹省成立纪念日",
+     "states": [
+      "Kalimantan Tengah"
+     ]
+    },
+    {
+     "date": "2028-05-25",
+     "name": "Islamic New Year",
+     "local": "Tahun Baru Islam · 1 Muharram",
+     "cn": "伊斯兰新年"
+    },
+    {
+     "date": "2028-05-25",
+     "name": "Ascension of Jesus Christ",
+     "local": "Kenaikan Isa Almasih",
+     "cn": "耶稣升天节"
+    },
+    {
+     "date": "2028-06-01",
+     "name": "Pancasila Day",
+     "local": "Hari Lahir Pancasila",
+     "cn": "建国五原则日"
+    },
+    {
+     "date": "2028-06-22",
+     "name": "DKI Jakarta Provincial Anniversary",
+     "local": "Hari Jadi Provinsi DKI Jakarta",
+     "cn": "雅加达首都特区成立纪念日",
+     "states": [
+      "DKI Jakarta"
+     ]
+    },
+    {
+     "date": "2028-07-22",
+     "name": "Saraswati Day",
+     "local": "Hari Raya Saraswati",
+     "cn": "萨拉斯瓦蒂节",
+     "states": [
+      "Bali"
+     ]
+    },
+    {
+     "date": "2028-07-25",
+     "name": "Papua Tengah Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Papua Tengah",
+     "cn": "中巴布亚省成立纪念日",
+     "states": [
+      "Papua Tengah"
+     ]
+    },
+    {
+     "date": "2028-07-25",
+     "name": "Papua Pegunungan Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Papua Pegunungan",
+     "cn": "山地巴布亚省成立纪念日",
+     "states": [
+      "Papua Pegunungan"
+     ]
+    },
+    {
+     "date": "2028-07-25",
+     "name": "Papua Selatan Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Papua Selatan",
+     "cn": "南巴布亚省成立纪念日",
+     "states": [
+      "Papua Selatan"
+     ]
+    },
+    {
+     "date": "2028-07-26",
+     "name": "Pagerwesi",
+     "local": "Hari Raya Pagerwesi",
+     "cn": "帕格尔韦西节",
+     "states": [
+      "Bali"
+     ]
+    },
+    {
+     "date": "2028-08-04",
+     "name": "Birthday of Prophet Muhammad",
+     "local": "Maulid Nabi Muhammad SAW",
+     "cn": "圣纪节"
+    },
+    {
+     "date": "2028-08-09",
+     "name": "Riau Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Riau",
+     "cn": "廖内省成立纪念日",
+     "states": [
+      "Riau"
+     ]
+    },
+    {
+     "date": "2028-08-14",
+     "name": "Bali Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Bali",
+     "cn": "巴厘省成立纪念日",
+     "states": [
+      "Bali"
+     ]
+    },
+    {
+     "date": "2028-08-14",
+     "name": "Kalimantan Selatan Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Kalimantan Selatan",
+     "cn": "南加里曼丹省成立纪念日",
+     "states": [
+      "Kalimantan Selatan"
+     ]
+    },
+    {
+     "date": "2028-08-15",
+     "name": "Jawa Tengah Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Jawa Tengah",
+     "cn": "中爪哇省成立纪念日",
+     "states": [
+      "Jawa Tengah"
+     ]
+    },
+    {
+     "date": "2028-08-17",
+     "name": "Independence Day",
+     "local": "Hari Kemerdekaan Republik Indonesia",
+     "cn": "印度尼西亚独立日"
+    },
+    {
+     "date": "2028-08-19",
+     "name": "Jawa Barat Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Jawa Barat",
+     "cn": "西爪哇省成立纪念日",
+     "states": [
+      "Jawa Barat"
+     ]
+    },
+    {
+     "date": "2028-08-19",
+     "name": "Maluku Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Maluku",
+     "cn": "马鲁古省成立纪念日",
+     "states": [
+      "Maluku"
+     ]
+    },
+    {
+     "date": "2028-09-22",
+     "name": "Sulawesi Barat Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Sulawesi Barat",
+     "cn": "西苏拉威西省成立纪念日",
+     "states": [
+      "Sulawesi Barat"
+     ]
+    },
+    {
+     "date": "2028-09-23",
+     "name": "Sulawesi Utara Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Sulawesi Utara",
+     "cn": "北苏拉威西省成立纪念日",
+     "states": [
+      "Sulawesi Utara"
+     ]
+    },
+    {
+     "date": "2028-09-24",
+     "name": "Kepulauan Riau Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Kepulauan Riau",
+     "cn": "廖内群岛省成立纪念日",
+     "states": [
+      "Kepulauan Riau"
+     ]
+    },
+    {
+     "date": "2028-10-01",
+     "name": "Sumatera Barat Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Sumatera Barat",
+     "cn": "西苏门答腊省成立纪念日",
+     "states": [
+      "Sumatera Barat"
+     ]
+    },
+    {
+     "date": "2028-10-04",
+     "name": "Galungan",
+     "local": "Hari Raya Galungan",
+     "cn": "加隆安节",
+     "states": [
+      "Bali"
+     ]
+    },
+    {
+     "date": "2028-10-04",
+     "name": "Banten Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Banten",
+     "cn": "万丹省成立纪念日",
+     "states": [
+      "Banten"
+     ]
+    },
+    {
+     "date": "2028-10-12",
+     "name": "Jawa Timur Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Jawa Timur",
+     "cn": "东爪哇省成立纪念日",
+     "states": [
+      "Jawa Timur"
+     ]
+    },
+    {
+     "date": "2028-10-12",
+     "name": "Maluku Utara Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Maluku Utara",
+     "cn": "北马鲁古省成立纪念日",
+     "states": [
+      "Maluku Utara"
+     ]
+    },
+    {
+     "date": "2028-10-12",
+     "name": "Papua Barat Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Papua Barat",
+     "cn": "西巴布亚省成立纪念日",
+     "states": [
+      "Papua Barat"
+     ]
+    },
+    {
+     "date": "2028-10-14",
+     "name": "Kuningan",
+     "local": "Hari Raya Kuningan",
+     "cn": "库宁安节",
+     "states": [
+      "Bali"
+     ]
+    },
+    {
+     "date": "2028-10-19",
+     "name": "Sulawesi Selatan Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Sulawesi Selatan",
+     "cn": "南苏拉威西省成立纪念日",
+     "states": [
+      "Sulawesi Selatan"
+     ]
+    },
+    {
+     "date": "2028-10-25",
+     "name": "Kalimantan Utara Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Kalimantan Utara",
+     "cn": "北加里曼丹省成立纪念日",
+     "states": [
+      "Kalimantan Utara"
+     ]
+    },
+    {
+     "date": "2028-11-18",
+     "name": "Bengkulu Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Bengkulu",
+     "cn": "明古鲁省成立纪念日",
+     "states": [
+      "Bengkulu"
+     ]
+    },
+    {
+     "date": "2028-11-21",
+     "name": "Kepulauan Bangka Belitung Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Kepulauan Bangka Belitung",
+     "cn": "邦加-勿里洞群岛省成立纪念日",
+     "states": [
+      "Kepulauan Bangka Belitung"
+     ]
+    },
+    {
+     "date": "2028-12-05",
+     "name": "Gorontalo Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Gorontalo",
+     "cn": "哥伦打洛省成立纪念日",
+     "states": [
+      "Gorontalo"
+     ]
+    },
+    {
+     "date": "2028-12-07",
+     "name": "Aceh Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Aceh",
+     "cn": "亚齐省成立纪念日",
+     "states": [
+      "Aceh"
+     ]
+    },
+    {
+     "date": "2028-12-08",
+     "name": "Papua Barat Daya Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Papua Barat Daya",
+     "cn": "西南巴布亚省成立纪念日",
+     "states": [
+      "Papua Barat Daya"
+     ]
+    },
+    {
+     "date": "2028-12-14",
+     "name": "Isra and Mi'raj",
+     "local": "Isra Mikraj Nabi Muhammad SAW",
+     "cn": "夜行登霄"
+    },
+    {
+     "date": "2028-12-17",
+     "name": "Nusa Tenggara Timur Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Nusa Tenggara Timur",
+     "cn": "东努沙登加拉省成立纪念日",
+     "states": [
+      "Nusa Tenggara Timur"
+     ]
+    },
+    {
+     "date": "2028-12-20",
+     "name": "Nusa Tenggara Barat Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Nusa Tenggara Barat",
+     "cn": "西努沙登加拉省成立纪念日",
+     "states": [
+      "Nusa Tenggara Barat"
+     ]
+    },
+    {
+     "date": "2028-12-25",
+     "name": "Christmas Day",
+     "local": "Hari Raya Natal",
+     "cn": "圣诞节"
+    },
+    {
+     "date": "2028-12-27",
+     "name": "Papua Provincial Anniversary",
+     "local": "Hari Jadi Provinsi Papua",
+     "cn": "巴布亚省成立纪念日",
+     "states": [
+      "Papua"
+     ]
+    }
+   ],
+   "observances": [
+    {
+     "date": "2028-01-25",
+     "name": "Chinese New Year's Eve",
+     "local": "Malam Tahun Baru Imlek"
+    },
+    {
+     "date": "2028-02-04",
+     "name": "Beginning of Spring",
+     "local": "Awal Musim Semi"
+    },
+    {
+     "date": "2028-02-14",
+     "name": "Valentine's Day",
+     "local": "Hari Valentine"
+    },
+    {
+     "date": "2028-03-20",
+     "name": "March Equinox",
+     "local": "Ekuinoks Maret"
+    },
+    {
+     "date": "2028-04-21",
+     "name": "Kartini Day",
+     "local": "Hari Kartini"
+    },
+    {
+     "date": "2028-05-02",
+     "name": "National Education Day",
+     "local": "Hari Pendidikan Nasional"
+    },
+    {
+     "date": "2028-05-20",
+     "name": "National Awakening Day",
+     "local": "Hari Kebangkitan Nasional"
+    },
+    {
+     "date": "2028-06-20",
+     "name": "June Solstice",
+     "local": "Solstis Juni"
+    },
+    {
+     "date": "2028-07-01",
+     "name": "Bhayangkara Day · Police",
+     "local": "Hari Bhayangkara"
+    },
+    {
+     "date": "2028-07-23",
+     "name": "National Children's Day",
+     "local": "Hari Anak Nasional"
+    },
+    {
+     "date": "2028-09-22",
+     "name": "September Equinox",
+     "local": "Ekuinoks September"
+    },
+    {
+     "date": "2028-10-01",
+     "name": "Pancasila Sanctity Day",
+     "local": "Hari Kesaktian Pancasila"
+    },
+    {
+     "date": "2028-10-02",
+     "name": "National Batik Day",
+     "local": "Hari Batik Nasional"
+    },
+    {
+     "date": "2028-10-05",
+     "name": "Indonesian Armed Forces Day",
+     "local": "Hari Tentara Nasional Indonesia · TNI"
+    },
+    {
+     "date": "2028-10-28",
+     "name": "Youth Pledge Day",
+     "local": "Hari Sumpah Pemuda"
+    },
+    {
+     "date": "2028-11-10",
+     "name": "Heroes' Day",
+     "local": "Hari Pahlawan"
+    },
+    {
+     "date": "2028-11-25",
+     "name": "National Teachers' Day",
+     "local": "Hari Guru Nasional"
+    },
+    {
+     "date": "2028-12-21",
+     "name": "Winter Solstice",
+     "local": "Solstis Desember"
+    },
+    {
+     "date": "2028-12-22",
+     "name": "Mother's Day",
+     "local": "Hari Ibu"
+    },
+    {
+     "date": "2028-12-31",
+     "name": "New Year's Eve",
+     "local": "Malam Tahun Baru"
+    }
+   ],
+   "school": [
+    {
+     "kind": "break",
+     "key": "libur_semester_ganjil",
+     "start": "2028-01-01",
+     "end": "2028-01-04"
+    },
+    {
+     "kind": "term",
+     "key": "semester_genap",
+     "start": "2028-01-05",
+     "end": "2028-02-20"
+    },
+    {
+     "kind": "break",
+     "key": "libur_idul_fitri",
+     "start": "2028-02-21",
+     "end": "2028-03-04"
+    },
+    {
+     "kind": "term",
+     "key": "semester_genap",
+     "start": "2028-03-05",
+     "end": "2028-06-16"
+    },
+    {
+     "kind": "break",
+     "key": "libur_akhir_tahun",
+     "start": "2028-06-19",
+     "end": "2028-07-16"
+    },
+    {
+     "kind": "term",
+     "key": "semester_ganjil",
+     "start": "2028-07-17",
+     "end": "2028-12-15"
+    },
+    {
+     "kind": "break",
+     "key": "libur_semester_ganjil",
+     "start": "2028-12-16",
+     "end": "2028-12-31"
+    }
+   ]
   }
  }
 }

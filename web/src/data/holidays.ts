@@ -53,7 +53,7 @@ export interface Country {
   regionNoun: string; // what a holiday's `states` are
   regionNounPlural: string;
   weekStartsMonday: boolean;
-  hasSchool: boolean;
+  hasSchool: boolean; // the app shows school holidays at all; see hasSchoolIn for a given year
   publicTitle: (y: number) => string;
   schoolTitle: (y: number) => string;
   publicTerms: (y: number) => Term[];
@@ -65,8 +65,18 @@ export interface Country {
 }
 
 // Holiday pages exist for these years. Keep a year once it is live: its pages are indexed.
-export const HOLIDAY_YEARS = [2026, 2027];
-export const LATEST_YEAR = HOLIDAY_YEARS[HOLIDAY_YEARS.length - 1];
+export const HOLIDAY_YEARS = [2026, 2027, 2028];
+// The year most people are planning for, which the app pages and the hub lead with.
+export const FEATURED_YEAR = 2027;
+// From this year on, most countries have not announced their holidays yet, so the dates are
+// the app's expected ones.
+export const PROVISIONAL_FROM = 2028;
+// How the years are listed: the featured year first, then later ones, then past ones.
+export const YEARS_BY_RELEVANCE = [
+  FEATURED_YEAR,
+  ...HOLIDAY_YEARS.filter((y) => y > FEATURED_YEAR),
+  ...HOLIDAY_YEARS.filter((y) => y < FEATURED_YEAR).reverse(),
+];
 
 // JSON imports type `kind` as string; the sync script only writes 'break' or 'term'.
 const data = { my, sg, id, th, vn, hk, tw, kr, au } as unknown as Record<
@@ -366,7 +376,16 @@ export function carriedOverBreak(country: Country, year: number) {
 
 export const isNational = (h: PublicHoliday) => !h.states && !h.government;
 
-export const holidayPath = (c: Country, view: 'calendar' | 'public' | 'school', year: number) =>
+// School holiday pages exist only for years whose school calendar has been published.
+export const hasSchoolIn = (c: Country, year: number) =>
+  c.hasSchool && schoolBreaks(c, year).length > 0;
+
+export type HolidayView = 'calendar' | 'public' | 'school';
+
+export const viewsFor = (c: Country, year: number): HolidayView[] =>
+  hasSchoolIn(c, year) ? ['calendar', 'public', 'school'] : ['calendar', 'public'];
+
+export const holidayPath = (c: Country, view: HolidayView, year: number) =>
   view === 'calendar'
     ? `/${c.appId}/${year}/`
     : `/${c.appId}/${view === 'public' ? 'public-holidays' : 'school-holidays'}-${year}/`;

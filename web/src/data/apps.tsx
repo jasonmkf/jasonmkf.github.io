@@ -21,7 +21,7 @@ export interface App {
   reviews: string;
   countries: string[]; // ISO 3166-1 alpha-2 codes of the markets the app serves
   category: string;
-  seo: { title: string; description: string }; // <title> and meta description
+  seo: { title: string; description: string; keywords?: string[] }; // <title>, meta description
   tagline: string;
   platforms: string;
   intro: ReactNode;
@@ -144,9 +144,14 @@ export const allApps: App[] = [
   {
     id: 'kalendar-hijrah',
     seo: {
-      title: 'Kalendar Hijrah Malaysia: Takwim, Islamic Dates & Cuti Umum',
+      title: 'Kalendar Hijrah Malaysia: Takwim Hijrah, Tarikh Islam & Cuti Umum',
       description:
-        'The Hijri date every day, the Takwim by state and Islamic dates, with Malaysian public and school holidays, jadual gaji and long weekends. Free on Android and iPhone.',
+        'Kalendar Hijrah with the Hijri date every day, the Takwim by state and Islamic dates, plus Malaysian public and school holidays and jadual gaji. Free on Android and iPhone.',
+      keywords: [
+        'Kalendar Hijrah', 'Kalendar Hijrah Malaysia', 'Takwim Hijrah', 'Kalendar Islam',
+        'Tarikh Hijrah hari ini', 'Hijri calendar Malaysia', 'Islamic calendar Malaysia',
+        'Takwim Malaysia', 'Waktu cuti umum', 'Jadual gaji',
+      ],
     },
     name: 'Kalendar Hijrah Malaysia',
     description:
@@ -578,9 +583,13 @@ export const allApps: App[] = [
   {
     id: 'lunar-calendar',
     seo: {
-      title: 'Lunar Calendar & Holidays for iPhone: Asia and Australia',
+      title: 'Lunar Calendar & Holidays: Chinese Lunar Calendar (农历) for iPhone',
       description:
-        'Public holidays, school breaks and long weekends for Malaysia, Singapore, Indonesia, Thailand, Vietnam, Hong Kong, Taiwan, South Korea and Australia. Free on iPhone.',
+        'Chinese lunar calendar (农历) with the lunar date every day, Tong Shing almanac, and public and school holidays for nine countries in Asia and Australia. Free on iPhone.',
+      keywords: [
+        'Chinese lunar calendar', 'lunar calendar app', 'Chinese calendar', '农历', '阴历',
+        '万年历', '通胜', '黄历', 'lunar calendar iPhone', 'Tong Shing', 'Chinese almanac',
+      ],
     },
     name: 'Lunar Calendar & Holidays',
     description:

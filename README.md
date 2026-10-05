@@ -9,7 +9,9 @@ the privacy policies in `web/src/components/PrivacyPolicy.tsx`. The holiday page
 (`/<app>/<year>/`, `/<app>/public-holidays-<year>/`, `/<app>/school-holidays-<year>/`) are built
 from the Lunar Calendar app's data: `node scripts/sync-holidays.mjs` copies it into
 `web/src/data/holidays/`, and `HOLIDAY_YEARS` in `web/src/data/holidays.ts` (and `YEARS` in the
-script) says which years get pages. To change the site:
+script) says which years get pages. The app pages' screenshots come from the store listings:
+`node scripts/fetch-screenshots.mjs [app-id ...]` (needs ImageMagick) refreshes
+`web/public/screenshots/` and `web/src/data/screenshots.json`. To change the site:
 
     cd web
     npm install

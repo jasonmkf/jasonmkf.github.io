@@ -1,0 +1,744 @@
+{
+ "malaysia-calendar": {
+  "android": [
+   {
+    "src": "/screenshots/malaysia-calendar/android-1.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/malaysia-calendar/android-2.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/malaysia-calendar/android-3.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/malaysia-calendar/android-4.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/malaysia-calendar/android-5.webp",
+    "width": 480,
+    "height": 1069
+   },
+   {
+    "src": "/screenshots/malaysia-calendar/android-6.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/malaysia-calendar/android-7.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/malaysia-calendar/android-8.webp",
+    "width": 480,
+    "height": 1071
+   }
+  ]
+ },
+ "singapore-calendar": {
+  "android": [
+   {
+    "src": "/screenshots/singapore-calendar/android-1.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/singapore-calendar/android-2.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/singapore-calendar/android-3.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/singapore-calendar/android-4.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/singapore-calendar/android-5.webp",
+    "width": 480,
+    "height": 1069
+   },
+   {
+    "src": "/screenshots/singapore-calendar/android-6.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/singapore-calendar/android-7.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/singapore-calendar/android-8.webp",
+    "width": 480,
+    "height": 1071
+   }
+  ]
+ },
+ "kalendar-hijrah": {
+  "android": [
+   {
+    "src": "/screenshots/kalendar-hijrah/android-1.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/kalendar-hijrah/android-2.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/kalendar-hijrah/android-3.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/kalendar-hijrah/android-4.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/kalendar-hijrah/android-5.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/kalendar-hijrah/android-6.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/kalendar-hijrah/android-7.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/kalendar-hijrah/android-8.webp",
+    "width": 480,
+    "height": 1071
+   }
+  ]
+ },
+ "housing-loan-calculator": {
+  "android": [
+   {
+    "src": "/screenshots/housing-loan-calculator/android-1.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/housing-loan-calculator/android-2.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/housing-loan-calculator/android-3.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/housing-loan-calculator/android-4.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/housing-loan-calculator/android-5.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/housing-loan-calculator/android-6.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/housing-loan-calculator/android-7.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/housing-loan-calculator/android-8.webp",
+    "width": 480,
+    "height": 1011
+   }
+  ],
+  "ios": [
+   {
+    "src": "/screenshots/housing-loan-calculator/ios-1.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/housing-loan-calculator/ios-2.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/housing-loan-calculator/ios-3.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/housing-loan-calculator/ios-4.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/housing-loan-calculator/ios-5.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/housing-loan-calculator/ios-6.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/housing-loan-calculator/ios-7.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/housing-loan-calculator/ios-8.webp",
+    "width": 480,
+    "height": 1043
+   }
+  ]
+ },
+ "thailand-calendar": {
+  "android": [
+   {
+    "src": "/screenshots/thailand-calendar/android-1.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/thailand-calendar/android-2.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/thailand-calendar/android-3.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/thailand-calendar/android-4.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/thailand-calendar/android-5.webp",
+    "width": 480,
+    "height": 1069
+   },
+   {
+    "src": "/screenshots/thailand-calendar/android-6.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/thailand-calendar/android-7.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/thailand-calendar/android-8.webp",
+    "width": 480,
+    "height": 1071
+   }
+  ]
+ },
+ "vietnamese-calendar": {
+  "android": [
+   {
+    "src": "/screenshots/vietnamese-calendar/android-1.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/vietnamese-calendar/android-2.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/vietnamese-calendar/android-3.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/vietnamese-calendar/android-4.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/vietnamese-calendar/android-5.webp",
+    "width": 480,
+    "height": 1016
+   },
+   {
+    "src": "/screenshots/vietnamese-calendar/android-6.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/vietnamese-calendar/android-7.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/vietnamese-calendar/android-8.webp",
+    "width": 480,
+    "height": 1011
+   }
+  ]
+ },
+ "hong-kong-calendar": {
+  "android": [
+   {
+    "src": "/screenshots/hong-kong-calendar/android-1.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/hong-kong-calendar/android-2.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/hong-kong-calendar/android-3.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/hong-kong-calendar/android-4.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/hong-kong-calendar/android-5.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/hong-kong-calendar/android-6.webp",
+    "width": 480,
+    "height": 1016
+   },
+   {
+    "src": "/screenshots/hong-kong-calendar/android-7.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/hong-kong-calendar/android-8.webp",
+    "width": 480,
+    "height": 1011
+   }
+  ]
+ },
+ "taiwan-calendar": {
+  "android": [
+   {
+    "src": "/screenshots/taiwan-calendar/android-1.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/taiwan-calendar/android-2.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/taiwan-calendar/android-3.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/taiwan-calendar/android-4.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/taiwan-calendar/android-5.webp",
+    "width": 480,
+    "height": 1016
+   },
+   {
+    "src": "/screenshots/taiwan-calendar/android-6.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/taiwan-calendar/android-7.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/taiwan-calendar/android-8.webp",
+    "width": 480,
+    "height": 1011
+   }
+  ]
+ },
+ "south-korea-calendar": {
+  "android": [
+   {
+    "src": "/screenshots/south-korea-calendar/android-1.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/south-korea-calendar/android-2.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/south-korea-calendar/android-3.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/south-korea-calendar/android-4.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/south-korea-calendar/android-5.webp",
+    "width": 480,
+    "height": 1016
+   },
+   {
+    "src": "/screenshots/south-korea-calendar/android-6.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/south-korea-calendar/android-7.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/south-korea-calendar/android-8.webp",
+    "width": 480,
+    "height": 1011
+   }
+  ]
+ },
+ "indonesia-calendar": {
+  "android": [
+   {
+    "src": "/screenshots/indonesia-calendar/android-1.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/indonesia-calendar/android-2.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/indonesia-calendar/android-3.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/indonesia-calendar/android-4.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/indonesia-calendar/android-5.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/indonesia-calendar/android-6.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/indonesia-calendar/android-7.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/indonesia-calendar/android-8.webp",
+    "width": 480,
+    "height": 1011
+   }
+  ]
+ },
+ "australia-calendar": {
+  "android": [
+   {
+    "src": "/screenshots/australia-calendar/android-1.webp",
+    "width": 480,
+    "height": 1069
+   },
+   {
+    "src": "/screenshots/australia-calendar/android-2.webp",
+    "width": 480,
+    "height": 1016
+   },
+   {
+    "src": "/screenshots/australia-calendar/android-3.webp",
+    "width": 480,
+    "height": 1016
+   },
+   {
+    "src": "/screenshots/australia-calendar/android-4.webp",
+    "width": 480,
+    "height": 1016
+   },
+   {
+    "src": "/screenshots/australia-calendar/android-5.webp",
+    "width": 480,
+    "height": 1016
+   },
+   {
+    "src": "/screenshots/australia-calendar/android-6.webp",
+    "width": 480,
+    "height": 1016
+   },
+   {
+    "src": "/screenshots/australia-calendar/android-7.webp",
+    "width": 480,
+    "height": 1016
+   },
+   {
+    "src": "/screenshots/australia-calendar/android-8.webp",
+    "width": 480,
+    "height": 1016
+   }
+  ]
+ },
+ "car-loan-calculator": {
+  "android": [
+   {
+    "src": "/screenshots/car-loan-calculator/android-1.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/car-loan-calculator/android-2.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/car-loan-calculator/android-3.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/car-loan-calculator/android-4.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/car-loan-calculator/android-5.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/car-loan-calculator/android-6.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/car-loan-calculator/android-7.webp",
+    "width": 480,
+    "height": 1011
+   },
+   {
+    "src": "/screenshots/car-loan-calculator/android-8.webp",
+    "width": 480,
+    "height": 1011
+   }
+  ],
+  "ios": [
+   {
+    "src": "/screenshots/car-loan-calculator/ios-1.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/car-loan-calculator/ios-2.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/car-loan-calculator/ios-3.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/car-loan-calculator/ios-4.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/car-loan-calculator/ios-5.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/car-loan-calculator/ios-6.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/car-loan-calculator/ios-7.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/car-loan-calculator/ios-8.webp",
+    "width": 480,
+    "height": 1043
+   }
+  ]
+ },
+ "lunar-calendar": {
+  "ios": [
+   {
+    "src": "/screenshots/lunar-calendar/ios-1.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/lunar-calendar/ios-2.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/lunar-calendar/ios-3.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/lunar-calendar/ios-4.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/lunar-calendar/ios-5.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/lunar-calendar/ios-6.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/lunar-calendar/ios-7.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/lunar-calendar/ios-8.webp",
+    "width": 480,
+    "height": 1043
+   }
+  ]
+ },
+ "shelfbell": {
+  "android": [
+   {
+    "src": "/screenshots/shelfbell/android-1.webp",
+    "width": 480,
+    "height": 853
+   },
+   {
+    "src": "/screenshots/shelfbell/android-2.webp",
+    "width": 480,
+    "height": 853
+   },
+   {
+    "src": "/screenshots/shelfbell/android-3.webp",
+    "width": 480,
+    "height": 853
+   },
+   {
+    "src": "/screenshots/shelfbell/android-4.webp",
+    "width": 480,
+    "height": 853
+   },
+   {
+    "src": "/screenshots/shelfbell/android-5.webp",
+    "width": 480,
+    "height": 853
+   },
+   {
+    "src": "/screenshots/shelfbell/android-6.webp",
+    "width": 480,
+    "height": 853
+   },
+   {
+    "src": "/screenshots/shelfbell/android-7.webp",
+    "width": 480,
+    "height": 853
+   },
+   {
+    "src": "/screenshots/shelfbell/android-8.webp",
+    "width": 480,
+    "height": 853
+   }
+  ],
+  "ios": [
+   {
+    "src": "/screenshots/shelfbell/ios-1.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/shelfbell/ios-2.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/shelfbell/ios-3.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/shelfbell/ios-4.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/shelfbell/ios-5.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/shelfbell/ios-6.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/shelfbell/ios-7.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/shelfbell/ios-8.webp",
+    "width": 480,
+    "height": 1043
+   }
+  ]
+ }
+}

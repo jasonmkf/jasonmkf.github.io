@@ -9,7 +9,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 // Years that get pages. Add a year once its data is in the app; never drop one that is live.
-const YEARS = [2026, 2027];
+const YEARS = [2026, 2027, 2028];
 // Countries whose school holidays the apps show. TH has none; VN's app does not show them.
 const COUNTRIES = ['MY', 'SG', 'ID', 'TH', 'VN', 'HK', 'TW', 'KR', 'AU'];
 const NO_SCHOOL = new Set(['TH', 'VN']);

@@ -7,12 +7,15 @@ import {
   countries,
   dayMonth,
   daysBetween,
-  HOLIDAY_YEARS,
+  hasSchoolIn,
   holidayPath,
   isNational,
   shortDate,
   toDate,
+  viewsFor,
+  YEARS_BY_RELEVANCE,
   type Country,
+  type HolidayView,
   type LongWeekend,
   type Observance,
   type PublicHoliday,
@@ -20,7 +23,7 @@ import {
   type Term,
 } from '@/data/holidays';
 
-export type View = 'calendar' | 'public' | 'school';
+export type View = HolidayView;
 
 export const viewLabel = (c: Country, view: View, year: number) =>
   view === 'calendar'
@@ -45,12 +48,11 @@ export function Terms({ terms }: { terms: Term[] }) {
 
 // Every holiday page of one country, by year: the links that tie them together.
 export function HolidayNav({ country, current }: { country: Country; current?: string }) {
-  const views: View[] = country.hasSchool ? ['calendar', 'public', 'school'] : ['calendar', 'public'];
   return (
     <div className="space-y-3">
-      {[...HOLIDAY_YEARS].reverse().map((year) => (
+      {YEARS_BY_RELEVANCE.map((year) => (
         <ul key={year} className="flex flex-wrap gap-2">
-          {views.map((view) => {
+          {viewsFor(country, year).map((view) => {
             const path = holidayPath(country, view, year);
             const active = path === current;
             return (
@@ -394,7 +396,7 @@ export function OtherCountries({ country, view, year }: { country: Country; view
   return (
     <ul className="flex flex-wrap gap-2">
       {others.map((c) => {
-        const v = view === 'school' && !c.hasSchool ? 'public' : view;
+        const v = view === 'school' && !hasSchoolIn(c, year) ? 'public' : view;
         return (
           <li key={c.code}>
             <Link

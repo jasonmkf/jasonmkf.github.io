@@ -17,17 +17,20 @@ import {
   Terms,
   type View,
 } from '@/components/HolidayParts';
+import { SYSTEM_APPS, SystemPage, systemMetadata, systemPath } from '@/components/CalendarSystemPage';
 import { findApp } from '@/data/apps';
 import {
   addDays,
   carriedOverBreak,
   countries,
   countryForApp,
+  hasSchoolIn,
   HOLIDAY_YEARS,
   holidayPath,
   isNational,
   longDate,
   longWeekends,
+  PROVISIONAL_FROM,
   regionsOf,
   schoolBreaks,
   yearData,
@@ -43,13 +46,23 @@ export const dynamicParams = false;
 const VIEW_PATTERN = /^(?:(public|school)-holidays-)?(\d{4})$/;
 
 export function generateStaticParams() {
-  return countries.flatMap((c) =>
+  const systems = Object.keys(SYSTEM_APPS).flatMap((slug) =>
+    HOLIDAY_YEARS.map((year) => ({ slug, view: `${year}` })),
+  );
+  return systems.concat(countries.flatMap((c) =>
     HOLIDAY_YEARS.flatMap((year) => {
       const views = [`${year}`, `public-holidays-${year}`];
-      if (c.hasSchool) views.push(`school-holidays-${year}`);
+      if (hasSchoolIn(c, year)) views.push(`school-holidays-${year}`);
       return views.map((view) => ({ slug: c.appId, view }));
     }),
-  );
+  ));
+}
+
+// The Chinese lunar and Hijri year pages share this route with the country holiday pages.
+function resolveSystem(slug: string, segment: string) {
+  const system = SYSTEM_APPS[slug];
+  const year = Number(segment);
+  return system && /^\d{4}$/.test(segment) && HOLIDAY_YEARS.includes(year) ? { system, year } : null;
 }
 
 function resolve(slug: string, segment: string) {
@@ -58,7 +71,7 @@ function resolve(slug: string, segment: string) {
   if (!country || !match) return null;
   const year = Number(match[2]);
   const view = (match[1] ?? 'calendar') as View;
-  if (!HOLIDAY_YEARS.includes(year) || (view === 'school' && !country.hasSchool)) return null;
+  if (!HOLIDAY_YEARS.includes(year) || (view === 'school' && !hasSchoolIn(country, year))) return null;
   return { country, year, view };
 }
 
@@ -82,7 +95,7 @@ function describe(c: Country, view: View, year: number) {
       `Free calendar app for Android and iPhone.`
     );
   }
-  const school = c.hasSchool ? ' and school holidays' : '';
+  const school = hasSchoolIn(c, year) ? ' and school holidays' : '';
   return (
     `${c.name} calendar ${year} with every public holiday${school} marked month by month, ` +
     `and the festivals. Free calendar app for Android and iPhone.`
@@ -92,7 +105,7 @@ function describe(c: Country, view: View, year: number) {
 function title(c: Country, view: View, year: number) {
   if (view === 'public') return c.publicTitle(year);
   if (view === 'school') return c.schoolTitle(year);
-  return `${c.name} Calendar ${year} with Public${c.hasSchool ? ' & School' : ''} Holidays`;
+  return `${c.name} Calendar ${year} with Public${hasSchoolIn(c, year) ? ' & School' : ''} Holidays`;
 }
 
 function terms(c: Country, view: View, year: number) {
@@ -103,6 +116,8 @@ function terms(c: Country, view: View, year: number) {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, view: segment } = await params;
+  const system = resolveSystem(slug, segment);
+  if (system) return systemMetadata(system.system, system.year);
   const { country: c, view, year } = resolve(slug, segment)!;
   const app = findApp(c.appId)!;
   const base = view === 'calendar' ? `${c.name} calendar ${year}` : `${c.name} ${view} holidays ${year}`;
@@ -117,7 +132,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     keywords: [...new Set([
       base,
       `${c.name} public holidays ${year}`,
-      ...(c.hasSchool ? [`${c.name} school holidays ${year}`] : []),
+      ...(hasSchoolIn(c, year) ? [`${c.name} school holidays ${year}`] : []),
       `${c.name} long weekends ${year}`,
       `${c.name} calendar ${year}`,
       ...terms(c, view, year).map((t) => t.text),
@@ -245,9 +260,9 @@ function CalendarView({ c, year }: { c: Country; year: number }) {
     <>
       <p className="text-lg text-gray-700 leading-relaxed">
         The {year} calendar for {c.name}, with all {publicHolidays.length} public holidays
-        {c.hasSchool && !isRegional && ' and the school holidays'} marked, and the festivals and
+        {hasSchoolIn(c, year) && !isRegional && ' and the school holidays'} marked, and the festivals and
         observances of each month listed below it.
-        {isRegional && c.hasSchool && (
+        {isRegional && hasSchoolIn(c, year) && (
           <>
             {' '}
             School holidays differ by {c.regionNoun}; see{' '}
@@ -257,6 +272,21 @@ function CalendarView({ c, year }: { c: Country; year: number }) {
             .
           </>
         )}
+      </p>
+      <p className="mt-3 text-gray-600">
+        Lunar dates for every day are in the{' '}
+        <Link href={systemPath('lunar', year)} className="text-purple-700 underline">
+          Chinese lunar calendar {year}
+        </Link>
+        {c.code === 'my' && (
+          <>
+            , and Hijri dates in the{' '}
+            <Link href={systemPath('hijri', year)} className="text-purple-700 underline">
+              Kalendar Hijrah {year}
+            </Link>
+          </>
+        )}
+        .
       </p>
       <div className="mt-6">
         <Legend school={schoolDays.size > 0} />
@@ -280,6 +310,8 @@ function CalendarView({ c, year }: { c: Country; year: number }) {
 
 export default async function HolidayPage({ params }: Props) {
   const { slug, view: segment } = await params;
+  const system = resolveSystem(slug, segment);
+  if (system) return <SystemPage system={system.system} year={system.year} />;
   const resolved = resolve(slug, segment);
   if (!resolved) notFound();
   const { country: c, view, year } = resolved;
@@ -317,6 +349,12 @@ export default async function HolidayPage({ params }: Props) {
 
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <HolidayNav country={c} current={path} />
+          {year >= PROVISIONAL_FROM && (
+            <p className="mt-8 rounded-2xl bg-amber-50 ring-1 ring-amber-200 px-5 py-4 text-amber-900">
+              Not every {year} date has been officially announced yet, so some of these are the
+              expected dates and could still change. The page is updated as they are confirmed.
+            </p>
+          )}
           <div className="mt-10">
             {view === 'public' && <PublicView c={c} year={year} />}
             {view === 'school' && <SchoolView c={c} year={year} />}

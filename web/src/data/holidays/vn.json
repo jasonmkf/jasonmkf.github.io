@@ -570,6 +570,264 @@
     }
    ],
    "school": []
+  },
+  "2028": {
+   "publicHolidays": [
+    {
+     "date": "2028-01-01",
+     "name": "New Year's Day",
+     "local": "Tết Dương lịch",
+     "cn": "新年元旦"
+    },
+    {
+     "date": "2028-01-03",
+     "name": "New Year's Day Holiday",
+     "local": "Nghỉ bù Tết Dương lịch",
+     "cn": "新年假期"
+    },
+    {
+     "date": "2028-01-25",
+     "name": "Lunar New Year's Eve",
+     "local": "Đêm Giao thừa",
+     "cn": "农历除夕"
+    },
+    {
+     "date": "2028-01-26",
+     "name": "Lunar New Year · Tet",
+     "local": "Tết Nguyên Đán",
+     "cn": "春节"
+    },
+    {
+     "date": "2028-01-27",
+     "name": "Tet Holiday · Day 2",
+     "local": "Nghỉ Tết Nguyên Đán",
+     "cn": "春节假期"
+    },
+    {
+     "date": "2028-01-28",
+     "name": "Tet Holiday · Day 3",
+     "local": "Nghỉ Tết Nguyên Đán",
+     "cn": "春节假期"
+    },
+    {
+     "date": "2028-01-29",
+     "name": "Tet Holiday · Day 4",
+     "local": "Nghỉ Tết Nguyên Đán",
+     "cn": "春节假期"
+    },
+    {
+     "date": "2028-01-30",
+     "name": "Tet Holiday · Day 5",
+     "local": "Nghỉ Tết Nguyên Đán",
+     "cn": "春节假期"
+    },
+    {
+     "date": "2028-01-31",
+     "name": "Tet Holiday · Day 6",
+     "local": "Nghỉ Tết Nguyên Đán",
+     "cn": "春节假期"
+    },
+    {
+     "date": "2028-04-04",
+     "name": "Hung Kings' Commemoration Day",
+     "local": "Giỗ Tổ Hùng Vương",
+     "cn": "雄王祭祖日"
+    },
+    {
+     "date": "2028-04-30",
+     "name": "Reunification Day",
+     "local": "Ngày Giải phóng miền Nam",
+     "cn": "南方解放日"
+    },
+    {
+     "date": "2028-05-01",
+     "name": "Labor Day",
+     "local": "Ngày Quốc tế Lao động",
+     "cn": "劳动节"
+    },
+    {
+     "date": "2028-05-02",
+     "name": "Reunification Day Holiday",
+     "local": "Nghỉ bù Giải phóng miền Nam",
+     "cn": "南方解放日假期"
+    },
+    {
+     "date": "2028-09-02",
+     "name": "National Day",
+     "local": "Quốc Khánh",
+     "cn": "越南国庆节"
+    },
+    {
+     "date": "2028-09-04",
+     "name": "National Day Holiday",
+     "local": "Nghỉ bù Quốc Khánh",
+     "cn": "国庆节假期"
+    },
+    {
+     "date": "2028-11-24",
+     "name": "Vietnamese Cultural Day",
+     "local": "Ngày Văn hóa Việt Nam",
+     "cn": "越南文化日"
+    }
+   ],
+   "observances": [
+    {
+     "date": "2028-02-04",
+     "name": "Beginning of Spring",
+     "local": "Lập Xuân"
+    },
+    {
+     "date": "2028-02-09",
+     "name": "Lantern Festival",
+     "local": "Tết Nguyên Tiêu"
+    },
+    {
+     "date": "2028-02-14",
+     "name": "Valentine's Day",
+     "local": "Lễ Tình nhân"
+    },
+    {
+     "date": "2028-03-08",
+     "name": "International Women's Day",
+     "local": "Quốc tế Phụ nữ"
+    },
+    {
+     "date": "2028-03-20",
+     "name": "March Equinox",
+     "local": "Xuân phân"
+    },
+    {
+     "date": "2028-03-28",
+     "name": "Cold Food Festival",
+     "local": "Tết Hàn Thực"
+    },
+    {
+     "date": "2028-04-01",
+     "name": "April Fools Day",
+     "local": "Cá tháng Tư"
+    },
+    {
+     "date": "2028-04-04",
+     "name": "Qing Ming Festival",
+     "local": "Tết Thanh Minh"
+    },
+    {
+     "date": "2028-05-08",
+     "name": "Vesak Day",
+     "local": "Lễ Phật Đản"
+    },
+    {
+     "date": "2028-05-19",
+     "name": "Ho Chi Minh's Birthday",
+     "local": "Sinh nhật Bác Hồ"
+    },
+    {
+     "date": "2028-05-27",
+     "name": "Dragon Boat Festival",
+     "local": "Tết Đoan Ngọ"
+    },
+    {
+     "date": "2028-06-01",
+     "name": "International Children's Day",
+     "local": "Quốc tế Thiếu nhi"
+    },
+    {
+     "date": "2028-06-20",
+     "name": "June Solstice",
+     "local": "Hạ chí"
+    },
+    {
+     "date": "2028-06-28",
+     "name": "Vietnamese Family Day",
+     "local": "Ngày Gia đình Việt Nam"
+    },
+    {
+     "date": "2028-07-27",
+     "name": "War Invalids and Martyrs Day",
+     "local": "Ngày Thương binh Liệt sĩ"
+    },
+    {
+     "date": "2028-08-19",
+     "name": "People's Public Security Traditional Day",
+     "local": "Ngày truyền thống Công an Nhân dân Việt Nam"
+    },
+    {
+     "date": "2028-08-19",
+     "name": "All People Protect National Security Festive Day",
+     "local": "Ngày Toàn dân bảo vệ an ninh Tổ quốc"
+    },
+    {
+     "date": "2028-08-26",
+     "name": "Chinese Valentine's Day",
+     "local": "Thất Tịch"
+    },
+    {
+     "date": "2028-09-03",
+     "name": "Hungry Ghost Festival",
+     "local": "Lễ Vu Lan"
+    },
+    {
+     "date": "2028-09-05",
+     "name": "School Opening Day",
+     "local": "Ngày khai giảng năm học mới"
+    },
+    {
+     "date": "2028-09-22",
+     "name": "September Equinox",
+     "local": "Thu phân"
+    },
+    {
+     "date": "2028-10-03",
+     "name": "Mid-Autumn Festival",
+     "local": "Tết Trung Thu"
+    },
+    {
+     "date": "2028-10-13",
+     "name": "Vietnamese Entrepreneurs' Day",
+     "local": "Ngày Doanh nhân Việt Nam"
+    },
+    {
+     "date": "2028-10-20",
+     "name": "Vietnamese Women's Day",
+     "local": "Ngày Phụ nữ Việt Nam"
+    },
+    {
+     "date": "2028-10-26",
+     "name": "Double Ninth Festival",
+     "local": "Tết Trùng Cửu"
+    },
+    {
+     "date": "2028-11-20",
+     "name": "Vietnamese Teacher's Day",
+     "local": "Ngày Nhà giáo Việt Nam"
+    },
+    {
+     "date": "2028-12-01",
+     "name": "Lower Yuan Festival",
+     "local": "Tết Hạ Nguyên"
+    },
+    {
+     "date": "2028-12-21",
+     "name": "Winter Solstice",
+     "local": "Đông chí"
+    },
+    {
+     "date": "2028-12-24",
+     "name": "Christmas Eve",
+     "local": "Đêm Giáng sinh"
+    },
+    {
+     "date": "2028-12-25",
+     "name": "Christmas Day",
+     "local": "Lễ Giáng sinh"
+    },
+    {
+     "date": "2028-12-31",
+     "name": "New Year's Eve",
+     "local": "Đêm Giao thừa Dương lịch"
+    }
+   ],
+   "school": []
   }
  }
 }

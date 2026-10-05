@@ -7,7 +7,7 @@ export const metadata = pageMetadata({
   title: 'Contact KF Production',
   description:
     'Contact KF Production for support or business enquiries about our calendar and calculator ' +
-    'apps: jasonmkf2@gmail.com.',
+    'apps: support@kf-production.com.',
   path: '/contact/',
   absoluteTitle: true,
 });
@@ -55,8 +55,8 @@ export default function ContactPage() {
                       </div>
                       <h3 className="text-xl font-semibold text-purple-900 mb-2">Email Us</h3>
                       <p className="text-gray-600 mb-4">For business inquiries or support</p>
-                      <a href="mailto:jasonmkf2@gmail.com" className="text-purple-800 font-medium hover:underline">
-                        jasonmkf2@gmail.com
+                      <a href="mailto:support@kf-production.com" className="text-purple-800 font-medium hover:underline">
+                        support@kf-production.com
                       </a>
                     </div>
                     

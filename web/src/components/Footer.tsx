@@ -90,7 +90,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="mailto:jasonmkf2@gmail.com"
+                href="mailto:support@kf-production.com"
                 className="rounded-xl bg-white/10 p-2.5 text-purple-200 hover:text-white hover:bg-white/20 transition-colors"
               >
                 <span className="sr-only">Email</span>

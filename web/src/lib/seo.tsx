@@ -59,7 +59,7 @@ export function organizationJsonLd() {
         name: 'KF Production',
         url: `${SITE}/`,
         logo: `${SITE}/kf-production-logo.png`,
-        email: 'jasonmkf2@gmail.com',
+        email: 'support@kf-production.com',
         foundingDate: '2015',
         sameAs: [PLAY_DEVELOPER, APP_STORE_DEVELOPER],
       },

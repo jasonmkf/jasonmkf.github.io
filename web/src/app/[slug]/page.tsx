@@ -208,10 +208,10 @@ export default async function AppPage({ params }: Props) {
                   Support
                 </h2>
                 <a
-                  href="mailto:jasonmkf2@gmail.com"
+                  href="mailto:support@kf-production.com"
                   className="mt-3 block text-purple-800 font-medium hover:underline break-all"
                 >
-                  jasonmkf2@gmail.com
+                  support@kf-production.com
                 </a>
               </div>
             </aside>

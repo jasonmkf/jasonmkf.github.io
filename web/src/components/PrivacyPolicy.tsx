@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 import type { App } from '@/data/apps';
 
-const EMAIL = 'jasonmkf2@gmail.com';
+const EMAIL = 'support@kf-production.com';
 
 const Ext = ({ href }: { href: string }) => <a href={href}>{href}</a>;
 

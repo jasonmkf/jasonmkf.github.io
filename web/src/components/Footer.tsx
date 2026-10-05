@@ -45,6 +45,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/holidays" className="text-purple-200 hover:text-white text-sm transition-colors">
+                  Public &amp; School Holidays
+                </Link>
+              </li>
+              <li>
                 <Link href="/about" className="text-purple-200 hover:text-white text-sm transition-colors">
                   About Us
                 </Link>

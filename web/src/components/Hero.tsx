@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import DeviceMockups from '@/components/DeviceMockups';
-import { apps } from '@/data/apps';
+import { allApps, apps } from '@/data/apps';
 
-const published = apps.filter((a) => a.url || a.appStoreUrl);
+// Unlisted apps are still in the stores, so they count.
+const published = allApps.filter((a) => a.url || a.appStoreUrl);
 const rated = apps.filter((a) => a.rating !== '-');
 const averageRating = rated.reduce((sum, a) => sum + Number(a.rating), 0) / rated.length;
 

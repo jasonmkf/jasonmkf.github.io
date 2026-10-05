@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import PrivacyPolicy from '@/components/PrivacyPolicy';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { apps, findApp } from '@/data/apps';
+import { allApps, findApp } from '@/data/apps';
 import { pageMetadata } from '@/lib/seo';
 
 // Exported as /<slug>/privacy/index.html; scripts/publish.mjs moves it to /<slug>/privacy.html.
@@ -15,7 +15,7 @@ type Props = { params: Promise<{ slug: string }> };
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return apps.map((app) => ({ slug: app.id }));
+  return allApps.map((app) => ({ slug: app.id }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

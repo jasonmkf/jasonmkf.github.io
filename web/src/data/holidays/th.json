@@ -1,0 +1,607 @@
+{
+ "country": "TH",
+ "years": {
+  "2026": {
+   "publicHolidays": [
+    {
+     "date": "2026-01-01",
+     "name": "New Year's Day",
+     "local": "วันขึ้นปีใหม่",
+     "cn": "新年元旦"
+    },
+    {
+     "date": "2026-01-02",
+     "name": "New Year's Day Holiday",
+     "local": "วันหยุดปีใหม่",
+     "cn": "新年假期"
+    },
+    {
+     "date": "2026-02-17",
+     "name": "Chinese New Year",
+     "local": "วันตรุษจีน",
+     "cn": "农历新年",
+     "states": [
+      "Narathiwat",
+      "Pattani",
+      "Satun",
+      "Yala"
+     ]
+    },
+    {
+     "date": "2026-03-03",
+     "name": "Makha Bucha Day",
+     "local": "วันมาฆบูชา",
+     "cn": "万佛节"
+    },
+    {
+     "date": "2026-03-20",
+     "name": "End of Ramadan",
+     "local": "จุดจบของเราะมะฎอน",
+     "cn": "开斋节",
+     "states": [
+      "Narathiwat",
+      "Pattani",
+      "Satun",
+      "Yala"
+     ]
+    },
+    {
+     "date": "2026-04-06",
+     "name": "Chakri Day",
+     "local": "วันจักรี",
+     "cn": "却克里王朝纪念日"
+    },
+    {
+     "date": "2026-04-13",
+     "name": "Songkran Festival",
+     "local": "วันสงกรานต์",
+     "cn": "宋干节"
+    },
+    {
+     "date": "2026-04-14",
+     "name": "Songkran Festival · Day 2",
+     "local": "วันสงกรานต์ · วันที่ 2",
+     "cn": "宋干节假期"
+    },
+    {
+     "date": "2026-04-15",
+     "name": "Songkran Festival · Day 3",
+     "local": "วันสงกรานต์ · วันที่ 3",
+     "cn": "宋干节假期"
+    },
+    {
+     "date": "2026-05-01",
+     "name": "Labour Day",
+     "local": "วันแรงงาน",
+     "cn": "劳动节"
+    },
+    {
+     "date": "2026-05-04",
+     "name": "Coronation Day",
+     "local": "วันฉัตรมงคล",
+     "cn": "加冕日"
+    },
+    {
+     "date": "2026-05-11",
+     "name": "Royal Ploughing Ceremony Day",
+     "local": "วันพืชมงคล",
+     "cn": "皇家耕种仪式日",
+     "government": true,
+     "remark": "Government sector only"
+    },
+    {
+     "date": "2026-05-31",
+     "name": "Visakha Bucha Day",
+     "local": "วันวิสาขบูชา",
+     "cn": "卫塞节"
+    },
+    {
+     "date": "2026-06-01",
+     "name": "Visakha Bucha Day Holiday",
+     "local": "วันหยุดวิสาขบูชา",
+     "cn": "卫塞节假期"
+    },
+    {
+     "date": "2026-06-03",
+     "name": "Queen Suthida's Birthday",
+     "local": "วันเฉลิมพระชนมพรรษาสมเด็จพระนางเจ้าสุทิดา",
+     "cn": "苏提达王后诞辰"
+    },
+    {
+     "date": "2026-07-28",
+     "name": "King Maha Vajiralongkorn's Birthday",
+     "local": "วันเฉลิมพระชนมพรรษาพระบาทสมเด็จพระเจ้าอยู่หัว",
+     "cn": "泰国国王诞辰"
+    },
+    {
+     "date": "2026-07-29",
+     "name": "Asalha Bucha Day",
+     "local": "วันอาซัลฮาบูชา",
+     "cn": "阿萨拉哈布查日"
+    },
+    {
+     "date": "2026-07-30",
+     "name": "Khao Phansa Day",
+     "local": "วันเขาพรรษา",
+     "cn": "守夏节",
+     "government": true,
+     "remark": "Government sector only"
+    },
+    {
+     "date": "2026-08-12",
+     "name": "Her Majesty the Queen Mother's Birthday",
+     "local": "วันเฉลิมพระชนมพรรษาสมเด็จพระนางเจ้าสิริกิติ์",
+     "cn": "泰国太后诞辰"
+    },
+    {
+     "date": "2026-10-13",
+     "name": "Anniversary for the death of King Bhumibol Adulyadej",
+     "local": "วันคล้ายวันสวรรคตพระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดช",
+     "cn": "泰王普密蓬逝世纪念日"
+    },
+    {
+     "date": "2026-10-23",
+     "name": "Chulalongkorn Day",
+     "local": "วันปิยมหาราช",
+     "cn": "朱拉隆功日"
+    },
+    {
+     "date": "2026-12-05",
+     "name": "National Father's Day",
+     "local": "วันพ่อแห่งชาติ",
+     "cn": "泰国父亲节"
+    },
+    {
+     "date": "2026-12-07",
+     "name": "National Father's Day Holiday",
+     "local": "วันหยุดวันพ่อแห่งชาติ",
+     "cn": "泰国父亲节假期"
+    },
+    {
+     "date": "2026-12-10",
+     "name": "Constitution Day",
+     "local": "วันรัฐธรรมนูญ",
+     "cn": "宪法日"
+    },
+    {
+     "date": "2026-12-25",
+     "name": "Christmas Day",
+     "local": "วันคริสต์มาส",
+     "cn": "圣诞节",
+     "states": [
+      "Narathiwat",
+      "Pattani",
+      "Satun",
+      "Yala"
+     ]
+    },
+    {
+     "date": "2026-12-31",
+     "name": "New Year's Eve",
+     "local": "วันสิ้นปี",
+     "cn": "新年前夕"
+    }
+   ],
+   "observances": [
+    {
+     "date": "2026-01-10",
+     "name": "National Children's Day",
+     "local": "วันเด็กแห่งชาติ"
+    },
+    {
+     "date": "2026-01-16",
+     "name": "Teacher's Day",
+     "local": "วันครู"
+    },
+    {
+     "date": "2026-02-04",
+     "name": "Beginning of Spring",
+     "local": "ต้นฤดูใบไม้ผลิ"
+    },
+    {
+     "date": "2026-02-14",
+     "name": "Valentine's Day",
+     "local": "วันวาเลนไทน์"
+    },
+    {
+     "date": "2026-02-16",
+     "name": "Chinese New Year's Eve",
+     "local": "วันก่อนตรุษจีน"
+    },
+    {
+     "date": "2026-02-18",
+     "name": "Chinese New Year · Day 2",
+     "local": "วันตรุษจีน · วันที่ 2"
+    },
+    {
+     "date": "2026-02-19",
+     "name": "Beginning of Ramadan",
+     "local": "การเริ่มต้นของเดือนรอมฎอน"
+    },
+    {
+     "date": "2026-03-03",
+     "name": "Lantern Festival",
+     "local": "เทศกาลโคมไฟ"
+    },
+    {
+     "date": "2026-03-20",
+     "name": "March Equinox",
+     "local": "วันเท่ากันของวสันต์"
+    },
+    {
+     "date": "2026-04-01",
+     "name": "April Fools Day",
+     "local": "เอพริลฟูล"
+    },
+    {
+     "date": "2026-04-05",
+     "name": "Qing Ming Festival",
+     "local": "เทศกาลเชงเม้ง"
+    },
+    {
+     "date": "2026-06-19",
+     "name": "Dragon Boat Festival",
+     "local": "เทศกาลแข่งเรือมังกร"
+    },
+    {
+     "date": "2026-06-21",
+     "name": "June Solstice",
+     "local": "ครีษมายัน"
+    },
+    {
+     "date": "2026-08-19",
+     "name": "Chinese Valentine's Day",
+     "local": "วันวาเลนไทน์ของจีน"
+    },
+    {
+     "date": "2026-08-27",
+     "name": "Hungry Ghost Festival",
+     "local": "เทศกาลผีหิว"
+    },
+    {
+     "date": "2026-09-23",
+     "name": "September Equinox",
+     "local": "ศารทายัน"
+    },
+    {
+     "date": "2026-09-24",
+     "name": "Mahidol Day",
+     "local": "วันมหิดล"
+    },
+    {
+     "date": "2026-09-25",
+     "name": "Mid-Autumn Festival",
+     "local": "เทศกาลไหว้พระจันทร์"
+    },
+    {
+     "date": "2026-10-18",
+     "name": "Double Ninth Festival",
+     "local": "เทศกาลดับเบิ้ลไนน์"
+    },
+    {
+     "date": "2026-10-31",
+     "name": "Halloween",
+     "local": "วันฮาโลวีน"
+    },
+    {
+     "date": "2026-12-22",
+     "name": "Winter Solstice",
+     "local": "หิมายัน"
+    },
+    {
+     "date": "2026-12-24",
+     "name": "Christmas Eve",
+     "local": "วันก่อนคริสต์มาส"
+    }
+   ],
+   "school": []
+  },
+  "2027": {
+   "publicHolidays": [
+    {
+     "date": "2027-01-01",
+     "name": "New Year's Day",
+     "local": "วันขึ้นปีใหม่",
+     "cn": "新年元旦"
+    },
+    {
+     "date": "2027-02-06",
+     "name": "Chinese New Year",
+     "local": "วันตรุษจีน",
+     "cn": "农历新年",
+     "states": [
+      "Narathiwat",
+      "Pattani",
+      "Satun",
+      "Yala"
+     ]
+    },
+    {
+     "date": "2027-02-21",
+     "name": "Makha Bucha Day",
+     "local": "วันมาฆบูชา",
+     "cn": "万佛节"
+    },
+    {
+     "date": "2027-02-22",
+     "name": "Makha Bucha Day Holiday",
+     "local": "วันหยุดเทศกาลมาฆบูชา",
+     "cn": "万佛节假期"
+    },
+    {
+     "date": "2027-03-09",
+     "name": "End of Ramadan",
+     "local": "จุดจบของเราะมะฎอน",
+     "cn": "开斋节",
+     "states": [
+      "Narathiwat",
+      "Pattani",
+      "Satun",
+      "Yala"
+     ]
+    },
+    {
+     "date": "2027-04-06",
+     "name": "Chakri Day",
+     "local": "วันจักรี",
+     "cn": "却克里王朝纪念日"
+    },
+    {
+     "date": "2027-04-13",
+     "name": "Songkran Festival",
+     "local": "วันสงกรานต์",
+     "cn": "宋干节"
+    },
+    {
+     "date": "2027-04-14",
+     "name": "Songkran Festival · Day 2",
+     "local": "วันสงกรานต์ · วันที่ 2",
+     "cn": "宋干节假期"
+    },
+    {
+     "date": "2027-04-15",
+     "name": "Songkran Festival · Day 3",
+     "local": "วันสงกรานต์ · วันที่ 3",
+     "cn": "宋干节假期"
+    },
+    {
+     "date": "2027-05-01",
+     "name": "Labour Day",
+     "local": "วันแรงงาน",
+     "cn": "劳动节"
+    },
+    {
+     "date": "2027-05-03",
+     "name": "Labour Day Holiday",
+     "local": "วันหยุดเทศกาลแรงงาน",
+     "cn": "劳动节假期"
+    },
+    {
+     "date": "2027-05-04",
+     "name": "Coronation Day",
+     "local": "วันฉัตรมงคล",
+     "cn": "加冕日"
+    },
+    {
+     "date": "2027-05-20",
+     "name": "Visakha Bucha Day",
+     "local": "วันวิสาขบูชา",
+     "cn": "卫塞节"
+    },
+    {
+     "date": "2027-05-20",
+     "name": "Royal Ploughing Ceremony Day",
+     "local": "วันพืชมงคล",
+     "cn": "皇家耕种仪式日",
+     "government": true,
+     "remark": "Government sector only"
+    },
+    {
+     "date": "2027-06-03",
+     "name": "Queen Suthida's Birthday",
+     "local": "วันเฉลิมพระชนมพรรษาสมเด็จพระนางเจ้าสุทิดา",
+     "cn": "苏提达王后诞辰"
+    },
+    {
+     "date": "2027-07-18",
+     "name": "Asalha Bucha Day",
+     "local": "วันอาซัลฮาบูชา",
+     "cn": "阿萨拉哈布查日"
+    },
+    {
+     "date": "2027-07-19",
+     "name": "Khao Phansa Day",
+     "local": "วันเขาพรรษา",
+     "cn": "守夏节",
+     "government": true,
+     "remark": "Government sector only"
+    },
+    {
+     "date": "2027-07-20",
+     "name": "Asalha Bucha Day Holiday",
+     "local": "วันหยุดเทศกาลอาซัลฮาบูชา",
+     "cn": "阿萨拉哈布查日假期"
+    },
+    {
+     "date": "2027-07-28",
+     "name": "King Maha Vajiralongkorn's Birthday",
+     "local": "วันเฉลิมพระชนมพรรษาพระบาทสมเด็จพระเจ้าอยู่หัว",
+     "cn": "泰国国王诞辰"
+    },
+    {
+     "date": "2027-08-12",
+     "name": "Her Majesty the Queen Mother's Birthday",
+     "local": "วันเฉลิมพระชนมพรรษาสมเด็จพระนางเจ้าสิริกิติ์",
+     "cn": "泰国太后诞辰"
+    },
+    {
+     "date": "2027-10-13",
+     "name": "Anniversary for the death of King Bhumibol Adulyadej",
+     "local": "วันคล้ายวันสวรรคตพระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดช",
+     "cn": "泰王普密蓬逝世纪念日"
+    },
+    {
+     "date": "2027-10-23",
+     "name": "Chulalongkorn Day",
+     "local": "วันปิยมหาราช",
+     "cn": "朱拉隆功日"
+    },
+    {
+     "date": "2027-10-25",
+     "name": "Chulalongkorn Day Holiday",
+     "local": "วันหยุดเทศกาลปิยมหาราช",
+     "cn": "朱拉隆功日假期"
+    },
+    {
+     "date": "2027-12-05",
+     "name": "National Father's Day",
+     "local": "วันพ่อแห่งชาติ",
+     "cn": "泰国父亲节"
+    },
+    {
+     "date": "2027-12-06",
+     "name": "National Father's Day Holiday",
+     "local": "วันหยุดเทศกาลพ่อแห่งชาติ",
+     "cn": "泰国父亲节假期"
+    },
+    {
+     "date": "2027-12-10",
+     "name": "Constitution Day",
+     "local": "วันรัฐธรรมนูญ",
+     "cn": "宪法日"
+    },
+    {
+     "date": "2027-12-25",
+     "name": "Christmas Day",
+     "local": "วันคริสต์มาส",
+     "cn": "圣诞节",
+     "states": [
+      "Narathiwat",
+      "Pattani",
+      "Satun",
+      "Yala"
+     ]
+    },
+    {
+     "date": "2027-12-31",
+     "name": "New Year's Eve",
+     "local": "วันสิ้นปี",
+     "cn": "新年前夕"
+    }
+   ],
+   "observances": [
+    {
+     "date": "2027-01-09",
+     "name": "National Children's Day",
+     "local": "วันเด็กแห่งชาติ"
+    },
+    {
+     "date": "2027-01-16",
+     "name": "Teacher's Day",
+     "local": "วันครู"
+    },
+    {
+     "date": "2027-02-04",
+     "name": "Beginning of Spring",
+     "local": "ต้นฤดูใบไม้ผลิ"
+    },
+    {
+     "date": "2027-02-05",
+     "name": "Chinese New Year's Eve",
+     "local": "วันก่อนตรุษจีน"
+    },
+    {
+     "date": "2027-02-07",
+     "name": "Chinese New Year · Day 2",
+     "local": "วันตรุษจีน · วันที่ 2"
+    },
+    {
+     "date": "2027-02-08",
+     "name": "Beginning of Ramadan",
+     "local": "การเริ่มต้นของเดือนรอมฎอน"
+    },
+    {
+     "date": "2027-02-14",
+     "name": "Valentine's Day",
+     "local": "วันวาเลนไทน์"
+    },
+    {
+     "date": "2027-02-21",
+     "name": "Lantern Festival",
+     "local": "เทศกาลโคมไฟ"
+    },
+    {
+     "date": "2027-03-20",
+     "name": "March Equinox",
+     "local": "วันเท่ากันของวสันต์"
+    },
+    {
+     "date": "2027-04-01",
+     "name": "April Fools Day",
+     "local": "เอพริลฟูล"
+    },
+    {
+     "date": "2027-04-05",
+     "name": "Qing Ming Festival",
+     "local": "เทศกาลเชงเม้ง"
+    },
+    {
+     "date": "2027-06-09",
+     "name": "Dragon Boat Festival",
+     "local": "เทศกาลแข่งเรือมังกร"
+    },
+    {
+     "date": "2027-06-21",
+     "name": "June Solstice",
+     "local": "ครีษมายัน"
+    },
+    {
+     "date": "2027-08-08",
+     "name": "Chinese Valentine's Day",
+     "local": "วันวาเลนไทน์ของจีน"
+    },
+    {
+     "date": "2027-08-16",
+     "name": "Hungry Ghost Festival",
+     "local": "เทศกาลผีหิว"
+    },
+    {
+     "date": "2027-09-15",
+     "name": "Mid-Autumn Festival",
+     "local": "เทศกาลไหว้พระจันทร์"
+    },
+    {
+     "date": "2027-09-23",
+     "name": "September Equinox",
+     "local": "ศารทายัน"
+    },
+    {
+     "date": "2027-09-24",
+     "name": "Mahidol Day",
+     "local": "วันมหิดล"
+    },
+    {
+     "date": "2027-10-08",
+     "name": "Double Ninth Festival",
+     "local": "เทศกาลดับเบิ้ลไนน์"
+    },
+    {
+     "date": "2027-10-31",
+     "name": "Halloween",
+     "local": "วันฮาโลวีน"
+    },
+    {
+     "date": "2027-12-21",
+     "name": "Winter Solstice",
+     "local": "หิมายัน"
+    },
+    {
+     "date": "2027-12-24",
+     "name": "Christmas Eve",
+     "local": "วันก่อนคริสต์มาส"
+    }
+   ],
+   "school": []
+  }
+ }
+}

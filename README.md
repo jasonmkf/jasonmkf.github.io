@@ -5,7 +5,11 @@ KF Production's site at https://kf-production.com, served by GitHub Pages from t
 copies to the root.
 
 The source is the Next.js app in `web/`. Apps and their pages are in `web/src/data/apps.tsx`,
-the privacy policies in `web/src/components/PrivacyPolicy.tsx`. To change the site:
+the privacy policies in `web/src/components/PrivacyPolicy.tsx`. The holiday pages
+(`/<app>/<year>/`, `/<app>/public-holidays-<year>/`, `/<app>/school-holidays-<year>/`) are built
+from the Lunar Calendar app's data: `node scripts/sync-holidays.mjs` copies it into
+`web/src/data/holidays/`, and `HOLIDAY_YEARS` in `web/src/data/holidays.ts` (and `YEARS` in the
+script) says which years get pages. To change the site:
 
     cd web
     npm install

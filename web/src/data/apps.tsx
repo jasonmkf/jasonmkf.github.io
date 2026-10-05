@@ -14,6 +14,8 @@ export interface App {
   url?: string; // Google Play listing, when the app is published on Android
   appStoreUrl?: string; // App Store listing, when the app is published on iOS
   comingSoon?: string; // shown instead of store badges before release
+  iphoneApp?: string; // id of the app that is this app's iPhone version, when it is a different app
+  unlisted?: boolean; // has a page (store listings link to it) but is left out of the app lists
   rating: string;
   downloads: string;
   reviews: string;
@@ -50,27 +52,33 @@ const LOAN_NOTE = "Figures are estimates. Your bank's offer is final.";
 const UPDATED = '30 September 2026';
 
 const play = (id: string) => `https://play.google.com/store/apps/details?id=${id}`;
+// On iPhone every country calendar is one app, Lunar Calendar & Holidays, set to that country.
+const LUNAR = 'lunar-calendar';
+const LUNAR_APP_STORE = 'https://apps.apple.com/us/app/lunar-calendar-holidays/id6806542405';
 
-export const apps: App[] = [
+// Every app with a page, including unlisted ones; `apps` is what the lists show.
+export const allApps: App[] = [
   {
     id: 'malaysia-calendar',
     seo: {
       title: 'Malaysia Calendar: Public & School Holidays, Cuti Sekolah',
       description:
-        'Malaysian public and school holidays by state (cuti umum, cuti sekolah), long weekends, jadual gaji, and Chinese lunar, Hijri and Tamil calendars. Free on Android.',
+        'Malaysian public and school holidays by state (cuti umum, cuti sekolah), long weekends, jadual gaji, and Chinese lunar, Hijri and Tamil calendars. Free on Android and iPhone.',
     },
     name: 'Malaysia Calendar',
     description:
       'Plan your year with the Malaysia Calendar app, featuring public holidays, zodiac insights, and cultural events.',
     icon: '/app-icons/malaysia-calendar.webp',
     url: play('org.jm.malaysiahorsecalendar'),
+    appStoreUrl: LUNAR_APP_STORE,
+    iphoneApp: LUNAR,
     rating: '4.4',
     downloads: '500K+',
     reviews: '1.46K',
     countries: ['my'],
     category: 'Calendar',
     tagline: 'Malaysian holidays, school holidays and lunar calendar.',
-    platforms: 'Android',
+    platforms: 'Android and iPhone',
     intro:
       'Malaysia Calendar shows public and school holidays for your state, long weekends, and the ' +
       'Chinese lunar, Hijri and Tamil calendars side by side. The holiday data is built into the ' +
@@ -97,20 +105,22 @@ export const apps: App[] = [
     seo: {
       title: 'Singapore Calendar: Public & School Holidays, Lunar Dates',
       description:
-        'Singapore public holidays, MOE school holidays and long weekends, with Chinese lunar dates, a Tong Shing almanac, and Hijri and Tamil calendars. Free on Android.',
+        'Singapore public holidays, MOE school holidays and long weekends, with Chinese lunar dates, a Tong Shing almanac, and Hijri and Tamil calendars. Free on Android and iPhone.',
     },
     name: 'Singapore Calendar',
     description:
       "Navigate Singapore's holidays and zodiac traditions with the Singapore Calendar app.",
     icon: '/app-icons/singapore-calendar.webp',
     url: play('org.kf.singaporehorsecalendar'),
+    appStoreUrl: LUNAR_APP_STORE,
+    iphoneApp: LUNAR,
     rating: '4.5',
     downloads: '50k+',
     reviews: '232',
     countries: ['sg'],
     category: 'Calendar',
     tagline: 'Singapore holidays, school holidays and lunar calendar.',
-    platforms: 'Android',
+    platforms: 'Android and iPhone',
     intro:
       'Singapore Calendar shows public and school holidays, long weekends, and lunar dates with a ' +
       'Tong Shing almanac. The holiday data is built into the app, so it works offline.',
@@ -136,20 +146,22 @@ export const apps: App[] = [
     seo: {
       title: 'Kalendar Hijrah Malaysia: Takwim, Islamic Dates & Cuti Umum',
       description:
-        'The Hijri date every day, the Takwim by state and Islamic dates, with Malaysian public and school holidays, jadual gaji and long weekends. Free on Android.',
+        'The Hijri date every day, the Takwim by state and Islamic dates, with Malaysian public and school holidays, jadual gaji and long weekends. Free on Android and iPhone.',
     },
     name: 'Kalendar Hijrah Malaysia',
     description:
       'Kalendar Hijrah Malaysia offers precise Hijrah dates, the Takwim, and Islamic events for Malaysian Muslims.',
     icon: '/app-icons/kalendar-hijrah.webp',
     url: play('org.jm.kalendarhijrahmalaysia'),
+    appStoreUrl: LUNAR_APP_STORE,
+    iphoneApp: LUNAR,
     rating: '4.3',
     downloads: '50K+',
     reviews: '164',
     countries: ['my'],
     category: 'Calendar',
     tagline: 'Hijri calendar, Takwim and Malaysian holidays.',
-    platforms: 'Android',
+    platforms: 'Android and iPhone',
     intro:
       'Kalendar Hijrah Malaysia puts the Hijri date on every day, with the Takwim for your state, ' +
       'important Islamic dates, and Malaysian public and school holidays.',
@@ -217,20 +229,22 @@ export const apps: App[] = [
     seo: {
       title: 'Thailand Calendar (ปฏิทินประเทศไทย): Thai Holidays & Lunar Dates',
       description:
-        'Thai public holidays and long weekends, the Thai lunar calendar with the Buddhist Era year, a Thai almanac, and Chinese lunar and Hijri dates. Free on Android.',
+        'Thai public holidays and long weekends, the Thai lunar calendar with the Buddhist Era year, a Thai almanac, and Chinese lunar and Hijri dates. Free on Android and iPhone.',
     },
     name: 'Thailand Calendar',
     description:
       'Plan your year with the Thailand Calendar app, featuring public holidays, zodiac insights, and cultural events.',
     icon: '/app-icons/thailand-calendar.webp',
     url: play('org.kf.thaicalendar'),
+    appStoreUrl: LUNAR_APP_STORE,
+    iphoneApp: LUNAR,
     rating: '-',
     downloads: '1K+',
     reviews: '-',
     countries: ['th'],
     category: 'Calendar',
     tagline: 'Thai holidays and the Thai lunar calendar.',
-    platforms: 'Android',
+    platforms: 'Android and iPhone',
     intro: (
       <>
         Thailand Calendar ({L('th', 'ปฏิทินประเทศไทย')}) shows Thai public holidays, long weekends,
@@ -261,20 +275,22 @@ export const apps: App[] = [
     seo: {
       title: 'Vietnamese Calendar (Lịch Vạn Niên): Holidays, Tết & Âm Lịch',
       description:
-        'Vietnamese public holidays and the Tết break, long weekends, and the lunar calendar (âm lịch) with can chi and a traditional almanac. Free on Android.',
+        'Vietnamese public holidays and the Tết break, long weekends, and the lunar calendar (âm lịch) with can chi and a traditional almanac. Free on Android and iPhone.',
     },
     name: 'Vietnamese Calendar',
     description:
       'Stay ahead with Vietnamese Calendar - the most comprehensive and feature-rich calendar designed specifically for Vietnamese!',
     icon: '/app-icons/vietnamese-calendar.webp',
     url: play('org.kf.vietnamesecalendar'),
+    appStoreUrl: LUNAR_APP_STORE,
+    iphoneApp: LUNAR,
     rating: '-',
     downloads: '100+',
     reviews: '-',
     countries: ['vn'],
     category: 'Calendar',
     tagline: 'Vietnamese holidays, Tết and the lunar calendar.',
-    platforms: 'Android',
+    platforms: 'Android and iPhone',
     intro: (
       <>
         Vietnamese Calendar ({L('vi', 'Lịch Vạn Niên - Âm Lịch')}) shows public holidays and the
@@ -304,20 +320,22 @@ export const apps: App[] = [
     seo: {
       title: 'Hong Kong Calendar (香港月曆): Holidays & Lunar Calendar',
       description:
-        'Hong Kong general holidays, school holidays and long weekends, with lunar dates (農曆), the 24 solar terms and a Tong Shing almanac (通勝). Free on Android.',
+        'Hong Kong general holidays, school holidays and long weekends, with lunar dates (農曆), the 24 solar terms and a Tong Shing almanac (通勝). Free on Android and iPhone.',
     },
     name: 'Hong Kong Calendar',
     description:
       'Hong Kong public holidays, lunar dates (農曆), school terms, and local festivals — fully offline in English, Traditional, and Simplified Chinese, with no sign-up needed.',
     icon: '/app-icons/hong-kong-calendar.webp',
     url: play('org.kf.hongkongcalendar'),
+    appStoreUrl: LUNAR_APP_STORE,
+    iphoneApp: LUNAR,
     rating: '-',
     downloads: '10+',
     reviews: '-',
     countries: ['hk'],
     category: 'Calendar',
     tagline: 'Hong Kong holidays, school holidays and lunar calendar.',
-    platforms: 'Android',
+    platforms: 'Android and iPhone',
     intro: (
       <>
         Hong Kong Calendar ({L('zh-Hant-HK', '香港月曆')}) shows general holidays, school holidays,
@@ -347,20 +365,22 @@ export const apps: App[] = [
     seo: {
       title: 'Taiwan Calendar (台灣月曆): Holidays, Make-up Days & Lunar',
       description:
-        'Taiwan national holidays and make-up workdays, long weekends and school breaks, with the lunar calendar, ROC (民國) year and farmer\'s almanac (農民曆). Free on Android.',
+        'Taiwan national holidays and make-up workdays, long weekends and school breaks, with the lunar calendar, ROC (民國) year and farmer\'s almanac (農民曆). Free on Android and iPhone.',
     },
     name: 'Taiwan Calendar',
     description:
       "Taiwan's official public holidays, make-up workdays, and long weekends at a glance — with the lunar calendar, 24 solar terms, school breaks, and your own calendar events, in English and Traditional Chinese.",
     icon: '/app-icons/taiwan-calendar.webp',
     url: play('org.kf.taiwancalendar'),
+    appStoreUrl: LUNAR_APP_STORE,
+    iphoneApp: LUNAR,
     rating: '-',
     downloads: '10+',
     reviews: '-',
     countries: ['tw'],
     category: 'Calendar',
     tagline: 'Taiwan holidays, make-up workdays and lunar calendar.',
-    platforms: 'Android',
+    platforms: 'Android and iPhone',
     intro: (
       <>
         Taiwan Calendar ({L('zh-Hant-TW', '台灣月曆')}) shows national holidays with make-up
@@ -390,20 +410,22 @@ export const apps: App[] = [
     seo: {
       title: 'South Korea Calendar (한국 달력): Holidays & Lunar Dates',
       description:
-        'Korean public and substitute holidays (대체공휴일), long weekends and school holidays, with Korean and Chinese lunar dates and a 만세력 almanac. Free on Android.',
+        'Korean public and substitute holidays (대체공휴일), long weekends and school holidays, with Korean and Chinese lunar dates and a 만세력 almanac. Free on Android and iPhone.',
     },
     name: 'South Korea Calendar',
     description:
       "South Korea's public and substitute holidays with solar and lunar dates side by side — spot long weekends, follow school breaks, and keep Seollal, Chuseok, and more on a home-screen widget.",
     icon: '/app-icons/south-korea-calendar.webp',
     url: play('org.kf.southkoreacalendar'),
+    appStoreUrl: LUNAR_APP_STORE,
+    iphoneApp: LUNAR,
     rating: '-',
     downloads: '-',
     reviews: '-',
     countries: ['kr'],
     category: 'Calendar',
     tagline: 'Korean holidays, substitute holidays and lunar calendar.',
-    platforms: 'Android',
+    platforms: 'Android and iPhone',
     intro: (
       <>
         South Korea Calendar ({L('ko', '한국 달력')}) shows public holidays and substitute
@@ -432,20 +454,22 @@ export const apps: App[] = [
     seo: {
       title: 'Indonesia Calendar (Kalender Indonesia): Holidays & Cuti Bersama',
       description:
-        'Indonesian national holidays and cuti bersama, school holidays by province, long weekends, the Javanese pasaran, and Hijri and Chinese lunar dates. Free on Android.',
+        'Indonesian national holidays and cuti bersama, school holidays by province, long weekends, the Javanese pasaran, and Hijri and Chinese lunar dates. Free on Android and iPhone.',
     },
     name: 'Indonesia Calendar',
     description:
       "Indonesia's national holidays and cuti bersama, plus school breaks and regional holidays for all 38 provinces — with Hijri dates, a zoomable yearly almanac, and a long-weekend finder.",
     icon: '/app-icons/indonesia-calendar.webp',
     url: play('org.kf.indonesiacalendar'),
+    appStoreUrl: LUNAR_APP_STORE,
+    iphoneApp: LUNAR,
     rating: '-',
     downloads: '-',
     reviews: '-',
     countries: ['id'],
     category: 'Calendar',
     tagline: 'Indonesian holidays, cuti bersama and Javanese calendar.',
-    platforms: 'Android',
+    platforms: 'Android and iPhone',
     intro: (
       <>
         Indonesia Calendar ({L('id', 'Kalender Indonesia')}) shows national holidays and cuti
@@ -474,20 +498,22 @@ export const apps: App[] = [
     seo: {
       title: 'Australia Calendar: Public Holidays & School Terms by State',
       description:
-        'Australian public holidays and government school terms for every state and territory, long weekends, and the Chinese lunar calendar with an almanac. Free on Android.',
+        'Australian public holidays and government school terms for every state and territory, long weekends, and the Chinese lunar calendar with an almanac. Free on Android and iPhone.',
     },
     name: 'Australia Calendar',
     description:
       'Public holidays and government school terms for every state and territory, long weekends, and the Chinese lunar calendar with an almanac.',
     icon: '/app-icons/australia-calendar.webp',
     url: play('org.kf.australiacalendar'),
+    appStoreUrl: LUNAR_APP_STORE,
+    iphoneApp: LUNAR,
     rating: '-',
     downloads: '-',
     reviews: '-',
     countries: ['au'],
     category: 'Calendar',
     tagline: 'Australian public holidays and school terms by state.',
-    platforms: 'Android',
+    platforms: 'Android and iPhone',
     intro:
       'Australia Calendar shows public holidays and government school terms for your state or ' +
       'territory, long weekends, and the Chinese lunar calendar.',
@@ -560,7 +586,8 @@ export const apps: App[] = [
     description:
       'One calendar for nine countries — pick yours and get every public holiday, school break, and long weekend worth booking leave for, with the lunar date daily and a Chinese almanac. No sign-up.',
     icon: '/app-icons/lunar-calendar.webp',
-    appStoreUrl: 'https://apps.apple.com/us/app/lunar-calendar-holidays/id6806542405',
+    appStoreUrl: LUNAR_APP_STORE,
+    unlisted: true,
     rating: '-',
     downloads: '-',
     reviews: '-',
@@ -646,4 +673,6 @@ export const apps: App[] = [
   },
 ];
 
-export const findApp = (id: string) => apps.find((a) => a.id === id);
+export const apps = allApps.filter((a) => !a.unlisted);
+
+export const findApp = (id: string) => allApps.find((a) => a.id === id);

@@ -1,12 +1,15 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import StoreBadges from '@/components/StoreBadges';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import RelatedApps from '@/components/RelatedApps';
-import { apps, findApp } from '@/data/apps';
+import { HolidayNav } from '@/components/HolidayParts';
+import { allApps, findApp } from '@/data/apps';
+import { countries, countryForApp, findCountry, holidayPath, LATEST_YEAR } from '@/data/holidays';
 import { appJsonLd, JsonLd, pageMetadata } from '@/lib/seo';
 
 type Props = { params: Promise<{ slug: string }> };
@@ -14,7 +17,7 @@ type Props = { params: Promise<{ slug: string }> };
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return apps.map((app) => ({ slug: app.id }));
+  return allApps.map((app) => ({ slug: app.id }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -34,6 +37,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function AppPage({ params }: Props) {
   const app = findApp((await params).slug);
   if (!app) notFound();
+  const iphoneApp = app.iphoneApp ? findApp(app.iphoneApp) : undefined;
+  // Kalendar Hijrah is a Malaysian calendar too, so it links to Malaysia's holiday pages.
+  const country =
+    countryForApp(app.id) ??
+    (app.category === 'Calendar' && app.countries.length === 1 ? findCountry(app.countries[0]) : undefined);
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -77,6 +85,11 @@ export default async function AppPage({ params }: Props) {
                   />
                 )}
               </div>
+              {iphoneApp && country && (
+                <p className="mt-3 text-sm text-purple-200">
+                  On iPhone, get {iphoneApp.name} and choose {country.name}.
+                </p>
+              )}
             </div>
           </div>
         </div>
@@ -94,6 +107,37 @@ export default async function AppPage({ params }: Props) {
                   </div>
                 ))}
               </div>
+
+              {country && (
+                <div className="bg-white rounded-2xl ring-1 ring-gray-200 p-6 sm:p-8">
+                  <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+                    {country.name} holidays {LATEST_YEAR}
+                  </h2>
+                  <p className="mt-3 text-gray-600">
+                    The public{country.hasSchool && ' and school'} holidays in the app, on the web.
+                  </p>
+                  <div className="mt-5">
+                    <HolidayNav country={country} />
+                  </div>
+                </div>
+              )}
+
+              {app.unlisted && app.category === 'Calendar' && (
+                <div className="bg-white rounded-2xl ring-1 ring-gray-200 p-6 sm:p-8">
+                  <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+                    Public holidays {LATEST_YEAR} by country
+                  </h2>
+                  <ul className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    {countries.map((c) => (
+                      <li key={c.code}>
+                        <Link href={holidayPath(c, 'public', LATEST_YEAR)} className="text-purple-800 font-medium hover:underline">
+                          {c.name} public holidays {LATEST_YEAR}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
 
               <div className="bg-white rounded-2xl ring-1 ring-gray-200 p-6 sm:p-8">
                 <h2 className="text-2xl font-bold tracking-tight text-gray-900">Features</h2>
@@ -140,7 +184,7 @@ export default async function AppPage({ params }: Props) {
                   href={`/${app.id}/privacy.html`}
                   className="mt-5 inline-flex items-center gap-2 rounded-full bg-purple-700 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-purple-700/25 hover:bg-purple-600 transition-colors"
                 >
-                  Privacy Policy
+                  {iphoneApp ? 'Android privacy policy' : 'Privacy Policy'}
                   <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path
                       fillRule="evenodd"
@@ -149,6 +193,14 @@ export default async function AppPage({ params }: Props) {
                     />
                   </svg>
                 </a>
+                {iphoneApp && (
+                  <a
+                    href={`/${iphoneApp.id}/privacy.html`}
+                    className="mt-3 block text-sm font-semibold text-purple-800 hover:underline"
+                  >
+                    iPhone privacy policy ({iphoneApp.name})
+                  </a>
+                )}
               </div>
 
               <div className="bg-white rounded-2xl ring-1 ring-gray-200 p-6">

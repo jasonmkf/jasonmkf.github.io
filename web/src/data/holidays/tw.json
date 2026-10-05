@@ -1,0 +1,753 @@
+{
+ "country": "TW",
+ "years": {
+  "2026": {
+   "publicHolidays": [
+    {
+     "date": "2026-01-01",
+     "name": "New Year's Day",
+     "local": "元旦",
+     "cn": "元旦"
+    },
+    {
+     "date": "2026-01-01",
+     "name": "Republic Day",
+     "local": "中華民國開國紀念日",
+     "cn": "中华民国开国纪念日"
+    },
+    {
+     "date": "2026-02-15",
+     "name": "Little Lunar New Year's Eve",
+     "local": "小年夜",
+     "cn": "小年夜"
+    },
+    {
+     "date": "2026-02-16",
+     "name": "Lunar New Year's Eve",
+     "local": "農曆除夕",
+     "cn": "农历除夕"
+    },
+    {
+     "date": "2026-02-17",
+     "name": "Lunar New Year",
+     "local": "農曆新年",
+     "cn": "农历新年"
+    },
+    {
+     "date": "2026-02-18",
+     "name": "Lunar New Year",
+     "local": "農曆新年",
+     "cn": "农历新年"
+    },
+    {
+     "date": "2026-02-19",
+     "name": "Lunar New Year",
+     "local": "農曆新年",
+     "cn": "农历新年"
+    },
+    {
+     "date": "2026-02-20",
+     "name": "Lunar New Year",
+     "local": "農曆新年",
+     "cn": "农历新年"
+    },
+    {
+     "date": "2026-02-27",
+     "name": "Peace Memorial Day Holiday",
+     "local": "和平紀念日假期",
+     "cn": "和平纪念日假期"
+    },
+    {
+     "date": "2026-02-28",
+     "name": "Peace Memorial Day",
+     "local": "和平紀念日",
+     "cn": "和平纪念日"
+    },
+    {
+     "date": "2026-04-03",
+     "name": "Children's Day Holiday",
+     "local": "兒童節假期",
+     "cn": "儿童节假期"
+    },
+    {
+     "date": "2026-04-04",
+     "name": "Children's Day",
+     "local": "兒童節",
+     "cn": "儿童节"
+    },
+    {
+     "date": "2026-04-05",
+     "name": "Qing Ming Festival",
+     "local": "清明節",
+     "cn": "清明节"
+    },
+    {
+     "date": "2026-04-06",
+     "name": "Qing Ming Festival Holiday",
+     "local": "清明節假期",
+     "cn": "清明节假期"
+    },
+    {
+     "date": "2026-05-01",
+     "name": "Labour Day",
+     "local": "勞動節",
+     "cn": "劳动节"
+    },
+    {
+     "date": "2026-06-19",
+     "name": "Dragon Boat Festival",
+     "local": "端午節",
+     "cn": "端午节"
+    },
+    {
+     "date": "2026-09-25",
+     "name": "Mid-Autumn Festival",
+     "local": "中秋節",
+     "cn": "中秋节"
+    },
+    {
+     "date": "2026-09-28",
+     "name": "Teacher's Day · Confucius' Birthday",
+     "local": "教師節·孔子誕辰紀念日",
+     "cn": "教师节·孔子诞辰纪念日"
+    },
+    {
+     "date": "2026-10-09",
+     "name": "National Day Holiday",
+     "local": "國慶日假期",
+     "cn": "国庆日假期"
+    },
+    {
+     "date": "2026-10-10",
+     "name": "National Day",
+     "local": "國慶日",
+     "cn": "国庆日"
+    },
+    {
+     "date": "2026-10-25",
+     "name": "Retrocession Day",
+     "local": "臺灣光復節",
+     "cn": "台湾光复节"
+    },
+    {
+     "date": "2026-10-26",
+     "name": "Retrocession Day Holiday",
+     "local": "臺灣光復節假期",
+     "cn": "台湾光复节假期"
+    },
+    {
+     "date": "2026-12-25",
+     "name": "Constitution Day",
+     "local": "行憲紀念日",
+     "cn": "行宪纪念日"
+    }
+   ],
+   "observances": [
+    {
+     "date": "2026-01-19",
+     "name": "Fire Fighter's Day",
+     "local": "消防節"
+    },
+    {
+     "date": "2026-02-04",
+     "name": "Beginning of Spring",
+     "local": "立春"
+    },
+    {
+     "date": "2026-02-04",
+     "name": "Farmer's Day",
+     "local": "農民節"
+    },
+    {
+     "date": "2026-02-14",
+     "name": "Valentine's Day",
+     "local": "情人節"
+    },
+    {
+     "date": "2026-02-17",
+     "name": "Taoism Day",
+     "local": "道教節"
+    },
+    {
+     "date": "2026-03-03",
+     "name": "Lantern Festival",
+     "local": "元宵節"
+    },
+    {
+     "date": "2026-03-08",
+     "name": "Women's Day",
+     "local": "婦女節"
+    },
+    {
+     "date": "2026-03-12",
+     "name": "Arbor Day",
+     "local": "植樹節"
+    },
+    {
+     "date": "2026-03-20",
+     "name": "March Equinox",
+     "local": "春分"
+    },
+    {
+     "date": "2026-03-29",
+     "name": "Youth Day",
+     "local": "青年節"
+    },
+    {
+     "date": "2026-04-01",
+     "name": "April Fool's Day",
+     "local": "愚人節"
+    },
+    {
+     "date": "2026-04-06",
+     "name": "Guan Yin's Birthday",
+     "local": "觀音誕"
+    },
+    {
+     "date": "2026-05-10",
+     "name": "Mother's Day",
+     "local": "母親節"
+    },
+    {
+     "date": "2026-05-12",
+     "name": "International Nurses Day",
+     "local": "國際護理師節"
+    },
+    {
+     "date": "2026-05-24",
+     "name": "Buddha's Birthday",
+     "local": "佛陀誕辰日"
+    },
+    {
+     "date": "2026-06-05",
+     "name": "Environment Day",
+     "local": "環境日"
+    },
+    {
+     "date": "2026-06-08",
+     "name": "National Ocean Day",
+     "local": "國家海洋日"
+    },
+    {
+     "date": "2026-06-15",
+     "name": "Police Day",
+     "local": "警察節"
+    },
+    {
+     "date": "2026-06-21",
+     "name": "June Solstice",
+     "local": "夏至"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "Fisherman's Day",
+     "local": "漁民節"
+    },
+    {
+     "date": "2026-08-08",
+     "name": "Father's Day",
+     "local": "父親節"
+    },
+    {
+     "date": "2026-08-19",
+     "name": "Qixi Festival",
+     "local": "七夕"
+    },
+    {
+     "date": "2026-08-23",
+     "name": "Grandparents' Day",
+     "local": "祖父母節"
+    },
+    {
+     "date": "2026-08-27",
+     "name": "Ghost Festival",
+     "local": "中元節"
+    },
+    {
+     "date": "2026-09-03",
+     "name": "Armed Forces Day",
+     "local": "軍人節"
+    },
+    {
+     "date": "2026-09-09",
+     "name": "National Sports Day",
+     "local": "國民體育日"
+    },
+    {
+     "date": "2026-09-23",
+     "name": "September Equinox",
+     "local": "秋分"
+    },
+    {
+     "date": "2026-10-18",
+     "name": "Double Ninth Festival",
+     "local": "重陽節"
+    },
+    {
+     "date": "2026-10-31",
+     "name": "Halloween",
+     "local": "萬聖節"
+    },
+    {
+     "date": "2026-11-08",
+     "name": "Coast Guard Day",
+     "local": "海巡節"
+    },
+    {
+     "date": "2026-11-12",
+     "name": "Chinese Cultural Renaissance Day",
+     "local": "中華文化復興節"
+    },
+    {
+     "date": "2026-11-12",
+     "name": "National Doctor's Day",
+     "local": "醫師節"
+    },
+    {
+     "date": "2026-12-03",
+     "name": "Disability Day",
+     "local": "身心障礙者日"
+    },
+    {
+     "date": "2026-12-10",
+     "name": "Human Rights Day",
+     "local": "人權日"
+    },
+    {
+     "date": "2026-12-18",
+     "name": "Immigrants Day",
+     "local": "移民日"
+    },
+    {
+     "date": "2026-12-22",
+     "name": "Winter Solstice",
+     "local": "冬至"
+    },
+    {
+     "date": "2026-12-24",
+     "name": "Christmas Eve",
+     "local": "平安夜"
+    },
+    {
+     "date": "2026-12-25",
+     "name": "Christmas Day",
+     "local": "聖誕節"
+    },
+    {
+     "date": "2026-12-31",
+     "name": "New Year's Eve",
+     "local": "跨年夜"
+    }
+   ],
+   "school": [
+    {
+     "kind": "term",
+     "key": "semester_1",
+     "start": "2025-09-01",
+     "end": "2026-01-23"
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2026-01-24",
+     "end": "2026-02-22"
+    },
+    {
+     "kind": "term",
+     "key": "semester_2",
+     "start": "2026-02-23",
+     "end": "2026-06-30"
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-07-01",
+     "end": "2026-08-30"
+    },
+    {
+     "kind": "term",
+     "key": "semester_1",
+     "start": "2026-08-31",
+     "end": "2027-01-20"
+    }
+   ]
+  },
+  "2027": {
+   "publicHolidays": [
+    {
+     "date": "2027-01-01",
+     "name": "New Year's Day",
+     "local": "元旦",
+     "cn": "元旦"
+    },
+    {
+     "date": "2027-01-01",
+     "name": "Republic Day",
+     "local": "中華民國開國紀念日",
+     "cn": "中华民国开国纪念日"
+    },
+    {
+     "date": "2027-02-04",
+     "name": "Little Lunar New Year's Eve",
+     "local": "小年夜",
+     "cn": "小年夜"
+    },
+    {
+     "date": "2027-02-05",
+     "name": "Lunar New Year's Eve",
+     "local": "農曆除夕",
+     "cn": "农历除夕"
+    },
+    {
+     "date": "2027-02-06",
+     "name": "Lunar New Year",
+     "local": "農曆新年",
+     "cn": "农历新年"
+    },
+    {
+     "date": "2027-02-07",
+     "name": "Lunar New Year",
+     "local": "農曆新年",
+     "cn": "农历新年"
+    },
+    {
+     "date": "2027-02-08",
+     "name": "Lunar New Year",
+     "local": "農曆新年",
+     "cn": "农历新年"
+    },
+    {
+     "date": "2027-02-09",
+     "name": "Lunar New Year",
+     "local": "農曆新年",
+     "cn": "农历新年"
+    },
+    {
+     "date": "2027-02-10",
+     "name": "Lunar New Year Holiday",
+     "local": "農曆新年假期",
+     "cn": "农历新年假期"
+    },
+    {
+     "date": "2027-02-28",
+     "name": "Peace Memorial Day",
+     "local": "和平紀念日",
+     "cn": "和平纪念日"
+    },
+    {
+     "date": "2027-03-01",
+     "name": "Peace Memorial Day Holiday",
+     "local": "和平紀念日假期",
+     "cn": "和平纪念日假期"
+    },
+    {
+     "date": "2027-04-04",
+     "name": "Children's Day",
+     "local": "兒童節",
+     "cn": "儿童节"
+    },
+    {
+     "date": "2027-04-05",
+     "name": "Qing Ming Festival",
+     "local": "清明節",
+     "cn": "清明节"
+    },
+    {
+     "date": "2027-04-06",
+     "name": "Children's Day Holiday",
+     "local": "兒童節假期",
+     "cn": "儿童节假期"
+    },
+    {
+     "date": "2027-04-30",
+     "name": "Labour Day Holiday",
+     "local": "勞動節假期",
+     "cn": "劳动节假期"
+    },
+    {
+     "date": "2027-05-01",
+     "name": "Labour Day",
+     "local": "勞動節",
+     "cn": "劳动节"
+    },
+    {
+     "date": "2027-06-09",
+     "name": "Dragon Boat Festival",
+     "local": "端午節",
+     "cn": "端午节"
+    },
+    {
+     "date": "2027-09-15",
+     "name": "Mid-Autumn Festival",
+     "local": "中秋節",
+     "cn": "中秋节"
+    },
+    {
+     "date": "2027-09-28",
+     "name": "Teacher's Day · Confucius' Birthday",
+     "local": "教師節·孔子誕辰紀念日",
+     "cn": "教师节·孔子诞辰纪念日"
+    },
+    {
+     "date": "2027-10-10",
+     "name": "National Day",
+     "local": "國慶日",
+     "cn": "国庆日"
+    },
+    {
+     "date": "2027-10-11",
+     "name": "National Day Holiday",
+     "local": "國慶日假期",
+     "cn": "国庆日假期"
+    },
+    {
+     "date": "2027-10-25",
+     "name": "Retrocession Day",
+     "local": "臺灣光復節",
+     "cn": "台湾光复节"
+    },
+    {
+     "date": "2027-12-24",
+     "name": "Constitution Day Holiday",
+     "local": "行憲紀念日假期",
+     "cn": "行宪纪念日假期"
+    },
+    {
+     "date": "2027-12-25",
+     "name": "Constitution Day",
+     "local": "行憲紀念日",
+     "cn": "行宪纪念日"
+    },
+    {
+     "date": "2027-12-31",
+     "name": "Republic Day Holiday",
+     "local": "中華民國開國紀念日假期",
+     "cn": "中华民国开国纪念日假期"
+    }
+   ],
+   "observances": [
+    {
+     "date": "2027-01-19",
+     "name": "Fire Fighter's Day",
+     "local": "消防節"
+    },
+    {
+     "date": "2027-02-04",
+     "name": "Beginning of Spring",
+     "local": "立春"
+    },
+    {
+     "date": "2027-02-04",
+     "name": "Farmer's Day",
+     "local": "農民節"
+    },
+    {
+     "date": "2027-02-06",
+     "name": "Taoism Day",
+     "local": "道教節"
+    },
+    {
+     "date": "2027-02-14",
+     "name": "Valentine's Day",
+     "local": "情人節"
+    },
+    {
+     "date": "2027-02-20",
+     "name": "Lantern Festival",
+     "local": "元宵節"
+    },
+    {
+     "date": "2027-03-08",
+     "name": "Women's Day",
+     "local": "婦女節"
+    },
+    {
+     "date": "2027-03-12",
+     "name": "Arbor Day",
+     "local": "植樹節"
+    },
+    {
+     "date": "2027-03-21",
+     "name": "March Equinox",
+     "local": "春分"
+    },
+    {
+     "date": "2027-03-26",
+     "name": "Guan Yin's Birthday",
+     "local": "觀音誕"
+    },
+    {
+     "date": "2027-03-29",
+     "name": "Youth Day",
+     "local": "青年節"
+    },
+    {
+     "date": "2027-04-01",
+     "name": "April Fool's Day",
+     "local": "愚人節"
+    },
+    {
+     "date": "2027-05-09",
+     "name": "Mother's Day",
+     "local": "母親節"
+    },
+    {
+     "date": "2027-05-12",
+     "name": "International Nurses Day",
+     "local": "國際護理師節"
+    },
+    {
+     "date": "2027-05-13",
+     "name": "Buddha's Birthday",
+     "local": "佛陀誕辰日"
+    },
+    {
+     "date": "2027-06-05",
+     "name": "Environment Day",
+     "local": "環境日"
+    },
+    {
+     "date": "2027-06-08",
+     "name": "National Ocean Day",
+     "local": "國家海洋日"
+    },
+    {
+     "date": "2027-06-15",
+     "name": "Police Day",
+     "local": "警察節"
+    },
+    {
+     "date": "2027-06-21",
+     "name": "June Solstice",
+     "local": "夏至"
+    },
+    {
+     "date": "2027-07-01",
+     "name": "Fisherman's Day",
+     "local": "漁民節"
+    },
+    {
+     "date": "2027-08-08",
+     "name": "Father's Day",
+     "local": "父親節"
+    },
+    {
+     "date": "2027-08-08",
+     "name": "Qixi Festival",
+     "local": "七夕"
+    },
+    {
+     "date": "2027-08-16",
+     "name": "Ghost Festival",
+     "local": "中元節"
+    },
+    {
+     "date": "2027-08-22",
+     "name": "Grandparents' Day",
+     "local": "祖父母節"
+    },
+    {
+     "date": "2027-09-03",
+     "name": "Armed Forces Day",
+     "local": "軍人節"
+    },
+    {
+     "date": "2027-09-09",
+     "name": "National Sports Day",
+     "local": "國民體育日"
+    },
+    {
+     "date": "2027-09-23",
+     "name": "September Equinox",
+     "local": "秋分"
+    },
+    {
+     "date": "2027-10-08",
+     "name": "Double Ninth Festival",
+     "local": "重陽節"
+    },
+    {
+     "date": "2027-10-31",
+     "name": "Halloween",
+     "local": "萬聖節"
+    },
+    {
+     "date": "2027-11-08",
+     "name": "Coast Guard Day",
+     "local": "海巡節"
+    },
+    {
+     "date": "2027-11-12",
+     "name": "Chinese Cultural Renaissance Day",
+     "local": "中華文化復興節"
+    },
+    {
+     "date": "2027-11-12",
+     "name": "National Doctor's Day",
+     "local": "醫師節"
+    },
+    {
+     "date": "2027-12-03",
+     "name": "Disability Day",
+     "local": "身心障礙者日"
+    },
+    {
+     "date": "2027-12-10",
+     "name": "Human Rights Day",
+     "local": "人權日"
+    },
+    {
+     "date": "2027-12-18",
+     "name": "Immigrants Day",
+     "local": "移民日"
+    },
+    {
+     "date": "2027-12-22",
+     "name": "Winter Solstice",
+     "local": "冬至"
+    },
+    {
+     "date": "2027-12-24",
+     "name": "Christmas Eve",
+     "local": "平安夜"
+    },
+    {
+     "date": "2027-12-25",
+     "name": "Christmas Day",
+     "local": "聖誕節"
+    },
+    {
+     "date": "2027-12-31",
+     "name": "New Year's Eve",
+     "local": "跨年夜"
+    }
+   ],
+   "school": [
+    {
+     "kind": "term",
+     "key": "semester_1",
+     "start": "2026-08-31",
+     "end": "2027-01-20"
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2027-01-21",
+     "end": "2027-02-10"
+    },
+    {
+     "kind": "term",
+     "key": "semester_2",
+     "start": "2027-02-11",
+     "end": "2027-06-30"
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2027-07-01",
+     "end": "2027-08-29"
+    }
+   ]
+  }
+ }
+}

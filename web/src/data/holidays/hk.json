@@ -1,0 +1,601 @@
+{
+ "country": "HK",
+ "years": {
+  "2026": {
+   "publicHolidays": [
+    {
+     "date": "2026-01-01",
+     "name": "New Year's Day",
+     "local": "元旦",
+     "cn": "元旦"
+    },
+    {
+     "date": "2026-02-17",
+     "name": "Lunar New Year",
+     "local": "農曆新年",
+     "cn": "农历新年"
+    },
+    {
+     "date": "2026-02-18",
+     "name": "Second day of Lunar New Year",
+     "local": "農曆年初二",
+     "cn": "农历年初二"
+    },
+    {
+     "date": "2026-02-19",
+     "name": "Third day of Lunar New Year",
+     "local": "農曆年初三",
+     "cn": "农历年初三"
+    },
+    {
+     "date": "2026-04-03",
+     "name": "Good Friday",
+     "local": "耶穌受難節",
+     "cn": "耶稣受难节"
+    },
+    {
+     "date": "2026-04-04",
+     "name": "Good Friday Holiday",
+     "local": "耶穌受難節假期",
+     "cn": "耶稣受难节假期"
+    },
+    {
+     "date": "2026-04-05",
+     "name": "Ching Ming Festival",
+     "local": "清明節",
+     "cn": "清明节"
+    },
+    {
+     "date": "2026-04-06",
+     "name": "Ching Ming Festival Holiday",
+     "local": "清明節假期",
+     "cn": "清明节假期"
+    },
+    {
+     "date": "2026-04-06",
+     "name": "Easter Monday",
+     "local": "復活節星期一",
+     "cn": "复活节星期一"
+    },
+    {
+     "date": "2026-04-07",
+     "name": "Easter Monday Holiday",
+     "local": "復活節星期一假期",
+     "cn": "复活节星期一假期"
+    },
+    {
+     "date": "2026-05-01",
+     "name": "Labour Day",
+     "local": "勞動節",
+     "cn": "劳动节"
+    },
+    {
+     "date": "2026-05-24",
+     "name": "Buddha's Birthday",
+     "local": "佛誕",
+     "cn": "佛诞"
+    },
+    {
+     "date": "2026-05-25",
+     "name": "Buddha's Birthday Holiday",
+     "local": "佛誕假期",
+     "cn": "佛诞假期"
+    },
+    {
+     "date": "2026-06-19",
+     "name": "Dragon Boat Festival",
+     "local": "端午節",
+     "cn": "端午节"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "Hong Kong SAR Establishment Day",
+     "local": "香港特別行政區成立紀念日",
+     "cn": "香港特别行政区成立纪念日"
+    },
+    {
+     "date": "2026-09-26",
+     "name": "Mid-Autumn Festival Holiday",
+     "local": "中秋節假期",
+     "cn": "中秋节假期"
+    },
+    {
+     "date": "2026-10-01",
+     "name": "National Day",
+     "local": "國慶日",
+     "cn": "国庆日"
+    },
+    {
+     "date": "2026-10-18",
+     "name": "Chung Yeung Festival",
+     "local": "重陽節",
+     "cn": "重阳节"
+    },
+    {
+     "date": "2026-10-19",
+     "name": "Chung Yeung Festival Holiday",
+     "local": "重陽節假期",
+     "cn": "重阳节假期"
+    },
+    {
+     "date": "2026-12-25",
+     "name": "Christmas Day",
+     "local": "聖誕節",
+     "cn": "圣诞节"
+    },
+    {
+     "date": "2026-12-26",
+     "name": "The first weekday after Christmas Day",
+     "local": "聖誕節後第一個周日",
+     "cn": "圣诞节后第一个周日"
+    }
+   ],
+   "observances": [
+    {
+     "date": "2026-02-04",
+     "name": "Beginning of Spring",
+     "local": "立春"
+    },
+    {
+     "date": "2026-02-14",
+     "name": "Valentine's Day",
+     "local": "情人節"
+    },
+    {
+     "date": "2026-02-16",
+     "name": "Lunar New Year's Eve",
+     "local": "農曆除夕"
+    },
+    {
+     "date": "2026-02-19",
+     "name": "Che Kung Festival",
+     "local": "車公誕"
+    },
+    {
+     "date": "2026-03-03",
+     "name": "Lantern Festival",
+     "local": "元宵節"
+    },
+    {
+     "date": "2026-03-08",
+     "name": "International Women's Day",
+     "local": "國際婦女節"
+    },
+    {
+     "date": "2026-03-20",
+     "name": "March Equinox",
+     "local": "春分"
+    },
+    {
+     "date": "2026-04-01",
+     "name": "April Fool's Day",
+     "local": "愚人節"
+    },
+    {
+     "date": "2026-04-06",
+     "name": "Guan Yin's Birthday",
+     "local": "觀音誕"
+    },
+    {
+     "date": "2026-05-09",
+     "name": "Tin Hau Festival",
+     "local": "天后誕"
+    },
+    {
+     "date": "2026-05-10",
+     "name": "Mother's Day",
+     "local": "母親節"
+    },
+    {
+     "date": "2026-05-24",
+     "name": "Cheung Chau Bun Festival",
+     "local": "長洲太平清醮"
+    },
+    {
+     "date": "2026-05-24",
+     "name": "Tam Kung Festival",
+     "local": "譚公誕"
+    },
+    {
+     "date": "2026-06-21",
+     "name": "June Solstice",
+     "local": "夏至"
+    },
+    {
+     "date": "2026-06-21",
+     "name": "Father's Day",
+     "local": "父親節"
+    },
+    {
+     "date": "2026-08-19",
+     "name": "Qixi Festival",
+     "local": "七夕"
+    },
+    {
+     "date": "2026-08-27",
+     "name": "Ghost Festival",
+     "local": "中元節"
+    },
+    {
+     "date": "2026-09-23",
+     "name": "September Equinox",
+     "local": "秋分"
+    },
+    {
+     "date": "2026-09-25",
+     "name": "Mid-Autumn Festival",
+     "local": "中秋節"
+    },
+    {
+     "date": "2026-10-31",
+     "name": "Halloween",
+     "local": "萬聖節"
+    },
+    {
+     "date": "2026-11-08",
+     "name": "Remembrance Day",
+     "local": "和平紀念日"
+    },
+    {
+     "date": "2026-11-11",
+     "name": "Singles' Day",
+     "local": "光棍節"
+    },
+    {
+     "date": "2026-12-22",
+     "name": "Winter Solstice",
+     "local": "冬至"
+    },
+    {
+     "date": "2026-12-24",
+     "name": "Christmas Eve",
+     "local": "平安夜"
+    },
+    {
+     "date": "2026-12-31",
+     "name": "New Year's Eve",
+     "local": "跨年夜"
+    }
+   ],
+   "school": [
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2025-12-24",
+     "end": "2026-01-03"
+    },
+    {
+     "kind": "term",
+     "key": "semester_2",
+     "start": "2026-01-04",
+     "end": "2026-02-11"
+    },
+    {
+     "kind": "break",
+     "key": "lunar_new_year_break",
+     "start": "2026-02-12",
+     "end": "2026-02-21"
+    },
+    {
+     "kind": "term",
+     "key": "semester_2",
+     "start": "2026-02-22",
+     "end": "2026-04-02"
+    },
+    {
+     "kind": "break",
+     "key": "easter_break",
+     "start": "2026-04-03",
+     "end": "2026-04-11"
+    },
+    {
+     "kind": "term",
+     "key": "semester_3",
+     "start": "2026-04-12",
+     "end": "2026-07-09"
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-07-10",
+     "end": "2026-08-31"
+    },
+    {
+     "kind": "term",
+     "key": "semester_1",
+     "start": "2026-09-01",
+     "end": "2026-12-23"
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2026-12-24",
+     "end": "2027-01-02"
+    }
+   ]
+  },
+  "2027": {
+   "publicHolidays": [
+    {
+     "date": "2027-01-01",
+     "name": "New Year's Day",
+     "local": "元旦",
+     "cn": "元旦"
+    },
+    {
+     "date": "2027-02-06",
+     "name": "Lunar New Year",
+     "local": "農曆新年",
+     "cn": "农历新年"
+    },
+    {
+     "date": "2027-02-07",
+     "name": "Second day of Lunar New Year",
+     "local": "農曆年初二",
+     "cn": "农历年初二"
+    },
+    {
+     "date": "2027-02-08",
+     "name": "Third day of Lunar New Year",
+     "local": "農曆年初三",
+     "cn": "农历年初三"
+    },
+    {
+     "date": "2027-02-09",
+     "name": "Fourth day of Lunar New Year",
+     "local": "農曆年初四",
+     "cn": "农历年初四"
+    },
+    {
+     "date": "2027-03-26",
+     "name": "Good Friday",
+     "local": "耶穌受難節",
+     "cn": "耶稣受难节"
+    },
+    {
+     "date": "2027-03-27",
+     "name": "Good Friday Holiday",
+     "local": "耶穌受難節假期",
+     "cn": "耶稣受难节假期"
+    },
+    {
+     "date": "2027-03-29",
+     "name": "Easter Monday",
+     "local": "復活節星期一",
+     "cn": "复活节星期一"
+    },
+    {
+     "date": "2027-04-05",
+     "name": "Ching Ming Festival",
+     "local": "清明節",
+     "cn": "清明节"
+    },
+    {
+     "date": "2027-05-01",
+     "name": "Labour Day",
+     "local": "勞動節",
+     "cn": "劳动节"
+    },
+    {
+     "date": "2027-05-13",
+     "name": "Buddha's Birthday",
+     "local": "佛誕",
+     "cn": "佛诞"
+    },
+    {
+     "date": "2027-06-09",
+     "name": "Dragon Boat Festival",
+     "local": "端午節",
+     "cn": "端午节"
+    },
+    {
+     "date": "2027-07-01",
+     "name": "Hong Kong SAR Establishment Day",
+     "local": "香港特別行政區成立紀念日",
+     "cn": "香港特别行政区成立纪念日"
+    },
+    {
+     "date": "2027-09-16",
+     "name": "Mid-Autumn Festival Holiday",
+     "local": "中秋節假期",
+     "cn": "中秋节假期"
+    },
+    {
+     "date": "2027-10-01",
+     "name": "National Day",
+     "local": "國慶日",
+     "cn": "国庆日"
+    },
+    {
+     "date": "2027-10-08",
+     "name": "Chung Yeung Festival",
+     "local": "重陽節",
+     "cn": "重阳节"
+    },
+    {
+     "date": "2027-12-25",
+     "name": "Christmas Day",
+     "local": "聖誕節",
+     "cn": "圣诞节"
+    },
+    {
+     "date": "2027-12-27",
+     "name": "The first weekday after Christmas Day",
+     "local": "聖誕節後第一個周日",
+     "cn": "圣诞节后第一个周日"
+    }
+   ],
+   "observances": [
+    {
+     "date": "2027-02-04",
+     "name": "Beginning of Spring",
+     "local": "立春"
+    },
+    {
+     "date": "2027-02-05",
+     "name": "Lunar New Year's Eve",
+     "local": "農曆除夕"
+    },
+    {
+     "date": "2027-02-08",
+     "name": "Che Kung Festival",
+     "local": "車公誕"
+    },
+    {
+     "date": "2027-02-14",
+     "name": "Valentine's Day",
+     "local": "情人節"
+    },
+    {
+     "date": "2027-02-20",
+     "name": "Lantern Festival",
+     "local": "元宵節"
+    },
+    {
+     "date": "2027-03-08",
+     "name": "International Women's Day",
+     "local": "國際婦女節"
+    },
+    {
+     "date": "2027-03-20",
+     "name": "March Equinox",
+     "local": "春分"
+    },
+    {
+     "date": "2027-03-26",
+     "name": "Guan Yin's Birthday",
+     "local": "觀音誕"
+    },
+    {
+     "date": "2027-04-01",
+     "name": "April Fool's Day",
+     "local": "愚人節"
+    },
+    {
+     "date": "2027-04-29",
+     "name": "Tin Hau Festival",
+     "local": "天后誕"
+    },
+    {
+     "date": "2027-05-09",
+     "name": "Mother's Day",
+     "local": "母親節"
+    },
+    {
+     "date": "2027-05-13",
+     "name": "Cheung Chau Bun Festival",
+     "local": "長洲太平清醮"
+    },
+    {
+     "date": "2027-05-13",
+     "name": "Tam Kung Festival",
+     "local": "譚公誕"
+    },
+    {
+     "date": "2027-06-20",
+     "name": "Father's Day",
+     "local": "父親節"
+    },
+    {
+     "date": "2027-06-21",
+     "name": "June Solstice",
+     "local": "夏至"
+    },
+    {
+     "date": "2027-08-08",
+     "name": "Qixi Festival",
+     "local": "七夕"
+    },
+    {
+     "date": "2027-08-16",
+     "name": "Ghost Festival",
+     "local": "中元節"
+    },
+    {
+     "date": "2027-09-15",
+     "name": "Mid-Autumn Festival",
+     "local": "中秋節"
+    },
+    {
+     "date": "2027-09-23",
+     "name": "September Equinox",
+     "local": "秋分"
+    },
+    {
+     "date": "2027-10-31",
+     "name": "Halloween",
+     "local": "萬聖節"
+    },
+    {
+     "date": "2027-11-11",
+     "name": "Singles' Day",
+     "local": "光棍節"
+    },
+    {
+     "date": "2027-11-14",
+     "name": "Remembrance Day",
+     "local": "和平紀念日"
+    },
+    {
+     "date": "2027-12-22",
+     "name": "Winter Solstice",
+     "local": "冬至"
+    },
+    {
+     "date": "2027-12-24",
+     "name": "Christmas Eve",
+     "local": "平安夜"
+    },
+    {
+     "date": "2027-12-31",
+     "name": "New Year's Eve",
+     "local": "跨年夜"
+    }
+   ],
+   "school": [
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2026-12-24",
+     "end": "2027-01-02"
+    },
+    {
+     "kind": "term",
+     "key": "semester_2",
+     "start": "2027-01-03",
+     "end": "2027-02-03"
+    },
+    {
+     "kind": "break",
+     "key": "lunar_new_year_break",
+     "start": "2027-02-04",
+     "end": "2027-02-13"
+    },
+    {
+     "kind": "term",
+     "key": "semester_2",
+     "start": "2027-02-14",
+     "end": "2027-03-23"
+    },
+    {
+     "kind": "break",
+     "key": "easter_break",
+     "start": "2027-03-24",
+     "end": "2027-03-31"
+    },
+    {
+     "kind": "term",
+     "key": "semester_3",
+     "start": "2027-04-01",
+     "end": "2027-07-08"
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2027-07-09",
+     "end": "2027-08-31"
+    }
+   ]
+  }
+ }
+}

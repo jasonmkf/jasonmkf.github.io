@@ -1,0 +1,494 @@
+{
+ "country": "SG",
+ "years": {
+  "2026": {
+   "publicHolidays": [
+    {
+     "date": "2026-01-01",
+     "name": "New Year's Day",
+     "cn": "新年元旦"
+    },
+    {
+     "date": "2026-02-17",
+     "name": "Chinese New Year",
+     "cn": "农历新年"
+    },
+    {
+     "date": "2026-02-18",
+     "name": "Chinese New Year · Day 2",
+     "cn": "农历新年"
+    },
+    {
+     "date": "2026-03-21",
+     "name": "Hari Raya Aidilfitri",
+     "cn": "开斋节"
+    },
+    {
+     "date": "2026-04-03",
+     "name": "Good Friday",
+     "cn": "耶稣受难日"
+    },
+    {
+     "date": "2026-05-01",
+     "name": "Labour Day",
+     "cn": "劳动节"
+    },
+    {
+     "date": "2026-05-27",
+     "name": "Hari Raya Haji",
+     "cn": "哈芝节"
+    },
+    {
+     "date": "2026-05-31",
+     "name": "Vesak Day",
+     "cn": "卫塞节"
+    },
+    {
+     "date": "2026-06-01",
+     "name": "Vesak Day Holiday",
+     "cn": "卫塞节补假"
+    },
+    {
+     "date": "2026-08-09",
+     "name": "National Day",
+     "cn": "国庆日"
+    },
+    {
+     "date": "2026-08-10",
+     "name": "National Day Holiday",
+     "cn": "国庆日补假"
+    },
+    {
+     "date": "2026-11-08",
+     "name": "Deepavali",
+     "cn": "屠妖节"
+    },
+    {
+     "date": "2026-11-09",
+     "name": "Deepavali Holiday",
+     "cn": "屠妖节补假"
+    },
+    {
+     "date": "2026-12-25",
+     "name": "Christmas Day",
+     "cn": "圣诞节"
+    }
+   ],
+   "observances": [
+    {
+     "date": "2026-01-17",
+     "name": "Israk and Mikraj"
+    },
+    {
+     "date": "2026-02-01",
+     "name": "Thaipusam"
+    },
+    {
+     "date": "2026-02-04",
+     "name": "Beginning of Spring"
+    },
+    {
+     "date": "2026-02-14",
+     "name": "Valentine's Day"
+    },
+    {
+     "date": "2026-02-15",
+     "name": "Total Defence Day"
+    },
+    {
+     "date": "2026-02-16",
+     "name": "Chinese New Year's Eve"
+    },
+    {
+     "date": "2026-02-19",
+     "name": "Awal Ramadan"
+    },
+    {
+     "date": "2026-03-03",
+     "name": "Lantern Festival"
+    },
+    {
+     "date": "2026-03-07",
+     "name": "Nuzul Al-Quran"
+    },
+    {
+     "date": "2026-03-08",
+     "name": "International Women's Day"
+    },
+    {
+     "date": "2026-03-20",
+     "name": "March Equinox"
+    },
+    {
+     "date": "2026-03-22",
+     "name": "Hari Raya Aidilfitri · Day 2"
+    },
+    {
+     "date": "2026-04-01",
+     "name": "April Fools Day"
+    },
+    {
+     "date": "2026-04-04",
+     "name": "Easter Saturday"
+    },
+    {
+     "date": "2026-04-05",
+     "name": "Easter Sunday"
+    },
+    {
+     "date": "2026-04-05",
+     "name": "Qing Ming Festival"
+    },
+    {
+     "date": "2026-04-06",
+     "name": "Guan Yin's Birthday",
+     "local": "Hari Kelahiran Guan Yin"
+    },
+    {
+     "date": "2026-05-10",
+     "name": "Mother's Day"
+    },
+    {
+     "date": "2026-05-18",
+     "name": "International Museum Day"
+    },
+    {
+     "date": "2026-05-26",
+     "name": "Arafat Day"
+    },
+    {
+     "date": "2026-06-17",
+     "name": "Awal Muharram"
+    },
+    {
+     "date": "2026-06-19",
+     "name": "Dragon Boat Festival"
+    },
+    {
+     "date": "2026-06-21",
+     "name": "Father's Day"
+    },
+    {
+     "date": "2026-06-21",
+     "name": "June Solstice"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "Singapore Armed Forces Day"
+    },
+    {
+     "date": "2026-07-21",
+     "name": "Racial Harmony Day"
+    },
+    {
+     "date": "2026-08-19",
+     "name": "Chinese Valentine's Day"
+    },
+    {
+     "date": "2026-08-25",
+     "name": "Prophet Muhammad's Birthday"
+    },
+    {
+     "date": "2026-08-27",
+     "name": "Hungry Ghost Festival"
+    },
+    {
+     "date": "2026-09-04",
+     "name": "Teachers' Day"
+    },
+    {
+     "date": "2026-09-23",
+     "name": "September Equinox"
+    },
+    {
+     "date": "2026-09-25",
+     "name": "Mid-Autumn Festival"
+    },
+    {
+     "date": "2026-10-18",
+     "name": "Double Ninth Festival"
+    },
+    {
+     "date": "2026-10-31",
+     "name": "Halloween"
+    },
+    {
+     "date": "2026-12-22",
+     "name": "Winter Solstice"
+    },
+    {
+     "date": "2026-12-24",
+     "name": "Christmas Eve"
+    },
+    {
+     "date": "2026-12-31",
+     "name": "New Year's Eve"
+    }
+   ],
+   "school": [
+    {
+     "kind": "break",
+     "start": "2025-11-22",
+     "end": "2026-01-11"
+    },
+    {
+     "kind": "break",
+     "start": "2026-03-14",
+     "end": "2026-03-22"
+    },
+    {
+     "kind": "break",
+     "start": "2026-05-30",
+     "end": "2026-06-28"
+    },
+    {
+     "kind": "break",
+     "start": "2026-09-05",
+     "end": "2026-09-13"
+    },
+    {
+     "kind": "break",
+     "start": "2026-11-21",
+     "end": "2026-12-31"
+    }
+   ]
+  },
+  "2027": {
+   "publicHolidays": [
+    {
+     "date": "2027-01-01",
+     "name": "New Year's Day",
+     "cn": "新年元旦"
+    },
+    {
+     "date": "2027-02-06",
+     "name": "Chinese New Year",
+     "cn": "农历新年"
+    },
+    {
+     "date": "2027-02-07",
+     "name": "Chinese New Year · Day 2",
+     "cn": "农历新年"
+    },
+    {
+     "date": "2027-02-08",
+     "name": "Chinese New Year Holiday",
+     "cn": "农历新年补假"
+    },
+    {
+     "date": "2027-03-10",
+     "name": "Hari Raya Aidilfitri",
+     "cn": "开斋节"
+    },
+    {
+     "date": "2027-03-26",
+     "name": "Good Friday",
+     "cn": "耶稣受难日"
+    },
+    {
+     "date": "2027-05-01",
+     "name": "Labour Day",
+     "cn": "劳动节"
+    },
+    {
+     "date": "2027-05-17",
+     "name": "Hari Raya Haji",
+     "cn": "哈芝节"
+    },
+    {
+     "date": "2027-05-20",
+     "name": "Vesak Day",
+     "cn": "卫塞节"
+    },
+    {
+     "date": "2027-08-09",
+     "name": "National Day",
+     "cn": "国庆日"
+    },
+    {
+     "date": "2027-10-28",
+     "name": "Deepavali",
+     "cn": "屠妖节"
+    },
+    {
+     "date": "2027-12-25",
+     "name": "Christmas Day",
+     "cn": "圣诞节"
+    }
+   ],
+   "observances": [
+    {
+     "date": "2027-01-06",
+     "name": "Israk and Mikraj"
+    },
+    {
+     "date": "2027-01-22",
+     "name": "Thaipusam"
+    },
+    {
+     "date": "2027-02-04",
+     "name": "Beginning of Spring"
+    },
+    {
+     "date": "2027-02-05",
+     "name": "Chinese New Year's Eve"
+    },
+    {
+     "date": "2027-02-08",
+     "name": "Awal Ramadan"
+    },
+    {
+     "date": "2027-02-14",
+     "name": "Valentine's Day"
+    },
+    {
+     "date": "2027-02-15",
+     "name": "Total Defence Day"
+    },
+    {
+     "date": "2027-02-21",
+     "name": "Lantern Festival"
+    },
+    {
+     "date": "2027-02-24",
+     "name": "Nuzul Al-Quran"
+    },
+    {
+     "date": "2027-03-08",
+     "name": "International Women's Day"
+    },
+    {
+     "date": "2027-03-11",
+     "name": "Hari Raya Aidilfitri · Day 2"
+    },
+    {
+     "date": "2027-03-21",
+     "name": "March Equinox"
+    },
+    {
+     "date": "2027-03-26",
+     "name": "Guan Yin's Birthday",
+     "local": "Hari Kelahiran Guan Yin"
+    },
+    {
+     "date": "2027-03-27",
+     "name": "Easter Saturday"
+    },
+    {
+     "date": "2027-03-28",
+     "name": "Easter Sunday"
+    },
+    {
+     "date": "2027-04-01",
+     "name": "April Fools Day"
+    },
+    {
+     "date": "2027-04-05",
+     "name": "Qing Ming Festival"
+    },
+    {
+     "date": "2027-05-09",
+     "name": "Mother's Day"
+    },
+    {
+     "date": "2027-05-16",
+     "name": "Arafat Day"
+    },
+    {
+     "date": "2027-05-18",
+     "name": "International Museum Day"
+    },
+    {
+     "date": "2027-06-06",
+     "name": "Awal Muharram"
+    },
+    {
+     "date": "2027-06-09",
+     "name": "Dragon Boat Festival"
+    },
+    {
+     "date": "2027-06-20",
+     "name": "Father's Day"
+    },
+    {
+     "date": "2027-06-21",
+     "name": "June Solstice"
+    },
+    {
+     "date": "2027-07-01",
+     "name": "Singapore Armed Forces Day"
+    },
+    {
+     "date": "2027-07-21",
+     "name": "Racial Harmony Day"
+    },
+    {
+     "date": "2027-08-08",
+     "name": "Chinese Valentine's Day"
+    },
+    {
+     "date": "2027-08-15",
+     "name": "Prophet Muhammad's Birthday"
+    },
+    {
+     "date": "2027-08-16",
+     "name": "Hungry Ghost Festival"
+    },
+    {
+     "date": "2027-09-04",
+     "name": "Teachers' Day"
+    },
+    {
+     "date": "2027-09-15",
+     "name": "Mid-Autumn Festival"
+    },
+    {
+     "date": "2027-09-23",
+     "name": "September Equinox"
+    },
+    {
+     "date": "2027-10-08",
+     "name": "Double Ninth Festival"
+    },
+    {
+     "date": "2027-10-31",
+     "name": "Halloween"
+    },
+    {
+     "date": "2027-12-22",
+     "name": "Winter Solstice"
+    },
+    {
+     "date": "2027-12-24",
+     "name": "Christmas Eve"
+    },
+    {
+     "date": "2027-12-31",
+     "name": "New Year's Eve"
+    }
+   ],
+   "school": [
+    {
+     "kind": "break",
+     "start": "2027-03-13",
+     "end": "2027-03-21"
+    },
+    {
+     "kind": "break",
+     "start": "2027-05-29",
+     "end": "2027-06-27"
+    },
+    {
+     "kind": "break",
+     "start": "2027-09-04",
+     "end": "2027-09-12"
+    },
+    {
+     "kind": "break",
+     "start": "2027-11-20",
+     "end": "2027-12-31"
+    }
+   ]
+  }
+ }
+}

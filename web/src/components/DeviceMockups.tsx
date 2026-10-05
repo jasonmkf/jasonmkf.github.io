@@ -1,13 +1,20 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { apps, findApp } from '@/data/apps';
+import { apps, findApp, type App } from '@/data/apps';
 
 // Home screens drawn in CSS: a Galaxy S26 Ultra with the Android apps, and an iPhone 18 Pro Max
 // in front with the iPhone apps, each on its default wallpaper (Cobalt Violet; Silver Vitra).
 // Laid out on a 600 x 720 canvas that Hero scales with `zoom`.
 
 const androidApps = apps.filter((a) => a.platforms.includes('Android'));
-const iphoneApps = apps.filter((a) => a.platforms.includes('iPhone'));
+// On iPhone the country calendars are one app, so the dock shows that app once.
+const iphoneApps = [
+  ...new Set(
+    apps
+      .filter((a) => a.platforms.includes('iPhone'))
+      .map((a) => (a.iphoneApp ? findApp(a.iphoneApp)! : a)),
+  ),
+] as App[];
 const topApp = findApp('malaysia-calendar')!;
 const shelfbell = findApp('shelfbell')!;
 const lunar = findApp('lunar-calendar')!;

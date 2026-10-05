@@ -1,0 +1,1455 @@
+{
+ "country": "MY",
+ "years": {
+  "2026": {
+   "publicHolidays": [
+    {
+     "date": "2026-01-01",
+     "name": "New Year's Day",
+     "local": "Tahun Baru",
+     "cn": "新年元旦",
+     "states": [
+      "Kuala Lumpur",
+      "Labuan",
+      "Melaka",
+      "Negeri Sembilan",
+      "Pahang",
+      "Penang",
+      "Perak",
+      "Putrajaya",
+      "Sabah",
+      "Sarawak",
+      "Selangor"
+     ]
+    },
+    {
+     "date": "2026-01-14",
+     "name": "YDPB Negeri Sembilan's Birthday",
+     "local": "Hari Keputeraan YDPB Negeri Sembilan",
+     "cn": "森美兰最高统治者诞辰",
+     "states": [
+      "Negeri Sembilan"
+     ]
+    },
+    {
+     "date": "2026-01-17",
+     "name": "Israk and Mikraj",
+     "local": "Israk dan Mikraj",
+     "cn": "夜行登霄",
+     "states": [
+      "Kedah",
+      "Negeri Sembilan",
+      "Perlis",
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2026-01-18",
+     "name": "Israk and Mikraj Holiday",
+     "local": "Cuti Israk dan Mikraj",
+     "cn": "夜行登霄补假",
+     "states": [
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2026-02-01",
+     "name": "Federal Territory Day",
+     "local": "Hari Wilayah Persekutuan",
+     "cn": "联邦直辖区日",
+     "states": [
+      "Kuala Lumpur",
+      "Labuan",
+      "Putrajaya"
+     ]
+    },
+    {
+     "date": "2026-02-01",
+     "name": "Thaipusam",
+     "local": "Hari Thaipusam",
+     "cn": "大宝森节",
+     "states": [
+      "Johor",
+      "Kuala Lumpur",
+      "Negeri Sembilan",
+      "Penang",
+      "Perak",
+      "Putrajaya",
+      "Selangor"
+     ]
+    },
+    {
+     "date": "2026-02-02",
+     "name": "Thaipusam Holiday",
+     "local": "Cuti Hari Thaipusam",
+     "cn": "大宝森节补假",
+     "states": [
+      "Johor",
+      "Kuala Lumpur",
+      "Negeri Sembilan",
+      "Penang",
+      "Perak",
+      "Putrajaya",
+      "Selangor"
+     ]
+    },
+    {
+     "date": "2026-02-03",
+     "name": "Federal Territory Day Holiday",
+     "local": "Cuti Hari Wilayah Persekutuan",
+     "cn": "联邦直辖区日补假",
+     "states": [
+      "Kuala Lumpur",
+      "Labuan",
+      "Putrajaya"
+     ]
+    },
+    {
+     "date": "2026-02-17",
+     "name": "Chinese New Year",
+     "local": "Tahun Baru Cina",
+     "cn": "农历新年"
+    },
+    {
+     "date": "2026-02-18",
+     "name": "Chinese New Year · Day 2",
+     "local": "Tahun Baru Cina · Hari 2",
+     "cn": "农历新年"
+    },
+    {
+     "date": "2026-02-19",
+     "name": "Awal Ramadan",
+     "cn": "斋戒月首日",
+     "states": [
+      "Johor",
+      "Kedah"
+     ]
+    },
+    {
+     "date": "2026-02-20",
+     "name": "Independence Declaration Day",
+     "local": "Hari Perisytiharan Kemerdekaan",
+     "cn": "宣布独立纪念日",
+     "states": [
+      "Melaka"
+     ]
+    },
+    {
+     "date": "2026-03-04",
+     "name": "Installation of Sultan Terengganu",
+     "local": "Hari Pertabalan Sultan Terengganu",
+     "cn": "登嘉楼苏丹登基日",
+     "states": [
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2026-03-07",
+     "name": "Nuzul Al-Quran",
+     "cn": "可兰经降世日",
+     "states": [
+      "Kelantan",
+      "Kuala Lumpur",
+      "Labuan",
+      "Pahang",
+      "Penang",
+      "Perak",
+      "Perlis",
+      "Putrajaya",
+      "Selangor",
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2026-03-08",
+     "name": "Nuzul Al-Quran Holiday",
+     "local": "Cuti Nuzul Al-Quran",
+     "cn": "可兰经降世日补假",
+     "states": [
+      "Kelantan",
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2026-03-20",
+     "name": "Hari Raya Aidilfitri Holiday",
+     "local": "Cuti Hari Raya Aidilfitri",
+     "cn": "开斋节补假"
+    },
+    {
+     "date": "2026-03-21",
+     "name": "Hari Raya Aidilfitri",
+     "cn": "开斋节"
+    },
+    {
+     "date": "2026-03-22",
+     "name": "Hari Raya Aidilfitri · Day 2",
+     "local": "Hari Raya Aidilfitri · Hari 2",
+     "cn": "开斋节"
+    },
+    {
+     "date": "2026-03-23",
+     "name": "Hari Raya Aidilfitri · Day 2 Holiday",
+     "local": "Cuti Hari Raya Aidilfitri · Hari 2",
+     "cn": "开斋节补假",
+     "states": [
+      "Johor",
+      "Kelantan",
+      "Kuala Lumpur",
+      "Labuan",
+      "Melaka",
+      "Negeri Sembilan",
+      "Pahang",
+      "Penang",
+      "Perak",
+      "Perlis",
+      "Putrajaya",
+      "Sabah",
+      "Sarawak",
+      "Selangor",
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2026-03-23",
+     "name": "Sultan of Johor's Birthday",
+     "local": "Hari Keputeraan Sultan Johor",
+     "cn": "柔佛苏丹诞辰",
+     "states": [
+      "Johor"
+     ]
+    },
+    {
+     "date": "2026-03-24",
+     "name": "Hari Raya Aidilfitri Holiday",
+     "local": "Cuti Hari Raya Aidilfitri",
+     "cn": "开斋节补假",
+     "states": [
+      "Johor"
+     ]
+    },
+    {
+     "date": "2026-03-30",
+     "name": "Sabah Governor's Birthday",
+     "local": "Hari Jadi Yang di-Pertua Negeri Sabah",
+     "cn": "沙巴元首诞辰",
+     "states": [
+      "Sabah"
+     ]
+    },
+    {
+     "date": "2026-04-03",
+     "name": "Good Friday",
+     "cn": "耶稣受难日",
+     "states": [
+      "Sabah",
+      "Sarawak"
+     ]
+    },
+    {
+     "date": "2026-04-26",
+     "name": "Sultan of Terengganu's Birthday",
+     "local": "Hari Keputeraan Sultan Terengganu",
+     "cn": "登嘉楼苏丹诞辰",
+     "states": [
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2026-05-01",
+     "name": "Labour Day",
+     "local": "Hari Pekerja",
+     "cn": "劳动节"
+    },
+    {
+     "date": "2026-05-03",
+     "name": "Labour Day Holiday",
+     "local": "Cuti Hari Pekerja",
+     "cn": "劳动节补假",
+     "states": [
+      "Kedah"
+     ]
+    },
+    {
+     "date": "2026-05-17",
+     "name": "Raja Perlis' Birthday",
+     "local": "Hari Keputeraan Raja Perlis",
+     "cn": "玻璃市拉惹诞辰",
+     "states": [
+      "Perlis"
+     ]
+    },
+    {
+     "date": "2026-05-18",
+     "name": "Raja Perlis' Birthday Holiday",
+     "local": "Cuti Hari Keputeraan Raja Perlis",
+     "cn": "玻璃市拉惹诞辰补假",
+     "states": [
+      "Perlis"
+     ]
+    },
+    {
+     "date": "2026-05-22",
+     "name": "Hari Hol Pahang",
+     "cn": "彭亨祭祀日",
+     "states": [
+      "Pahang"
+     ]
+    },
+    {
+     "date": "2026-05-26",
+     "name": "Arafat Day",
+     "local": "Hari Arafah",
+     "cn": "阿拉法特日",
+     "states": [
+      "Kelantan",
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2026-05-27",
+     "name": "Hari Raya Haji",
+     "cn": "哈芝节"
+    },
+    {
+     "date": "2026-05-28",
+     "name": "Hari Raya Haji Holiday",
+     "local": "Cuti Hari Raya Haji",
+     "cn": "哈芝节补假",
+     "states": [
+      "Kedah",
+      "Kelantan",
+      "Perlis",
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2026-05-30",
+     "name": "Harvest Festival",
+     "local": "Pesta Kaamatan",
+     "cn": "丰收节",
+     "states": [
+      "Labuan",
+      "Sabah"
+     ]
+    },
+    {
+     "date": "2026-05-31",
+     "name": "Wesak Day",
+     "local": "Hari Wesak",
+     "cn": "卫塞节"
+    },
+    {
+     "date": "2026-05-31",
+     "name": "Harvest Festival Holiday",
+     "local": "Cuti Pesta Kaamatan",
+     "cn": "丰收节补假",
+     "states": [
+      "Labuan",
+      "Sabah"
+     ]
+    },
+    {
+     "date": "2026-06-01",
+     "name": "Hari Gawai",
+     "cn": "达雅节",
+     "states": [
+      "Sarawak"
+     ]
+    },
+    {
+     "date": "2026-06-01",
+     "name": "Agong's Birthday",
+     "local": "Hari Keputeraan Yang di-Pertuan Agong",
+     "cn": "国家最高元首诞辰"
+    },
+    {
+     "date": "2026-06-02",
+     "name": "Hari Gawai Holiday",
+     "local": "Cuti Hari Gawai",
+     "cn": "达雅节补假",
+     "states": [
+      "Sarawak"
+     ]
+    },
+    {
+     "date": "2026-06-02",
+     "name": "Wesak Day Holiday",
+     "local": "Cuti Hari Wesak",
+     "cn": "卫塞节补假",
+     "states": [
+      "Johor",
+      "Kuala Lumpur",
+      "Labuan",
+      "Melaka",
+      "Negeri Sembilan",
+      "Pahang",
+      "Penang",
+      "Perak",
+      "Perlis",
+      "Putrajaya",
+      "Sabah",
+      "Selangor"
+     ]
+    },
+    {
+     "date": "2026-06-03",
+     "name": "Harvest Festival Holiday",
+     "local": "Cuti Pesta Kaamatan",
+     "cn": "丰收节补假",
+     "states": [
+      "Labuan",
+      "Sabah"
+     ]
+    },
+    {
+     "date": "2026-06-03",
+     "name": "Wesak Day Holiday",
+     "local": "Cuti Hari Wesak",
+     "cn": "卫塞节补假",
+     "states": [
+      "Sarawak"
+     ]
+    },
+    {
+     "date": "2026-06-04",
+     "name": "Hari Gawai Holiday",
+     "local": "Cuti Hari Gawai",
+     "cn": "达雅节补假",
+     "states": [
+      "Sarawak"
+     ]
+    },
+    {
+     "date": "2026-06-17",
+     "name": "Awal Muharram",
+     "cn": "回历新年"
+    },
+    {
+     "date": "2026-06-21",
+     "name": "Sultan of Kedah's Birthday",
+     "local": "Hari Keputeraan Sultan Kedah",
+     "cn": "吉打苏丹诞辰",
+     "states": [
+      "Kedah"
+     ]
+    },
+    {
+     "date": "2026-07-07",
+     "name": "Georgetown World Heritage City Day",
+     "local": "Hari Warisan Dunia Georgetown",
+     "cn": "乔治市世界遗产日",
+     "states": [
+      "Penang"
+     ]
+    },
+    {
+     "date": "2026-07-11",
+     "name": "Penang Governor's Birthday",
+     "local": "Hari Jadi Yang di-Pertua Negeri Pulau Pinang",
+     "cn": "槟城元首诞辰",
+     "states": [
+      "Penang"
+     ]
+    },
+    {
+     "date": "2026-07-21",
+     "name": "Hari Hol Almarhum Sultan Iskandar",
+     "cn": "柔佛已故苏丹忌日",
+     "states": [
+      "Johor"
+     ]
+    },
+    {
+     "date": "2026-07-22",
+     "name": "Sarawak Day",
+     "local": "Hari Sarawak",
+     "cn": "砂拉越自治日",
+     "states": [
+      "Sarawak"
+     ]
+    },
+    {
+     "date": "2026-07-31",
+     "name": "Sultan of Pahang's Birthday",
+     "local": "Hari Keputeraan Sultan Pahang",
+     "cn": "彭亨苏丹诞辰",
+     "states": [
+      "Pahang"
+     ]
+    },
+    {
+     "date": "2026-08-24",
+     "name": "Melaka Governor's Birthday",
+     "local": "Hari Jadi Yang di-Pertua Negeri Melaka",
+     "cn": "马六甲元首诞辰",
+     "states": [
+      "Melaka"
+     ]
+    },
+    {
+     "date": "2026-08-25",
+     "name": "Prophet Muhammad's Birthday",
+     "local": "Maulidur Rasul",
+     "cn": "回教先知穆罕默德诞辰"
+    },
+    {
+     "date": "2026-08-31",
+     "name": "Merdeka Day",
+     "local": "Hari Kebangsaan",
+     "cn": "国庆日"
+    },
+    {
+     "date": "2026-09-16",
+     "name": "Malaysia Day",
+     "local": "Hari Malaysia",
+     "cn": "马来西亚日"
+    },
+    {
+     "date": "2026-09-29",
+     "name": "Sultan of Kelantan's Birthday",
+     "local": "Hari Keputeraan Sultan Kelantan",
+     "cn": "吉兰丹苏丹诞辰",
+     "states": [
+      "Kelantan"
+     ]
+    },
+    {
+     "date": "2026-09-30",
+     "name": "Sultan of Kelantan's Birthday Holiday",
+     "local": "Cuti Hari Keputeraan Sultan Kelantan",
+     "cn": "吉兰丹苏丹诞辰补假",
+     "states": [
+      "Kelantan"
+     ]
+    },
+    {
+     "date": "2026-10-10",
+     "name": "Sarawak Governor's Birthday",
+     "local": "Hari Jadi Yang di-Pertua Negeri Sarawak",
+     "cn": "砂拉越元首诞辰",
+     "states": [
+      "Sarawak"
+     ]
+    },
+    {
+     "date": "2026-10-25",
+     "name": "Sultan of Selangor's Silver Jubilee",
+     "local": "Jubli Perak Pemerintahan Sultan Selangor",
+     "cn": "雪兰莪苏丹登基银禧",
+     "states": [
+      "Selangor"
+     ]
+    },
+    {
+     "date": "2026-10-26",
+     "name": "Sultan of Selangor's Silver Jubilee Holiday",
+     "local": "Cuti Jubli Perak Pemerintahan Sultan Selangor",
+     "cn": "雪兰莪苏丹登基银禧补假",
+     "states": [
+      "Selangor"
+     ]
+    },
+    {
+     "date": "2026-11-06",
+     "name": "Sultan of Perak's Birthday",
+     "local": "Hari Keputeraan Sultan Perak",
+     "cn": "霹雳苏丹诞辰",
+     "states": [
+      "Perak"
+     ]
+    },
+    {
+     "date": "2026-11-08",
+     "name": "Deepavali",
+     "local": "Hari Deepavali",
+     "cn": "屠妖节",
+     "states": [
+      "Johor",
+      "Kedah",
+      "Kelantan",
+      "Kuala Lumpur",
+      "Labuan",
+      "Melaka",
+      "Negeri Sembilan",
+      "Pahang",
+      "Penang",
+      "Perak",
+      "Perlis",
+      "Putrajaya",
+      "Sabah",
+      "Selangor",
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2026-11-09",
+     "name": "Deepavali Holiday",
+     "local": "Cuti Hari Deepavali",
+     "cn": "屠妖节补假",
+     "states": [
+      "Johor",
+      "Kuala Lumpur",
+      "Labuan",
+      "Melaka",
+      "Negeri Sembilan",
+      "Pahang",
+      "Penang",
+      "Perak",
+      "Perlis",
+      "Putrajaya",
+      "Sabah",
+      "Selangor"
+     ]
+    },
+    {
+     "date": "2026-12-11",
+     "name": "Sultan of Selangor's Birthday",
+     "local": "Hari Keputeraan Sultan Selangor",
+     "cn": "雪兰莪苏丹诞辰",
+     "states": [
+      "Selangor"
+     ]
+    },
+    {
+     "date": "2026-12-24",
+     "name": "Christmas Eve",
+     "local": "Malam Krismas",
+     "cn": "平安夜",
+     "states": [
+      "Sabah"
+     ]
+    },
+    {
+     "date": "2026-12-25",
+     "name": "Christmas Day",
+     "local": "Hari Krismas",
+     "cn": "圣诞节"
+    },
+    {
+     "date": "2026-12-27",
+     "name": "Christmas Day Holiday",
+     "local": "Cuti Hari Krismas",
+     "cn": "圣诞节补假",
+     "states": [
+      "Kedah"
+     ]
+    }
+   ],
+   "observances": [
+    {
+     "date": "2026-02-04",
+     "name": "Beginning of Spring",
+     "local": "Permulaan Musim Bunga"
+    },
+    {
+     "date": "2026-02-14",
+     "name": "Valentine's Day",
+     "local": "Hari Valentine"
+    },
+    {
+     "date": "2026-02-16",
+     "name": "Chinese New Year's Eve",
+     "local": "Malam Tahun Baru Cina"
+    },
+    {
+     "date": "2026-03-03",
+     "name": "Lantern Festival",
+     "local": "Pesta Tanglung"
+    },
+    {
+     "date": "2026-03-20",
+     "name": "March Equinox",
+     "local": "Ekuinoks Musim Bunga"
+    },
+    {
+     "date": "2026-04-01",
+     "name": "April Fools Day",
+     "local": "Hari April Fool"
+    },
+    {
+     "date": "2026-04-05",
+     "name": "Qing Ming Festival",
+     "local": "Pesta Qing Ming"
+    },
+    {
+     "date": "2026-04-06",
+     "name": "Guan Yin's Birthday",
+     "local": "Hari Kelahiran Guan Yin"
+    },
+    {
+     "date": "2026-05-10",
+     "name": "Mother's Day",
+     "local": "Hari Ibu"
+    },
+    {
+     "date": "2026-05-16",
+     "name": "Teachers' Day",
+     "local": "Hari Guru"
+    },
+    {
+     "date": "2026-06-19",
+     "name": "Dragon Boat Festival",
+     "local": "Pesta Perahu Naga"
+    },
+    {
+     "date": "2026-06-21",
+     "name": "Father's Day",
+     "local": "Hari Bapa"
+    },
+    {
+     "date": "2026-06-21",
+     "name": "June Solstice",
+     "local": "Solstis Musim Panas"
+    },
+    {
+     "date": "2026-08-19",
+     "name": "Chinese Valentine's Day",
+     "local": "Hari Kekasih Cina"
+    },
+    {
+     "date": "2026-08-27",
+     "name": "Hungry Ghost Festival",
+     "local": "Perayaan Hantu Lapar"
+    },
+    {
+     "date": "2026-09-25",
+     "name": "Mid-Autumn Festival",
+     "local": "Pesta Kuih Bulan"
+    },
+    {
+     "date": "2026-10-18",
+     "name": "Double Ninth Festival",
+     "local": "Pesta Chong Yang"
+    },
+    {
+     "date": "2026-10-31",
+     "name": "Halloween"
+    },
+    {
+     "date": "2026-12-22",
+     "name": "Winter Solstice",
+     "local": "Pesta Dongzhi"
+    },
+    {
+     "date": "2026-12-31",
+     "name": "New Year's Eve",
+     "local": "Malam Tahun Baru"
+    }
+   ],
+   "school": [
+    {
+     "kind": "break",
+     "start": "2025-12-20",
+     "end": "2026-01-11"
+    },
+    {
+     "kind": "break",
+     "start": "2026-03-21",
+     "end": "2026-03-29"
+    },
+    {
+     "kind": "break",
+     "start": "2026-05-23",
+     "end": "2026-06-07"
+    },
+    {
+     "kind": "break",
+     "start": "2026-08-29",
+     "end": "2026-09-06"
+    },
+    {
+     "kind": "break",
+     "start": "2026-12-05",
+     "end": "2027-01-03"
+    }
+   ]
+  },
+  "2027": {
+   "publicHolidays": [
+    {
+     "date": "2027-01-01",
+     "name": "New Year's Day",
+     "local": "Tahun Baru",
+     "cn": "新年元旦",
+     "states": [
+      "Kuala Lumpur",
+      "Labuan",
+      "Melaka",
+      "Negeri Sembilan",
+      "Pahang",
+      "Penang",
+      "Perak",
+      "Putrajaya",
+      "Sabah",
+      "Sarawak",
+      "Selangor"
+     ]
+    },
+    {
+     "date": "2027-01-06",
+     "name": "Israk and Mikraj",
+     "local": "Israk dan Mikraj",
+     "cn": "夜行登霄",
+     "states": [
+      "Kedah",
+      "Negeri Sembilan",
+      "Perlis",
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2027-01-14",
+     "name": "YDPB Negeri Sembilan's Birthday",
+     "local": "Hari Keputeraan YDPB Negeri Sembilan",
+     "cn": "森美兰最高统治者诞辰",
+     "states": [
+      "Negeri Sembilan"
+     ]
+    },
+    {
+     "date": "2027-01-22",
+     "name": "Thaipusam",
+     "local": "Hari Thaipusam",
+     "cn": "大宝森节",
+     "states": [
+      "Johor",
+      "Kedah",
+      "Kuala Lumpur",
+      "Negeri Sembilan",
+      "Penang",
+      "Perak",
+      "Putrajaya",
+      "Selangor"
+     ]
+    },
+    {
+     "date": "2027-01-24",
+     "name": "Thaipusam Holiday",
+     "local": "Cuti Hari Thaipusam",
+     "cn": "大宝森节补假",
+     "states": [
+      "Kedah"
+     ]
+    },
+    {
+     "date": "2027-02-01",
+     "name": "Federal Territory Day",
+     "local": "Hari Wilayah Persekutuan",
+     "cn": "联邦直辖区日",
+     "states": [
+      "Kuala Lumpur",
+      "Labuan",
+      "Putrajaya"
+     ]
+    },
+    {
+     "date": "2027-02-06",
+     "name": "Chinese New Year",
+     "local": "Tahun Baru Cina",
+     "cn": "农历新年"
+    },
+    {
+     "date": "2027-02-07",
+     "name": "Chinese New Year · Day 2",
+     "local": "Tahun Baru Cina · Hari 2",
+     "cn": "农历新年"
+    },
+    {
+     "date": "2027-02-08",
+     "name": "Chinese New Year Holiday",
+     "local": "Cuti Tahun Baru Cina",
+     "cn": "农历新年补假",
+     "states": [
+      "Johor",
+      "Kelantan",
+      "Kuala Lumpur",
+      "Labuan",
+      "Melaka",
+      "Negeri Sembilan",
+      "Pahang",
+      "Penang",
+      "Perak",
+      "Perlis",
+      "Putrajaya",
+      "Sabah",
+      "Sarawak",
+      "Selangor",
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2027-02-08",
+     "name": "Awal Ramadan",
+     "cn": "斋戒月首日",
+     "states": [
+      "Johor",
+      "Kedah"
+     ]
+    },
+    {
+     "date": "2027-02-20",
+     "name": "Independence Declaration Day",
+     "local": "Hari Perisytiharan Kemerdekaan",
+     "cn": "宣布独立纪念日",
+     "states": [
+      "Melaka"
+     ]
+    },
+    {
+     "date": "2027-02-24",
+     "name": "Nuzul Al-Quran",
+     "cn": "可兰经降世日",
+     "states": [
+      "Kelantan",
+      "Kuala Lumpur",
+      "Labuan",
+      "Pahang",
+      "Penang",
+      "Perak",
+      "Perlis",
+      "Putrajaya",
+      "Selangor",
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2027-03-04",
+     "name": "Installation of Sultan Terengganu",
+     "local": "Hari Pertabalan Sultan Terengganu",
+     "cn": "登嘉楼苏丹登基日",
+     "states": [
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2027-03-10",
+     "name": "Hari Raya Aidilfitri",
+     "cn": "开斋节"
+    },
+    {
+     "date": "2027-03-11",
+     "name": "Hari Raya Aidilfitri · Day 2",
+     "local": "Hari Raya Aidilfitri · Hari 2",
+     "cn": "开斋节"
+    },
+    {
+     "date": "2027-03-23",
+     "name": "Sultan of Johor's Birthday",
+     "local": "Hari Keputeraan Sultan Johor",
+     "cn": "柔佛苏丹诞辰",
+     "states": [
+      "Johor"
+     ]
+    },
+    {
+     "date": "2027-03-26",
+     "name": "Good Friday",
+     "cn": "耶稣受难日",
+     "states": [
+      "Sabah",
+      "Sarawak"
+     ]
+    },
+    {
+     "date": "2027-03-30",
+     "name": "Sabah Governor's Birthday",
+     "local": "Hari Jadi Yang di-Pertua Negeri Sabah",
+     "cn": "沙巴元首诞辰",
+     "states": [
+      "Sabah"
+     ]
+    },
+    {
+     "date": "2027-04-26",
+     "name": "Sultan of Terengganu's Birthday",
+     "local": "Hari Keputeraan Sultan Terengganu",
+     "cn": "登嘉楼苏丹诞辰",
+     "states": [
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2027-05-01",
+     "name": "Labour Day",
+     "local": "Hari Pekerja",
+     "cn": "劳动节"
+    },
+    {
+     "date": "2027-05-02",
+     "name": "Labour Day Holiday",
+     "local": "Cuti Hari Pekerja",
+     "cn": "劳动节补假",
+     "states": [
+      "Kelantan",
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2027-05-16",
+     "name": "Arafat Day",
+     "local": "Hari Arafah",
+     "cn": "阿拉法特日",
+     "states": [
+      "Kelantan",
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2027-05-17",
+     "name": "Hari Raya Haji",
+     "cn": "哈芝节"
+    },
+    {
+     "date": "2027-05-17",
+     "name": "Raja Perlis' Birthday",
+     "local": "Hari Keputeraan Raja Perlis",
+     "cn": "玻璃市拉惹诞辰",
+     "states": [
+      "Perlis"
+     ]
+    },
+    {
+     "date": "2027-05-18",
+     "name": "Hari Raya Haji Holiday",
+     "local": "Cuti Hari Raya Haji",
+     "cn": "哈芝节补假",
+     "states": [
+      "Kedah",
+      "Kelantan",
+      "Perlis",
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2027-05-20",
+     "name": "Wesak Day",
+     "local": "Hari Wesak",
+     "cn": "卫塞节"
+    },
+    {
+     "date": "2027-05-22",
+     "name": "Hari Hol Pahang",
+     "cn": "彭亨祭祀日",
+     "states": [
+      "Pahang"
+     ]
+    },
+    {
+     "date": "2027-05-30",
+     "name": "Harvest Festival",
+     "local": "Pesta Kaamatan",
+     "cn": "丰收节",
+     "states": [
+      "Labuan",
+      "Sabah"
+     ]
+    },
+    {
+     "date": "2027-05-31",
+     "name": "Harvest Festival Holiday",
+     "local": "Cuti Pesta Kaamatan",
+     "cn": "丰收节补假",
+     "states": [
+      "Labuan",
+      "Sabah"
+     ]
+    },
+    {
+     "date": "2027-06-01",
+     "name": "Gawai Dayak Festival",
+     "local": "Hari Gawai",
+     "cn": "达雅节",
+     "states": [
+      "Sarawak"
+     ]
+    },
+    {
+     "date": "2027-06-02",
+     "name": "Gawai Dayak Festival Holiday",
+     "local": "Cuti Hari Gawai",
+     "cn": "达雅节补假",
+     "states": [
+      "Sarawak"
+     ]
+    },
+    {
+     "date": "2027-06-06",
+     "name": "Awal Muharram",
+     "cn": "回历新年"
+    },
+    {
+     "date": "2027-06-07",
+     "name": "Agong's Birthday",
+     "local": "Hari Keputeraan Yang di-Pertuan Agong",
+     "cn": "国家最高元首诞辰"
+    },
+    {
+     "date": "2027-06-07",
+     "name": "Awal Muharram Holiday",
+     "local": "Cuti Awal Muharram",
+     "cn": "回历新年补假",
+     "states": [
+      "Johor",
+      "Kuala Lumpur",
+      "Labuan",
+      "Melaka",
+      "Negeri Sembilan",
+      "Pahang",
+      "Penang",
+      "Perak",
+      "Perlis",
+      "Putrajaya",
+      "Sabah",
+      "Sarawak",
+      "Selangor"
+     ]
+    },
+    {
+     "date": "2027-06-20",
+     "name": "Sultan of Kedah's Birthday",
+     "local": "Hari Keputeraan Sultan Kedah",
+     "cn": "吉打苏丹诞辰",
+     "states": [
+      "Kedah"
+     ]
+    },
+    {
+     "date": "2027-07-07",
+     "name": "Georgetown World Heritage City Day",
+     "local": "Hari Warisan Dunia Georgetown",
+     "cn": "乔治市世界遗产日",
+     "states": [
+      "Penang"
+     ]
+    },
+    {
+     "date": "2027-07-10",
+     "name": "Penang Governor's Birthday",
+     "local": "Hari Jadi Yang di-Pertua Negeri Pulau Pinang",
+     "cn": "槟城元首诞辰",
+     "states": [
+      "Penang"
+     ]
+    },
+    {
+     "date": "2027-07-10",
+     "name": "Hari Hol Almarhum Sultan Iskandar",
+     "cn": "柔佛已故苏丹忌日",
+     "states": [
+      "Johor"
+     ]
+    },
+    {
+     "date": "2027-07-22",
+     "name": "Sarawak Day",
+     "local": "Hari Sarawak",
+     "cn": "砂拉越自治日",
+     "states": [
+      "Sarawak"
+     ]
+    },
+    {
+     "date": "2027-07-30",
+     "name": "Sultan of Pahang's Birthday",
+     "local": "Hari Keputeraan Sultan Pahang",
+     "cn": "彭亨苏丹诞辰",
+     "states": [
+      "Pahang"
+     ]
+    },
+    {
+     "date": "2027-08-15",
+     "name": "Prophet Muhammad's Birthday",
+     "local": "Maulidur Rasul",
+     "cn": "回教先知穆罕默德诞辰"
+    },
+    {
+     "date": "2027-08-16",
+     "name": "Prophet Muhammad's Birthday Holiday",
+     "local": "Cuti Maulidur Rasul",
+     "cn": "回教先知穆罕默德诞辰补假",
+     "states": [
+      "Johor",
+      "Kuala Lumpur",
+      "Labuan",
+      "Melaka",
+      "Negeri Sembilan",
+      "Pahang",
+      "Penang",
+      "Perak",
+      "Perlis",
+      "Putrajaya",
+      "Sabah",
+      "Sarawak",
+      "Selangor"
+     ]
+    },
+    {
+     "date": "2027-08-24",
+     "name": "Melaka Governor's Birthday",
+     "local": "Hari Jadi Yang di-Pertua Negeri Melaka",
+     "cn": "马六甲元首诞辰",
+     "states": [
+      "Melaka"
+     ]
+    },
+    {
+     "date": "2027-08-31",
+     "name": "Merdeka Day",
+     "local": "Hari Kebangsaan",
+     "cn": "独立日"
+    },
+    {
+     "date": "2027-09-16",
+     "name": "Malaysia Day",
+     "local": "Hari Malaysia",
+     "cn": "马来西亚日"
+    },
+    {
+     "date": "2027-09-29",
+     "name": "Sultan of Kelantan's Birthday",
+     "local": "Hari Keputeraan Sultan Kelantan",
+     "cn": "吉兰丹苏丹诞辰",
+     "states": [
+      "Kelantan"
+     ]
+    },
+    {
+     "date": "2027-09-30",
+     "name": "Sultan of Kelantan's Birthday Holiday",
+     "local": "Cuti Hari Keputeraan Sultan Kelantan",
+     "cn": "吉兰丹苏丹诞辰补假",
+     "states": [
+      "Kelantan"
+     ]
+    },
+    {
+     "date": "2027-10-09",
+     "name": "Sarawak Governor's Birthday",
+     "local": "Hari Jadi Yang di-Pertua Negeri Sarawak",
+     "cn": "砂拉越元首诞辰",
+     "states": [
+      "Sarawak"
+     ]
+    },
+    {
+     "date": "2027-10-28",
+     "name": "Deepavali",
+     "local": "Hari Deepavali",
+     "cn": "屠妖节",
+     "states": [
+      "Johor",
+      "Kedah",
+      "Kelantan",
+      "Kuala Lumpur",
+      "Labuan",
+      "Melaka",
+      "Negeri Sembilan",
+      "Pahang",
+      "Penang",
+      "Perak",
+      "Perlis",
+      "Putrajaya",
+      "Sabah",
+      "Selangor",
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2027-11-05",
+     "name": "Sultan of Perak's Birthday",
+     "local": "Hari Keputeraan Sultan Perak",
+     "cn": "霹雳苏丹诞辰",
+     "states": [
+      "Perak"
+     ]
+    },
+    {
+     "date": "2027-12-11",
+     "name": "Sultan of Selangor's Birthday",
+     "local": "Hari Keputeraan Sultan Selangor",
+     "cn": "雪兰莪苏丹诞辰",
+     "states": [
+      "Selangor"
+     ]
+    },
+    {
+     "date": "2027-12-24",
+     "name": "Christmas Eve",
+     "local": "Malam Krismas",
+     "cn": "平安夜",
+     "states": [
+      "Sabah"
+     ]
+    },
+    {
+     "date": "2027-12-25",
+     "name": "Christmas Day",
+     "local": "Hari Krismas",
+     "cn": "圣诞节"
+    },
+    {
+     "date": "2027-12-26",
+     "name": "Christmas Day Holiday",
+     "local": "Cuti Hari Krismas",
+     "cn": "圣诞节补假",
+     "states": [
+      "Kelantan",
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2027-12-26",
+     "name": "Israk and Mikraj",
+     "local": "Israk dan Mikraj",
+     "cn": "夜行登霄",
+     "states": [
+      "Kedah",
+      "Negeri Sembilan",
+      "Perlis",
+      "Terengganu"
+     ]
+    },
+    {
+     "date": "2027-12-27",
+     "name": "Israk and Mikraj Holiday",
+     "local": "Cuti Israk dan Mikraj",
+     "cn": "夜行登霄补假",
+     "states": [
+      "Negeri Sembilan",
+      "Perlis"
+     ]
+    }
+   ],
+   "observances": [
+    {
+     "date": "2027-02-04",
+     "name": "Beginning of Spring",
+     "local": "Permulaan Musim Bunga"
+    },
+    {
+     "date": "2027-02-05",
+     "name": "Chinese New Year's Eve",
+     "local": "Malam Tahun Baru Cina"
+    },
+    {
+     "date": "2027-02-14",
+     "name": "Valentine's Day",
+     "local": "Hari Valentine"
+    },
+    {
+     "date": "2027-02-21",
+     "name": "Lantern Festival",
+     "local": "Pesta Tanglung"
+    },
+    {
+     "date": "2027-03-21",
+     "name": "March Equinox",
+     "local": "Ekuinoks Musim Bunga"
+    },
+    {
+     "date": "2027-03-26",
+     "name": "Guan Yin's Birthday",
+     "local": "Hari Kelahiran Guan Yin"
+    },
+    {
+     "date": "2027-04-01",
+     "name": "April Fools Day",
+     "local": "Hari April Fool"
+    },
+    {
+     "date": "2027-04-05",
+     "name": "Qing Ming Festival",
+     "local": "Pesta Qing Ming"
+    },
+    {
+     "date": "2027-05-09",
+     "name": "Mother's Day",
+     "local": "Hari Ibu"
+    },
+    {
+     "date": "2027-05-16",
+     "name": "Teachers' Day",
+     "local": "Hari Guru"
+    },
+    {
+     "date": "2027-06-09",
+     "name": "Dragon Boat Festival",
+     "local": "Pesta Perahu Naga"
+    },
+    {
+     "date": "2027-06-20",
+     "name": "Father's Day",
+     "local": "Hari Bapa"
+    },
+    {
+     "date": "2027-06-21",
+     "name": "June Solstice",
+     "local": "Solstis Musim Panas"
+    },
+    {
+     "date": "2027-08-08",
+     "name": "Chinese Valentine's Day",
+     "local": "Hari Kekasih Cina"
+    },
+    {
+     "date": "2027-08-16",
+     "name": "Hungry Ghost Festival",
+     "local": "Perayaan Hantu Lapar"
+    },
+    {
+     "date": "2027-09-15",
+     "name": "Mid-Autumn Festival",
+     "local": "Pesta Kuih Bulan"
+    },
+    {
+     "date": "2027-10-08",
+     "name": "Double Ninth Festival",
+     "local": "Pesta Chong Yang"
+    },
+    {
+     "date": "2027-10-31",
+     "name": "Halloween"
+    },
+    {
+     "date": "2027-12-22",
+     "name": "Winter Solstice",
+     "local": "Pesta Dongzhi"
+    },
+    {
+     "date": "2027-12-31",
+     "name": "New Year's Eve",
+     "local": "Malam Tahun Baru"
+    }
+   ],
+   "school": [
+    {
+     "kind": "break",
+     "start": "2026-12-05",
+     "end": "2027-01-03"
+    },
+    {
+     "kind": "break",
+     "start": "2027-03-06",
+     "end": "2027-03-14"
+    },
+    {
+     "kind": "break",
+     "start": "2027-05-22",
+     "end": "2027-06-06"
+    },
+    {
+     "kind": "break",
+     "start": "2027-08-28",
+     "end": "2027-09-05"
+    },
+    {
+     "kind": "break",
+     "start": "2027-12-04",
+     "end": "2027-12-31"
+    }
+   ]
+  }
+ }
+}

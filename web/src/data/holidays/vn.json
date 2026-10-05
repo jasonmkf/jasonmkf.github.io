@@ -1,0 +1,575 @@
+{
+ "country": "VN",
+ "years": {
+  "2026": {
+   "publicHolidays": [
+    {
+     "date": "2026-01-01",
+     "name": "New Year's Day",
+     "local": "Tết Dương lịch",
+     "cn": "新年元旦"
+    },
+    {
+     "date": "2026-01-02",
+     "name": "New Year's Day Holiday",
+     "local": "Nghỉ Tết Dương lịch",
+     "cn": "新年假期"
+    },
+    {
+     "date": "2026-01-03",
+     "name": "New Year's Day Holiday",
+     "local": "Nghỉ Tết Dương lịch",
+     "cn": "新年假期"
+    },
+    {
+     "date": "2026-01-04",
+     "name": "New Year's Day Holiday",
+     "local": "Nghỉ Tết Dương lịch",
+     "cn": "新年假期"
+    },
+    {
+     "date": "2026-02-14",
+     "name": "Tet Holiday Start",
+     "local": "Bắt đầu nghỉ Tết",
+     "cn": "春节假期开始"
+    },
+    {
+     "date": "2026-02-15",
+     "name": "Tet Holiday",
+     "local": "Nghỉ Tết",
+     "cn": "春节假期"
+    },
+    {
+     "date": "2026-02-16",
+     "name": "Lunar New Year's Eve",
+     "local": "Đêm Giao thừa",
+     "cn": "农历除夕"
+    },
+    {
+     "date": "2026-02-17",
+     "name": "Lunar New Year · Tet",
+     "local": "Tết Nguyên Đán",
+     "cn": "春节"
+    },
+    {
+     "date": "2026-02-18",
+     "name": "Tet Holiday · Day 2",
+     "local": "Nghỉ Tết Nguyên Đán",
+     "cn": "春节假期"
+    },
+    {
+     "date": "2026-02-19",
+     "name": "Tet Holiday · Day 3",
+     "local": "Nghỉ Tết Nguyên Đán",
+     "cn": "春节假期"
+    },
+    {
+     "date": "2026-02-20",
+     "name": "Tet Holiday · Day 4",
+     "local": "Nghỉ Tết Nguyên Đán",
+     "cn": "春节假期"
+    },
+    {
+     "date": "2026-02-21",
+     "name": "Tet Holiday · Day 5",
+     "local": "Nghỉ Tết Nguyên Đán",
+     "cn": "春节假期"
+    },
+    {
+     "date": "2026-02-22",
+     "name": "Tet Holiday · Day 6",
+     "local": "Nghỉ Tết Nguyên Đán",
+     "cn": "春节假期"
+    },
+    {
+     "date": "2026-04-25",
+     "name": "Hung Kings' Commemoration Day Holiday",
+     "local": "Nghỉ Giỗ Tổ Hùng Vương",
+     "cn": "雄王祭祖假期"
+    },
+    {
+     "date": "2026-04-26",
+     "name": "Hung Kings' Commemoration Day",
+     "local": "Giỗ Tổ Hùng Vương",
+     "cn": "雄王祭祖日"
+    },
+    {
+     "date": "2026-04-27",
+     "name": "Hung Kings' Commemoration Day Holiday",
+     "local": "Nghỉ Giỗ Tổ Hùng Vương",
+     "cn": "雄王祭祖假期"
+    },
+    {
+     "date": "2026-04-30",
+     "name": "Reunification Day",
+     "local": "Ngày Giải phóng miền Nam",
+     "cn": "南方解放日"
+    },
+    {
+     "date": "2026-05-01",
+     "name": "Labor Day",
+     "local": "Ngày Quốc tế Lao động",
+     "cn": "劳动节"
+    },
+    {
+     "date": "2026-05-02",
+     "name": "Labor Day Holiday",
+     "local": "Nghỉ Lao động",
+     "cn": "劳动节假期"
+    },
+    {
+     "date": "2026-05-03",
+     "name": "Labor Day Holiday",
+     "local": "Nghỉ Lao động",
+     "cn": "劳动节假期"
+    },
+    {
+     "date": "2026-08-29",
+     "name": "National Day Holiday Start",
+     "local": "Bắt đầu nghỉ Quốc Khánh",
+     "cn": "国庆节假期开始"
+    },
+    {
+     "date": "2026-08-30",
+     "name": "National Day Holiday",
+     "local": "Nghỉ Quốc Khánh",
+     "cn": "国庆节假期"
+    },
+    {
+     "date": "2026-08-31",
+     "name": "National Day Holiday",
+     "local": "Nghỉ Quốc Khánh",
+     "cn": "国庆节假期"
+    },
+    {
+     "date": "2026-09-01",
+     "name": "National Day Holiday",
+     "local": "Nghỉ Quốc Khánh",
+     "cn": "国庆节假期"
+    },
+    {
+     "date": "2026-09-02",
+     "name": "National Day",
+     "local": "Quốc Khánh",
+     "cn": "越南国庆节"
+    },
+    {
+     "date": "2026-11-24",
+     "name": "Vietnamese Cultural Day",
+     "local": "Ngày Văn hóa Việt Nam",
+     "cn": "越南文化日"
+    }
+   ],
+   "observances": [
+    {
+     "date": "2026-02-04",
+     "name": "Beginning of Spring",
+     "local": "Lập Xuân"
+    },
+    {
+     "date": "2026-02-14",
+     "name": "Valentine's Day",
+     "local": "Lễ Tình nhân"
+    },
+    {
+     "date": "2026-03-03",
+     "name": "Lantern Festival",
+     "local": "Tết Nguyên Tiêu"
+    },
+    {
+     "date": "2026-03-08",
+     "name": "International Women's Day",
+     "local": "Quốc tế Phụ nữ"
+    },
+    {
+     "date": "2026-03-20",
+     "name": "March Equinox",
+     "local": "Xuân phân"
+    },
+    {
+     "date": "2026-04-01",
+     "name": "April Fools Day",
+     "local": "Cá tháng Tư"
+    },
+    {
+     "date": "2026-04-05",
+     "name": "Qing Ming Festival",
+     "local": "Tết Thanh Minh"
+    },
+    {
+     "date": "2026-04-19",
+     "name": "Cold Food Festival",
+     "local": "Tết Hàn Thực"
+    },
+    {
+     "date": "2026-05-19",
+     "name": "Ho Chi Minh's Birthday",
+     "local": "Sinh nhật Bác Hồ"
+    },
+    {
+     "date": "2026-05-24",
+     "name": "Vesak Day",
+     "local": "Lễ Phật Đản"
+    },
+    {
+     "date": "2026-06-01",
+     "name": "International Children's Day",
+     "local": "Quốc tế Thiếu nhi"
+    },
+    {
+     "date": "2026-06-19",
+     "name": "Dragon Boat Festival",
+     "local": "Tết Đoan Ngọ"
+    },
+    {
+     "date": "2026-06-21",
+     "name": "June Solstice",
+     "local": "Hạ chí"
+    },
+    {
+     "date": "2026-06-28",
+     "name": "Vietnamese Family Day",
+     "local": "Ngày Gia đình Việt Nam"
+    },
+    {
+     "date": "2026-07-27",
+     "name": "War Invalids and Martyrs Day",
+     "local": "Ngày Thương binh Liệt sĩ"
+    },
+    {
+     "date": "2026-08-19",
+     "name": "Chinese Valentine's Day",
+     "local": "Thất Tịch"
+    },
+    {
+     "date": "2026-08-19",
+     "name": "People's Public Security Traditional Day",
+     "local": "Ngày truyền thống Công an Nhân dân Việt Nam"
+    },
+    {
+     "date": "2026-08-19",
+     "name": "All People Protect National Security Festive Day",
+     "local": "Ngày Toàn dân bảo vệ an ninh Tổ quốc"
+    },
+    {
+     "date": "2026-08-27",
+     "name": "Hungry Ghost Festival",
+     "local": "Lễ Vu Lan"
+    },
+    {
+     "date": "2026-09-05",
+     "name": "School Opening Day",
+     "local": "Ngày khai giảng năm học mới"
+    },
+    {
+     "date": "2026-09-23",
+     "name": "September Equinox",
+     "local": "Thu phân"
+    },
+    {
+     "date": "2026-09-25",
+     "name": "Mid-Autumn Festival",
+     "local": "Tết Trung Thu"
+    },
+    {
+     "date": "2026-10-13",
+     "name": "Vietnamese Entrepreneurs' Day",
+     "local": "Ngày Doanh nhân Việt Nam"
+    },
+    {
+     "date": "2026-10-18",
+     "name": "Double Ninth Festival",
+     "local": "Tết Trùng Cửu"
+    },
+    {
+     "date": "2026-10-20",
+     "name": "Vietnamese Women's Day",
+     "local": "Ngày Phụ nữ Việt Nam"
+    },
+    {
+     "date": "2026-11-20",
+     "name": "Vietnamese Teacher's Day",
+     "local": "Ngày Nhà giáo Việt Nam"
+    },
+    {
+     "date": "2026-11-23",
+     "name": "Lower Yuan Festival",
+     "local": "Tết Hạ Nguyên"
+    },
+    {
+     "date": "2026-12-22",
+     "name": "Winter Solstice",
+     "local": "Đông chí"
+    },
+    {
+     "date": "2026-12-24",
+     "name": "Christmas Eve",
+     "local": "Đêm Giáng sinh"
+    },
+    {
+     "date": "2026-12-25",
+     "name": "Christmas Day",
+     "local": "Lễ Giáng sinh"
+    },
+    {
+     "date": "2026-12-31",
+     "name": "New Year's Eve",
+     "local": "Đêm Giao thừa Dương lịch"
+    }
+   ],
+   "school": []
+  },
+  "2027": {
+   "publicHolidays": [
+    {
+     "date": "2027-01-01",
+     "name": "New Year's Day",
+     "local": "Tết Dương lịch",
+     "cn": "新年元旦"
+    },
+    {
+     "date": "2027-02-05",
+     "name": "Lunar New Year's Eve",
+     "local": "Đêm Giao thừa",
+     "cn": "农历除夕"
+    },
+    {
+     "date": "2027-02-06",
+     "name": "Lunar New Year · Tet",
+     "local": "Tết Nguyên Đán",
+     "cn": "春节"
+    },
+    {
+     "date": "2027-02-07",
+     "name": "Tet Holiday · Day 2",
+     "local": "Nghỉ Tết Nguyên Đán",
+     "cn": "春节假期"
+    },
+    {
+     "date": "2027-02-08",
+     "name": "Tet Holiday · Day 3",
+     "local": "Nghỉ Tết Nguyên Đán",
+     "cn": "春节假期"
+    },
+    {
+     "date": "2027-02-09",
+     "name": "Tet Holiday · Day 4",
+     "local": "Nghỉ Tết Nguyên Đán",
+     "cn": "春节假期"
+    },
+    {
+     "date": "2027-02-10",
+     "name": "Tet Holiday · Day 5",
+     "local": "Nghỉ Tết Nguyên Đán",
+     "cn": "春节假期"
+    },
+    {
+     "date": "2027-02-11",
+     "name": "Tet Holiday · Day 6",
+     "local": "Nghỉ Tết Nguyên Đán",
+     "cn": "春节假期"
+    },
+    {
+     "date": "2027-04-16",
+     "name": "Hung Kings' Commemoration Day",
+     "local": "Giỗ Tổ Hùng Vương",
+     "cn": "雄王祭祖日"
+    },
+    {
+     "date": "2027-04-30",
+     "name": "Reunification Day",
+     "local": "Ngày Giải phóng miền Nam",
+     "cn": "南方解放日"
+    },
+    {
+     "date": "2027-05-01",
+     "name": "Labor Day",
+     "local": "Ngày Quốc tế Lao động",
+     "cn": "劳动节"
+    },
+    {
+     "date": "2027-05-03",
+     "name": "Labor Day Holiday",
+     "local": "Nghỉ bù Lao động",
+     "cn": "劳动节假期"
+    },
+    {
+     "date": "2027-09-02",
+     "name": "National Day",
+     "local": "Quốc Khánh",
+     "cn": "越南国庆节"
+    },
+    {
+     "date": "2027-09-03",
+     "name": "National Day Holiday",
+     "local": "Nghỉ Quốc Khánh",
+     "cn": "国庆节假期"
+    },
+    {
+     "date": "2027-11-24",
+     "name": "Vietnamese Cultural Day",
+     "local": "Ngày Văn hóa Việt Nam",
+     "cn": "越南文化日"
+    }
+   ],
+   "observances": [
+    {
+     "date": "2027-02-04",
+     "name": "Beginning of Spring",
+     "local": "Lập Xuân"
+    },
+    {
+     "date": "2027-02-14",
+     "name": "Valentine's Day",
+     "local": "Lễ Tình nhân"
+    },
+    {
+     "date": "2027-02-21",
+     "name": "Lantern Festival",
+     "local": "Tết Nguyên Tiêu"
+    },
+    {
+     "date": "2027-03-08",
+     "name": "International Women's Day",
+     "local": "Quốc tế Phụ nữ"
+    },
+    {
+     "date": "2027-03-20",
+     "name": "March Equinox",
+     "local": "Xuân phân"
+    },
+    {
+     "date": "2027-04-01",
+     "name": "April Fools Day",
+     "local": "Cá tháng Tư"
+    },
+    {
+     "date": "2027-04-05",
+     "name": "Qing Ming Festival",
+     "local": "Tết Thanh Minh"
+    },
+    {
+     "date": "2027-04-08",
+     "name": "Cold Food Festival",
+     "local": "Tết Hàn Thực"
+    },
+    {
+     "date": "2027-05-13",
+     "name": "Vesak Day",
+     "local": "Lễ Phật Đản"
+    },
+    {
+     "date": "2027-05-19",
+     "name": "Ho Chi Minh's Birthday",
+     "local": "Sinh nhật Bác Hồ"
+    },
+    {
+     "date": "2027-06-01",
+     "name": "International Children's Day",
+     "local": "Quốc tế Thiếu nhi"
+    },
+    {
+     "date": "2027-06-09",
+     "name": "Dragon Boat Festival",
+     "local": "Tết Đoan Ngọ"
+    },
+    {
+     "date": "2027-06-21",
+     "name": "June Solstice",
+     "local": "Hạ chí"
+    },
+    {
+     "date": "2027-06-28",
+     "name": "Vietnamese Family Day",
+     "local": "Ngày Gia đình Việt Nam"
+    },
+    {
+     "date": "2027-07-27",
+     "name": "War Invalids and Martyrs Day",
+     "local": "Ngày Thương binh Liệt sĩ"
+    },
+    {
+     "date": "2027-08-08",
+     "name": "Chinese Valentine's Day",
+     "local": "Thất Tịch"
+    },
+    {
+     "date": "2027-08-16",
+     "name": "Hungry Ghost Festival",
+     "local": "Lễ Vu Lan"
+    },
+    {
+     "date": "2027-08-19",
+     "name": "People's Public Security Traditional Day",
+     "local": "Ngày truyền thống Công an Nhân dân Việt Nam"
+    },
+    {
+     "date": "2027-08-19",
+     "name": "All People Protect National Security Festive Day",
+     "local": "Ngày Toàn dân bảo vệ an ninh Tổ quốc"
+    },
+    {
+     "date": "2027-09-05",
+     "name": "School Opening Day",
+     "local": "Ngày khai giảng năm học mới"
+    },
+    {
+     "date": "2027-09-15",
+     "name": "Mid-Autumn Festival",
+     "local": "Tết Trung Thu"
+    },
+    {
+     "date": "2027-09-23",
+     "name": "September Equinox",
+     "local": "Thu phân"
+    },
+    {
+     "date": "2027-10-08",
+     "name": "Double Ninth Festival",
+     "local": "Tết Trùng Cửu"
+    },
+    {
+     "date": "2027-10-13",
+     "name": "Vietnamese Entrepreneurs' Day",
+     "local": "Ngày Doanh nhân Việt Nam"
+    },
+    {
+     "date": "2027-10-20",
+     "name": "Vietnamese Women's Day",
+     "local": "Ngày Phụ nữ Việt Nam"
+    },
+    {
+     "date": "2027-11-12",
+     "name": "Lower Yuan Festival",
+     "local": "Tết Hạ Nguyên"
+    },
+    {
+     "date": "2027-11-20",
+     "name": "Vietnamese Teacher's Day",
+     "local": "Ngày Nhà giáo Việt Nam"
+    },
+    {
+     "date": "2027-12-21",
+     "name": "Winter Solstice",
+     "local": "Đông chí"
+    },
+    {
+     "date": "2027-12-24",
+     "name": "Christmas Eve",
+     "local": "Đêm Giáng sinh"
+    },
+    {
+     "date": "2027-12-25",
+     "name": "Christmas Day",
+     "local": "Lễ Giáng sinh"
+    },
+    {
+     "date": "2027-12-31",
+     "name": "New Year's Eve",
+     "local": "Đêm Giao thừa Dương lịch"
+    }
+   ],
+   "school": []
+  }
+ }
+}

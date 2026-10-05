@@ -1,0 +1,1884 @@
+{
+ "country": "AU",
+ "years": {
+  "2026": {
+   "publicHolidays": [
+    {
+     "date": "2026-01-01",
+     "name": "New Year's Day",
+     "cn": "新年元旦"
+    },
+    {
+     "date": "2026-01-26",
+     "name": "Australia Day",
+     "cn": "澳洲国庆日"
+    },
+    {
+     "date": "2026-03-02",
+     "name": "Labour Day",
+     "cn": "劳动节",
+     "states": [
+      "Western Australia"
+     ]
+    },
+    {
+     "date": "2026-03-09",
+     "name": "Labour Day",
+     "cn": "劳动节",
+     "states": [
+      "Victoria"
+     ]
+    },
+    {
+     "date": "2026-03-09",
+     "name": "Eight Hours Day",
+     "cn": "八小时工作日",
+     "states": [
+      "Tasmania"
+     ]
+    },
+    {
+     "date": "2026-03-09",
+     "name": "Canberra Day",
+     "cn": "堪培拉日",
+     "states": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "date": "2026-03-09",
+     "name": "Adelaide Cup Day",
+     "cn": "阿德莱德杯赛马日",
+     "states": [
+      "South Australia"
+     ]
+    },
+    {
+     "date": "2026-04-03",
+     "name": "Good Friday",
+     "cn": "耶稣受难日"
+    },
+    {
+     "date": "2026-04-04",
+     "name": "Easter Saturday",
+     "cn": "复活节星期六",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Northern Territory",
+      "Queensland",
+      "South Australia",
+      "Victoria"
+     ]
+    },
+    {
+     "date": "2026-04-05",
+     "name": "Easter Sunday",
+     "cn": "复活节",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Queensland",
+      "South Australia",
+      "Victoria"
+     ]
+    },
+    {
+     "date": "2026-04-06",
+     "name": "Easter Monday",
+     "cn": "复活节星期一"
+    },
+    {
+     "date": "2026-04-25",
+     "name": "Anzac Day",
+     "cn": "澳纽军团日"
+    },
+    {
+     "date": "2026-04-27",
+     "name": "Anzac Day Holiday",
+     "cn": "澳纽军团日补假",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Western Australia"
+     ]
+    },
+    {
+     "date": "2026-05-04",
+     "name": "Labour Day",
+     "cn": "劳动节",
+     "states": [
+      "Queensland"
+     ]
+    },
+    {
+     "date": "2026-05-04",
+     "name": "May Day",
+     "cn": "五一劳动节",
+     "states": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "date": "2026-06-01",
+     "name": "Reconciliation Day",
+     "cn": "和解日",
+     "states": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "date": "2026-06-01",
+     "name": "Western Australia Day",
+     "cn": "西澳州日",
+     "states": [
+      "Western Australia"
+     ]
+    },
+    {
+     "date": "2026-06-08",
+     "name": "King's Birthday",
+     "cn": "英王诞辰",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Northern Territory",
+      "South Australia",
+      "Tasmania",
+      "Victoria"
+     ]
+    },
+    {
+     "date": "2026-08-03",
+     "name": "Picnic Day",
+     "cn": "野餐日",
+     "states": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "date": "2026-09-25",
+     "name": "Friday before the AFL Grand Final",
+     "cn": "澳式足球总决赛前一日",
+     "states": [
+      "Victoria"
+     ]
+    },
+    {
+     "date": "2026-09-28",
+     "name": "King's Birthday",
+     "cn": "英王诞辰",
+     "states": [
+      "Western Australia"
+     ]
+    },
+    {
+     "date": "2026-10-05",
+     "name": "Labour Day",
+     "cn": "劳动节",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "South Australia"
+     ]
+    },
+    {
+     "date": "2026-10-05",
+     "name": "King's Birthday",
+     "cn": "英王诞辰",
+     "states": [
+      "Queensland"
+     ]
+    },
+    {
+     "date": "2026-11-03",
+     "name": "Melbourne Cup Day",
+     "cn": "墨尔本杯赛马日",
+     "states": [
+      "Victoria"
+     ]
+    },
+    {
+     "date": "2026-12-25",
+     "name": "Christmas Day",
+     "cn": "圣诞节"
+    },
+    {
+     "date": "2026-12-26",
+     "name": "Boxing Day",
+     "cn": "节礼日",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Northern Territory",
+      "Queensland",
+      "Tasmania",
+      "Victoria",
+      "Western Australia"
+     ]
+    },
+    {
+     "date": "2026-12-26",
+     "name": "Proclamation Day",
+     "cn": "宣告日",
+     "states": [
+      "South Australia"
+     ]
+    },
+    {
+     "date": "2026-12-28",
+     "name": "Boxing Day Holiday",
+     "cn": "节礼日补假",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Northern Territory",
+      "Queensland",
+      "Tasmania",
+      "Victoria",
+      "Western Australia"
+     ]
+    },
+    {
+     "date": "2026-12-28",
+     "name": "Proclamation Day Holiday",
+     "cn": "宣告日补假",
+     "states": [
+      "South Australia"
+     ]
+    }
+   ],
+   "observances": [
+    {
+     "date": "2026-02-04",
+     "name": "Beginning of Spring"
+    },
+    {
+     "date": "2026-02-14",
+     "name": "Valentine's Day"
+    },
+    {
+     "date": "2026-02-16",
+     "name": "Chinese New Year's Eve"
+    },
+    {
+     "date": "2026-02-17",
+     "name": "Chinese New Year"
+    },
+    {
+     "date": "2026-02-18",
+     "name": "Chinese New Year · Day 2"
+    },
+    {
+     "date": "2026-03-03",
+     "name": "Lantern Festival"
+    },
+    {
+     "date": "2026-04-01",
+     "name": "April Fools Day"
+    },
+    {
+     "date": "2026-04-05",
+     "name": "Qing Ming Festival"
+    },
+    {
+     "date": "2026-05-10",
+     "name": "Mother's Day"
+    },
+    {
+     "date": "2026-06-19",
+     "name": "Dragon Boat Festival"
+    },
+    {
+     "date": "2026-08-19",
+     "name": "Chinese Valentine's Day"
+    },
+    {
+     "date": "2026-08-27",
+     "name": "Hungry Ghost Festival"
+    },
+    {
+     "date": "2026-09-06",
+     "name": "Father's Day"
+    },
+    {
+     "date": "2026-09-25",
+     "name": "Mid-Autumn Festival"
+    },
+    {
+     "date": "2026-10-18",
+     "name": "Double Ninth Festival"
+    },
+    {
+     "date": "2026-10-31",
+     "name": "Halloween"
+    },
+    {
+     "date": "2026-12-22",
+     "name": "Dongzhi Festival"
+    },
+    {
+     "date": "2026-12-24",
+     "name": "Christmas Eve"
+    },
+    {
+     "date": "2026-12-31",
+     "name": "New Year's Eve"
+    }
+   ],
+   "school": [
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-01-01",
+     "end": "2026-02-01",
+     "regions": [
+      "New South Wales"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-01-01",
+     "end": "2026-01-27",
+     "regions": [
+      "Victoria"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-01-01",
+     "end": "2026-01-26",
+     "regions": [
+      "Queensland"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-01-01",
+     "end": "2026-01-26",
+     "regions": [
+      "South Australia"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-01-01",
+     "end": "2026-02-01",
+     "regions": [
+      "Western Australia"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-01-01",
+     "end": "2026-02-04",
+     "regions": [
+      "Tasmania"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-01-01",
+     "end": "2026-01-28",
+     "regions": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-01-01",
+     "end": "2026-01-29",
+     "regions": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_1",
+     "start": "2026-01-27",
+     "end": "2026-04-02",
+     "regions": [
+      "Queensland"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_1",
+     "start": "2026-01-27",
+     "end": "2026-04-10",
+     "regions": [
+      "South Australia"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_1",
+     "start": "2026-01-28",
+     "end": "2026-04-02",
+     "regions": [
+      "Victoria"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_1",
+     "start": "2026-01-29",
+     "end": "2026-04-02",
+     "regions": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_1",
+     "start": "2026-01-30",
+     "end": "2026-04-02",
+     "regions": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_1",
+     "start": "2026-02-02",
+     "end": "2026-04-02",
+     "regions": [
+      "New South Wales"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_1",
+     "start": "2026-02-02",
+     "end": "2026-04-02",
+     "regions": [
+      "Western Australia"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_1",
+     "start": "2026-02-05",
+     "end": "2026-04-17",
+     "regions": [
+      "Tasmania"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "autumn_break",
+     "start": "2026-04-03",
+     "end": "2026-04-21",
+     "regions": [
+      "New South Wales"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "autumn_break",
+     "start": "2026-04-03",
+     "end": "2026-04-19",
+     "regions": [
+      "Victoria"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "autumn_break",
+     "start": "2026-04-03",
+     "end": "2026-04-19",
+     "regions": [
+      "Queensland"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "autumn_break",
+     "start": "2026-04-03",
+     "end": "2026-04-19",
+     "regions": [
+      "Western Australia"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "autumn_break",
+     "start": "2026-04-03",
+     "end": "2026-04-13",
+     "regions": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "autumn_break",
+     "start": "2026-04-03",
+     "end": "2026-04-20",
+     "regions": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "autumn_break",
+     "start": "2026-04-11",
+     "end": "2026-04-26",
+     "regions": [
+      "South Australia"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_2",
+     "start": "2026-04-14",
+     "end": "2026-06-19",
+     "regions": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "autumn_break",
+     "start": "2026-04-18",
+     "end": "2026-05-03",
+     "regions": [
+      "Tasmania"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_2",
+     "start": "2026-04-20",
+     "end": "2026-06-26",
+     "regions": [
+      "Victoria"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_2",
+     "start": "2026-04-20",
+     "end": "2026-06-26",
+     "regions": [
+      "Queensland"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_2",
+     "start": "2026-04-20",
+     "end": "2026-07-03",
+     "regions": [
+      "Western Australia"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_2",
+     "start": "2026-04-21",
+     "end": "2026-07-03",
+     "regions": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_2",
+     "start": "2026-04-22",
+     "end": "2026-07-03",
+     "regions": [
+      "New South Wales"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_2",
+     "start": "2026-04-27",
+     "end": "2026-07-03",
+     "regions": [
+      "South Australia"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_2",
+     "start": "2026-05-04",
+     "end": "2026-07-10",
+     "regions": [
+      "Tasmania"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2026-06-20",
+     "end": "2026-07-13",
+     "regions": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2026-06-27",
+     "end": "2026-07-12",
+     "regions": [
+      "Victoria"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2026-06-27",
+     "end": "2026-07-12",
+     "regions": [
+      "Queensland"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2026-07-04",
+     "end": "2026-07-20",
+     "regions": [
+      "New South Wales"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2026-07-04",
+     "end": "2026-07-19",
+     "regions": [
+      "South Australia"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2026-07-04",
+     "end": "2026-07-19",
+     "regions": [
+      "Western Australia"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2026-07-04",
+     "end": "2026-07-20",
+     "regions": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2026-07-11",
+     "end": "2026-07-26",
+     "regions": [
+      "Tasmania"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_3",
+     "start": "2026-07-13",
+     "end": "2026-09-18",
+     "regions": [
+      "Victoria"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_3",
+     "start": "2026-07-13",
+     "end": "2026-09-18",
+     "regions": [
+      "Queensland"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_3",
+     "start": "2026-07-14",
+     "end": "2026-09-18",
+     "regions": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_3",
+     "start": "2026-07-20",
+     "end": "2026-09-25",
+     "regions": [
+      "South Australia"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_3",
+     "start": "2026-07-20",
+     "end": "2026-09-25",
+     "regions": [
+      "Western Australia"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_3",
+     "start": "2026-07-21",
+     "end": "2026-09-25",
+     "regions": [
+      "New South Wales"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_3",
+     "start": "2026-07-21",
+     "end": "2026-09-25",
+     "regions": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_3",
+     "start": "2026-07-27",
+     "end": "2026-10-02",
+     "regions": [
+      "Tasmania"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "spring_break",
+     "start": "2026-09-19",
+     "end": "2026-10-04",
+     "regions": [
+      "Victoria"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "spring_break",
+     "start": "2026-09-19",
+     "end": "2026-10-05",
+     "regions": [
+      "Queensland"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "spring_break",
+     "start": "2026-09-19",
+     "end": "2026-10-05",
+     "regions": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "spring_break",
+     "start": "2026-09-26",
+     "end": "2026-10-12",
+     "regions": [
+      "New South Wales"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "spring_break",
+     "start": "2026-09-26",
+     "end": "2026-10-11",
+     "regions": [
+      "South Australia"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "spring_break",
+     "start": "2026-09-26",
+     "end": "2026-10-11",
+     "regions": [
+      "Western Australia"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "spring_break",
+     "start": "2026-09-26",
+     "end": "2026-10-12",
+     "regions": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "spring_break",
+     "start": "2026-10-03",
+     "end": "2026-10-18",
+     "regions": [
+      "Tasmania"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_4",
+     "start": "2026-10-05",
+     "end": "2026-12-18",
+     "regions": [
+      "Victoria"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_4",
+     "start": "2026-10-06",
+     "end": "2026-12-11",
+     "regions": [
+      "Queensland"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_4",
+     "start": "2026-10-06",
+     "end": "2026-12-10",
+     "regions": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_4",
+     "start": "2026-10-12",
+     "end": "2026-12-11",
+     "regions": [
+      "South Australia"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_4",
+     "start": "2026-10-12",
+     "end": "2026-12-17",
+     "regions": [
+      "Western Australia"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_4",
+     "start": "2026-10-13",
+     "end": "2026-12-17",
+     "regions": [
+      "New South Wales"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_4",
+     "start": "2026-10-13",
+     "end": "2026-12-18",
+     "regions": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_4",
+     "start": "2026-10-19",
+     "end": "2026-12-18",
+     "regions": [
+      "Tasmania"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-12-11",
+     "end": "2027-01-26",
+     "regions": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-12-12",
+     "end": "2027-01-26",
+     "regions": [
+      "Queensland"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-12-12",
+     "end": "2027-01-26",
+     "regions": [
+      "South Australia"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-12-18",
+     "end": "2027-02-02",
+     "regions": [
+      "New South Wales"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-12-18",
+     "end": "2027-01-31",
+     "regions": [
+      "Western Australia"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-12-19",
+     "end": "2027-01-27",
+     "regions": [
+      "Victoria"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-12-19",
+     "end": "2027-02-03",
+     "regions": [
+      "Tasmania"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-12-19",
+     "end": "2027-01-31",
+     "regions": [
+      "Australian Capital Territory"
+     ]
+    }
+   ]
+  },
+  "2027": {
+   "publicHolidays": [
+    {
+     "date": "2027-01-01",
+     "name": "New Year's Day",
+     "cn": "新年元旦"
+    },
+    {
+     "date": "2027-01-26",
+     "name": "Australia Day",
+     "cn": "澳洲国庆日"
+    },
+    {
+     "date": "2027-03-01",
+     "name": "Labour Day",
+     "cn": "劳动节",
+     "states": [
+      "Western Australia"
+     ]
+    },
+    {
+     "date": "2027-03-08",
+     "name": "Labour Day",
+     "cn": "劳动节",
+     "states": [
+      "Victoria"
+     ]
+    },
+    {
+     "date": "2027-03-08",
+     "name": "Eight Hours Day",
+     "cn": "八小时工作日",
+     "states": [
+      "Tasmania"
+     ]
+    },
+    {
+     "date": "2027-03-08",
+     "name": "Canberra Day",
+     "cn": "堪培拉日",
+     "states": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "date": "2027-03-08",
+     "name": "Adelaide Cup Day",
+     "cn": "阿德莱德杯赛马日",
+     "states": [
+      "South Australia"
+     ]
+    },
+    {
+     "date": "2027-03-26",
+     "name": "Good Friday",
+     "cn": "耶稣受难日"
+    },
+    {
+     "date": "2027-03-27",
+     "name": "Easter Saturday",
+     "cn": "复活节星期六",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Northern Territory",
+      "Queensland",
+      "South Australia",
+      "Victoria"
+     ]
+    },
+    {
+     "date": "2027-03-28",
+     "name": "Easter Sunday",
+     "cn": "复活节",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Queensland",
+      "South Australia",
+      "Victoria"
+     ]
+    },
+    {
+     "date": "2027-03-29",
+     "name": "Easter Monday",
+     "cn": "复活节星期一"
+    },
+    {
+     "date": "2027-04-25",
+     "name": "Anzac Day",
+     "cn": "澳纽军团日"
+    },
+    {
+     "date": "2027-04-26",
+     "name": "Anzac Day Holiday",
+     "cn": "澳纽军团日补假",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Northern Territory",
+      "Queensland",
+      "Western Australia"
+     ]
+    },
+    {
+     "date": "2027-05-03",
+     "name": "Labour Day",
+     "cn": "劳动节",
+     "states": [
+      "Queensland"
+     ]
+    },
+    {
+     "date": "2027-05-03",
+     "name": "May Day",
+     "cn": "五一劳动节",
+     "states": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "date": "2027-05-31",
+     "name": "Reconciliation Day",
+     "cn": "和解日",
+     "states": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "date": "2027-06-07",
+     "name": "Western Australia Day",
+     "cn": "西澳州日",
+     "states": [
+      "Western Australia"
+     ]
+    },
+    {
+     "date": "2027-06-14",
+     "name": "King's Birthday",
+     "cn": "英王诞辰",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Northern Territory",
+      "South Australia",
+      "Tasmania",
+      "Victoria"
+     ]
+    },
+    {
+     "date": "2027-08-02",
+     "name": "Picnic Day",
+     "cn": "野餐日",
+     "states": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "date": "2027-09-27",
+     "name": "King's Birthday",
+     "cn": "英王诞辰",
+     "states": [
+      "Western Australia"
+     ]
+    },
+    {
+     "date": "2027-10-04",
+     "name": "Labour Day",
+     "cn": "劳动节",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "South Australia"
+     ]
+    },
+    {
+     "date": "2027-10-04",
+     "name": "King's Birthday",
+     "cn": "英王诞辰",
+     "states": [
+      "Queensland"
+     ]
+    },
+    {
+     "date": "2027-11-02",
+     "name": "Melbourne Cup Day",
+     "cn": "墨尔本杯赛马日",
+     "states": [
+      "Victoria"
+     ]
+    },
+    {
+     "date": "2027-12-25",
+     "name": "Christmas Day",
+     "cn": "圣诞节"
+    },
+    {
+     "date": "2027-12-26",
+     "name": "Boxing Day",
+     "cn": "节礼日",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Northern Territory",
+      "Queensland",
+      "Tasmania",
+      "Victoria",
+      "Western Australia"
+     ]
+    },
+    {
+     "date": "2027-12-26",
+     "name": "Proclamation Day",
+     "cn": "宣告日",
+     "states": [
+      "South Australia"
+     ]
+    },
+    {
+     "date": "2027-12-27",
+     "name": "Christmas Day Holiday",
+     "cn": "圣诞节补假"
+    },
+    {
+     "date": "2027-12-28",
+     "name": "Boxing Day Holiday",
+     "cn": "节礼日补假",
+     "states": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Northern Territory",
+      "Queensland",
+      "Tasmania",
+      "Victoria",
+      "Western Australia"
+     ]
+    },
+    {
+     "date": "2027-12-28",
+     "name": "Proclamation Day Holiday",
+     "cn": "宣告日补假",
+     "states": [
+      "South Australia"
+     ]
+    }
+   ],
+   "observances": [
+    {
+     "date": "2027-02-04",
+     "name": "Beginning of Spring"
+    },
+    {
+     "date": "2027-02-05",
+     "name": "Chinese New Year's Eve"
+    },
+    {
+     "date": "2027-02-06",
+     "name": "Chinese New Year"
+    },
+    {
+     "date": "2027-02-07",
+     "name": "Chinese New Year · Day 2"
+    },
+    {
+     "date": "2027-02-14",
+     "name": "Valentine's Day"
+    },
+    {
+     "date": "2027-02-21",
+     "name": "Lantern Festival"
+    },
+    {
+     "date": "2027-04-01",
+     "name": "April Fools Day"
+    },
+    {
+     "date": "2027-04-05",
+     "name": "Qing Ming Festival"
+    },
+    {
+     "date": "2027-05-09",
+     "name": "Mother's Day"
+    },
+    {
+     "date": "2027-06-09",
+     "name": "Dragon Boat Festival"
+    },
+    {
+     "date": "2027-08-08",
+     "name": "Chinese Valentine's Day"
+    },
+    {
+     "date": "2027-08-16",
+     "name": "Hungry Ghost Festival"
+    },
+    {
+     "date": "2027-09-05",
+     "name": "Father's Day"
+    },
+    {
+     "date": "2027-09-15",
+     "name": "Mid-Autumn Festival"
+    },
+    {
+     "date": "2027-10-08",
+     "name": "Double Ninth Festival"
+    },
+    {
+     "date": "2027-10-31",
+     "name": "Halloween"
+    },
+    {
+     "date": "2027-12-22",
+     "name": "Dongzhi Festival"
+    },
+    {
+     "date": "2027-12-24",
+     "name": "Christmas Eve"
+    },
+    {
+     "date": "2027-12-31",
+     "name": "New Year's Eve"
+    }
+   ],
+   "school": [
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-12-11",
+     "end": "2027-01-26",
+     "regions": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-12-12",
+     "end": "2027-01-26",
+     "regions": [
+      "Queensland"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-12-12",
+     "end": "2027-01-26",
+     "regions": [
+      "South Australia"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-12-18",
+     "end": "2027-02-02",
+     "regions": [
+      "New South Wales"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-12-18",
+     "end": "2027-01-31",
+     "regions": [
+      "Western Australia"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-12-19",
+     "end": "2027-01-27",
+     "regions": [
+      "Victoria"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-12-19",
+     "end": "2027-02-03",
+     "regions": [
+      "Tasmania"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "summer_break",
+     "start": "2026-12-19",
+     "end": "2027-01-31",
+     "regions": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_1",
+     "start": "2027-01-27",
+     "end": "2027-03-25",
+     "regions": [
+      "Queensland"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_1",
+     "start": "2027-01-27",
+     "end": "2027-04-09",
+     "regions": [
+      "South Australia"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_1",
+     "start": "2027-01-27",
+     "end": "2027-04-02",
+     "regions": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_1",
+     "start": "2027-01-28",
+     "end": "2027-03-25",
+     "regions": [
+      "Victoria"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_1",
+     "start": "2027-02-01",
+     "end": "2027-04-09",
+     "regions": [
+      "Western Australia"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_1",
+     "start": "2027-02-01",
+     "end": "2027-04-09",
+     "regions": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_1",
+     "start": "2027-02-03",
+     "end": "2027-04-09",
+     "regions": [
+      "New South Wales"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_1",
+     "start": "2027-02-04",
+     "end": "2027-04-09",
+     "regions": [
+      "Tasmania"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "autumn_break",
+     "start": "2027-03-26",
+     "end": "2027-04-11",
+     "regions": [
+      "Victoria"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "autumn_break",
+     "start": "2027-03-26",
+     "end": "2027-04-11",
+     "regions": [
+      "Queensland"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "autumn_break",
+     "start": "2027-04-03",
+     "end": "2027-04-12",
+     "regions": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "autumn_break",
+     "start": "2027-04-10",
+     "end": "2027-04-28",
+     "regions": [
+      "New South Wales"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "autumn_break",
+     "start": "2027-04-10",
+     "end": "2027-04-25",
+     "regions": [
+      "South Australia"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "autumn_break",
+     "start": "2027-04-10",
+     "end": "2027-04-25",
+     "regions": [
+      "Western Australia"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "autumn_break",
+     "start": "2027-04-10",
+     "end": "2027-04-25",
+     "regions": [
+      "Tasmania"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "autumn_break",
+     "start": "2027-04-10",
+     "end": "2027-04-27",
+     "regions": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_2",
+     "start": "2027-04-12",
+     "end": "2027-06-25",
+     "regions": [
+      "Victoria"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_2",
+     "start": "2027-04-12",
+     "end": "2027-06-25",
+     "regions": [
+      "Queensland"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_2",
+     "start": "2027-04-13",
+     "end": "2027-06-18",
+     "regions": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_2",
+     "start": "2027-04-26",
+     "end": "2027-07-02",
+     "regions": [
+      "South Australia"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_2",
+     "start": "2027-04-26",
+     "end": "2027-07-02",
+     "regions": [
+      "Western Australia"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_2",
+     "start": "2027-04-26",
+     "end": "2027-07-02",
+     "regions": [
+      "Tasmania"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_2",
+     "start": "2027-04-28",
+     "end": "2027-07-02",
+     "regions": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_2",
+     "start": "2027-04-29",
+     "end": "2027-07-02",
+     "regions": [
+      "New South Wales"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2027-06-19",
+     "end": "2027-07-12",
+     "regions": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2027-06-26",
+     "end": "2027-07-11",
+     "regions": [
+      "Victoria"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2027-06-26",
+     "end": "2027-07-11",
+     "regions": [
+      "Queensland"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2027-07-03",
+     "end": "2027-07-19",
+     "regions": [
+      "New South Wales"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2027-07-03",
+     "end": "2027-07-18",
+     "regions": [
+      "South Australia"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2027-07-03",
+     "end": "2027-07-18",
+     "regions": [
+      "Western Australia"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2027-07-03",
+     "end": "2027-07-18",
+     "regions": [
+      "Tasmania"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "winter_break",
+     "start": "2027-07-03",
+     "end": "2027-07-19",
+     "regions": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_3",
+     "start": "2027-07-12",
+     "end": "2027-09-17",
+     "regions": [
+      "Victoria"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_3",
+     "start": "2027-07-12",
+     "end": "2027-09-17",
+     "regions": [
+      "Queensland"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_3",
+     "start": "2027-07-13",
+     "end": "2027-09-17",
+     "regions": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_3",
+     "start": "2027-07-19",
+     "end": "2027-09-24",
+     "regions": [
+      "South Australia"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_3",
+     "start": "2027-07-19",
+     "end": "2027-09-24",
+     "regions": [
+      "Western Australia"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_3",
+     "start": "2027-07-19",
+     "end": "2027-09-24",
+     "regions": [
+      "Tasmania"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_3",
+     "start": "2027-07-20",
+     "end": "2027-09-24",
+     "regions": [
+      "New South Wales"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_3",
+     "start": "2027-07-20",
+     "end": "2027-09-24",
+     "regions": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "spring_break",
+     "start": "2027-09-18",
+     "end": "2027-10-03",
+     "regions": [
+      "Victoria"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "spring_break",
+     "start": "2027-09-18",
+     "end": "2027-10-04",
+     "regions": [
+      "Queensland"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "spring_break",
+     "start": "2027-09-18",
+     "end": "2027-10-04",
+     "regions": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "spring_break",
+     "start": "2027-09-25",
+     "end": "2027-10-11",
+     "regions": [
+      "New South Wales"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "spring_break",
+     "start": "2027-09-25",
+     "end": "2027-10-10",
+     "regions": [
+      "South Australia"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "spring_break",
+     "start": "2027-09-25",
+     "end": "2027-10-10",
+     "regions": [
+      "Western Australia"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "spring_break",
+     "start": "2027-09-25",
+     "end": "2027-10-10",
+     "regions": [
+      "Tasmania"
+     ]
+    },
+    {
+     "kind": "break",
+     "key": "spring_break",
+     "start": "2027-09-25",
+     "end": "2027-10-11",
+     "regions": [
+      "Australian Capital Territory"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_4",
+     "start": "2027-10-04",
+     "end": "2027-12-17",
+     "regions": [
+      "Victoria"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_4",
+     "start": "2027-10-05",
+     "end": "2027-12-10",
+     "regions": [
+      "Queensland"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_4",
+     "start": "2027-10-05",
+     "end": "2027-12-09",
+     "regions": [
+      "Northern Territory"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_4",
+     "start": "2027-10-11",
+     "end": "2027-12-10",
+     "regions": [
+      "South Australia"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_4",
+     "start": "2027-10-11",
+     "end": "2027-12-16",
+     "regions": [
+      "Western Australia"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_4",
+     "start": "2027-10-11",
+     "end": "2027-12-16",
+     "regions": [
+      "Tasmania"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_4",
+     "start": "2027-10-12",
+     "end": "2027-12-20",
+     "regions": [
+      "New South Wales"
+     ]
+    },
+    {
+     "kind": "term",
+     "key": "term_4",
+     "start": "2027-10-12",
+     "end": "2027-12-17",
+     "regions": [
+      "Australian Capital Territory"
+     ]
+    }
+   ]
+  }
+ }
+}

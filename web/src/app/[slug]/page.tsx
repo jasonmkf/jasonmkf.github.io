@@ -133,14 +133,14 @@ export default async function AppPage({ params }: Props) {
             </div>
 
             {heroShots.length > 0 && (
-              <div className="relative hidden lg:block h-[560px] w-[440px]" aria-hidden="true">
+              <div className="relative hidden lg:block h-[540px] w-[420px]" aria-hidden="true">
                 {heroShots[1] && (
                   <div className="absolute right-0 top-10 w-[215px] rotate-[7deg]">
                     <PhoneFrame shot={heroShots[1].shot} platform={heroShots[1].platform} alt="" />
                   </div>
                 )}
                 <div
-                  className={`absolute top-0 w-[235px] -rotate-[4deg] ${heroShots[1] ? 'left-0' : 'left-[100px]'}`}
+                  className={`absolute top-0 w-[215px] -rotate-[4deg] ${heroShots[1] ? 'left-0' : 'left-[112px]'}`}
                 >
                   <PhoneFrame shot={heroShots[0].shot} platform={heroShots[0].platform} alt="" priority />
                 </div>

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import StoreBadges from '@/components/StoreBadges';
-import { findApp } from '@/data/apps';
+import { findApp, type App } from '@/data/apps';
 import {
   addDays,
   countries,
@@ -364,29 +364,45 @@ export function Legend({ school }: { school: boolean }) {
   );
 }
 
-export function AppPromo({ country }: { country: Country }) {
-  const app = findApp(country.appId)!;
+// The app download in the hero of the holiday and calendar pages, which exist to bring in installs,
+// so the store badges are seen before the dates.
+export function HeroPromo({ app, heading, children }: { app: App; heading: string; children: React.ReactNode }) {
   return (
-    <div className="rounded-2xl bg-gradient-to-br from-purple-900 to-indigo-900 p-6 sm:p-8 text-white flex flex-col sm:flex-row items-center gap-6">
-      <Image src={app.icon} alt={`${app.name} icon`} width={80} height={80} className="rounded-2xl ring-4 ring-white/10 flex-shrink-0" />
-      <div className="text-center sm:text-left">
-        <h2 className="text-xl font-bold">Every {country.name} holiday on your phone</h2>
-        <p className="mt-2 text-purple-200">
-          <Link href={`/${app.id}/`} className="underline decoration-purple-400 hover:text-white">
-            {app.name}
-          </Link>{' '}
-          shows public holidays, school holidays and long weekends, with the lunar calendar and a
-          home screen widget. It works offline and needs no sign-up. On iPhone, get Lunar
-          Calendar &amp; Holidays and choose {country.name}.
-        </p>
+    <div className="mt-8 flex flex-col sm:flex-row items-center sm:items-start gap-5 text-center sm:text-left">
+      <Image
+        src={app.icon}
+        alt={`${app.name} icon`}
+        width={72}
+        height={72}
+        className="rounded-2xl ring-4 ring-white/10 flex-shrink-0"
+        priority
+      />
+      <div>
+        <p className="text-lg font-bold text-white">{heading}</p>
+        <p className="mt-1 max-w-3xl text-purple-200">{children}</p>
         <StoreBadges
           name={app.name}
           url={app.url}
           appStoreUrl={app.appStoreUrl}
           className="mt-4 flex flex-wrap justify-center sm:justify-start items-center gap-2"
+          badgeClassName="w-[150px] h-auto"
         />
       </div>
     </div>
+  );
+}
+
+export function AppPromo({ country }: { country: Country }) {
+  const app = findApp(country.appId)!;
+  return (
+    <HeroPromo app={app} heading={`Every ${country.name} holiday on your phone`}>
+      <Link href={`/${app.id}/`} className="underline decoration-purple-400 hover:text-white">
+        {app.name}
+      </Link>{' '}
+      shows public holidays, school holidays and long weekends, with the lunar calendar and a
+      home screen widget. It works offline and needs no sign-up. On iPhone, get Lunar
+      Calendar &amp; Holidays and choose {country.name}.
+    </HeroPromo>
   );
 }
 

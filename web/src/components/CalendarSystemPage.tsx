@@ -1,11 +1,9 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import StoreBadges from '@/components/StoreBadges';
-import { Terms } from '@/components/HolidayParts';
+import { HeroPromo, Terms } from '@/components/HolidayParts';
 import { findApp } from '@/data/apps';
 import {
   HIJRI_MONTHS_EN,
@@ -480,40 +478,21 @@ function YearNav({ system, year }: { system: System; year: number }) {
 
 function Promo({ system }: { system: System }) {
   const app = findApp(system === 'lunar' ? 'lunar-calendar' : 'kalendar-hijrah')!;
-  return (
-    <div className="rounded-2xl bg-gradient-to-br from-purple-900 to-indigo-900 p-6 sm:p-8 text-white flex flex-col sm:flex-row items-center gap-6">
-      <Image src={app.icon} alt={`${app.name} icon`} width={80} height={80} className="rounded-2xl ring-4 ring-white/10 flex-shrink-0" />
-      <div className="text-center sm:text-left">
-        <h2 className="text-xl font-bold">
-          {system === 'lunar' ? 'The lunar date on every day, on your phone' : 'Tarikh Hijrah setiap hari, di telefon anda'}
-        </h2>
-        <p className="mt-2 text-purple-200">
-          {system === 'lunar' ? (
-            <>
-              <Link href={`/${app.id}/`} className="underline decoration-purple-400 hover:text-white">
-                {app.name}
-              </Link>{' '}
-              shows the lunar date, festivals and a Chinese almanac with your country&apos;s
-              holidays. On Android, our country calendars show it too.
-            </>
-          ) : (
-            <>
-              <Link href={`/${app.id}/`} className="underline decoration-purple-400 hover:text-white">
-                {app.name}
-              </Link>{' '}
-              shows the Hijri date on every day, the Takwim for your state and Malaysian public and
-              school holidays. On iPhone, get Lunar Calendar &amp; Holidays and choose Malaysia.
-            </>
-          )}
-        </p>
-        <StoreBadges
-          name={app.name}
-          url={app.url}
-          appStoreUrl={app.appStoreUrl}
-          className="mt-4 flex flex-wrap justify-center sm:justify-start items-center gap-2"
-        />
-      </div>
-    </div>
+  const link = (
+    <Link href={`/${app.id}/`} className="underline decoration-purple-400 hover:text-white">
+      {app.name}
+    </Link>
+  );
+  return system === 'lunar' ? (
+    <HeroPromo app={app} heading="The lunar date on every day, on your phone">
+      {link} shows the lunar date, festivals and a Chinese almanac with your country&apos;s
+      holidays. On Android, our country calendars show it too.
+    </HeroPromo>
+  ) : (
+    <HeroPromo app={app} heading="Tarikh Hijrah setiap hari, di telefon anda">
+      {link} shows the Hijri date on every day, the Takwim for your state and Malaysian public and
+      school holidays. On iPhone, get Lunar Calendar &amp; Holidays and choose Malaysia.
+    </HeroPromo>
   );
 }
 
@@ -541,6 +520,7 @@ export function SystemPage({ system, year }: { system: System; year: number }) {
             <div className="text-center sm:text-left">
               <Terms terms={terms} />
             </div>
+            <Promo system={system} />
           </div>
         </div>
 
@@ -548,9 +528,6 @@ export function SystemPage({ system, year }: { system: System; year: number }) {
           <YearNav system={system} year={year} />
           <div className="mt-10">
             {system === 'lunar' ? <LunarView year={year} /> : <HijriView year={year} />}
-          </div>
-          <div className="mt-14">
-            <Promo system={system} />
           </div>
           <Section title={`${year} public holidays by country`}>
             <ul className="flex flex-wrap gap-2">

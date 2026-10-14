@@ -344,6 +344,7 @@ export default async function HolidayPage({ params }: Props) {
             <div className="text-center sm:text-left">
               <Terms terms={terms(c, view, year)} />
             </div>
+            <AppPromo country={c} />
           </div>
         </div>
 
@@ -361,11 +362,7 @@ export default async function HolidayPage({ params }: Props) {
             {view === 'calendar' && <CalendarView c={c} year={year} />}
           </div>
 
-          <div className="mt-14">
-            <AppPromo country={c} />
-          </div>
-
-          <p className="mt-8 text-sm text-gray-500">
+          <p className="mt-12 text-sm text-gray-500">
             Not a government website. Dates follow official announcements where they have been
             made; authorities can still add or move holidays, so check official sources for anything
             important.

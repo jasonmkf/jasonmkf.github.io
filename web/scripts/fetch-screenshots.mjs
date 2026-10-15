@@ -19,10 +19,11 @@ const WIDTH = 480; // shown at about 240px wide, so sharp on 2x screens
 
 const LUNAR_IOS = 'https://apps.apple.com/us/app/lunar-calendar-holidays/id6806542405';
 // `lunar`: the folder in App Material/Lunar Calendar with the App Store set for the country.
-// Singapore and Hong Kong have none yet; add `lunar` once theirs are made.
+// Singapore and Hong Kong have no set of their own yet, so they borrow the closest: the
+// English (Malaysia) set and the Traditional Chinese (Taiwan) set.
 const APPS = [
   { id: 'malaysia-calendar', play: 'org.jm.malaysiahorsecalendar', lunar: 'en' },
-  { id: 'singapore-calendar', play: 'org.kf.singaporehorsecalendar' },
+  { id: 'singapore-calendar', play: 'org.kf.singaporehorsecalendar', lunar: 'en' },
   { id: 'kalendar-hijrah', play: 'org.jm.kalendarhijrahmalaysia', lunar: 'ms' },
   {
     id: 'housing-loan-calculator',
@@ -31,7 +32,7 @@ const APPS = [
   },
   { id: 'thailand-calendar', play: 'org.kf.thaicalendar', lunar: 'th' },
   { id: 'vietnamese-calendar', play: 'org.kf.vietnamesecalendar', lunar: 'vn' },
-  { id: 'hong-kong-calendar', play: 'org.kf.hongkongcalendar' },
+  { id: 'hong-kong-calendar', play: 'org.kf.hongkongcalendar', lunar: 'cn-traditional' },
   { id: 'taiwan-calendar', play: 'org.kf.taiwancalendar', lunar: 'cn-traditional' },
   { id: 'south-korea-calendar', play: 'org.kf.southkoreacalendar', lunar: 'kr' },
   { id: 'indonesia-calendar', play: 'org.kf.indonesiacalendar', lunar: 'id' },

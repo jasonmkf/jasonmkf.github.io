@@ -127,6 +127,48 @@
     "width": 480,
     "height": 1071
    }
+  ],
+  "ios": [
+   {
+    "src": "/screenshots/singapore-calendar/ios-1.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/singapore-calendar/ios-2.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/singapore-calendar/ios-3.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/singapore-calendar/ios-4.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/singapore-calendar/ios-5.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/singapore-calendar/ios-6.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/singapore-calendar/ios-7.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/singapore-calendar/ios-8.webp",
+    "width": 480,
+    "height": 1043
+   }
   ]
  },
  "kalendar-hijrah": {
@@ -545,6 +587,48 @@
     "width": 480,
     "height": 1011,
     "framed": true
+   }
+  ],
+  "ios": [
+   {
+    "src": "/screenshots/hong-kong-calendar/ios-1.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/hong-kong-calendar/ios-2.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/hong-kong-calendar/ios-3.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/hong-kong-calendar/ios-4.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/hong-kong-calendar/ios-5.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/hong-kong-calendar/ios-6.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/hong-kong-calendar/ios-7.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/hong-kong-calendar/ios-8.webp",
+    "width": 480,
+    "height": 1043
    }
   ]
  },

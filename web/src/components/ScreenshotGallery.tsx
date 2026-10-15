@@ -9,9 +9,11 @@ const LABEL: Record<Platform, string> = { android: 'Android', ios: 'iPhone' };
 export default function ScreenshotGallery({
   name,
   shots,
+  iosNote,
 }: {
   name: string;
   shots: Partial<Record<Platform, Screenshot[]>>;
+  iosNote?: string; // under the heading on the iPhone tab, when those are another app's screenshots
 }) {
   const platforms = (['android', 'ios'] as const).filter((p) => shots[p]?.length);
   const [platform, setPlatform] = useState<Platform>(platforms[0]);
@@ -28,6 +30,7 @@ export default function ScreenshotGallery({
           <div>
             <p className="text-sm font-semibold uppercase tracking-widest text-purple-600">Screenshots</p>
             <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900">See {name} in action</h2>
+            {platform === 'ios' && iosNote && <p className="mt-2 text-sm text-gray-600">{iosNote}</p>}
           </div>
           <div className="flex items-center gap-3">
             {platforms.length > 1 && (

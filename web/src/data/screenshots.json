@@ -41,6 +41,48 @@
     "width": 480,
     "height": 1071
    }
+  ],
+  "ios": [
+   {
+    "src": "/screenshots/malaysia-calendar/ios-1.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/malaysia-calendar/ios-2.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/malaysia-calendar/ios-3.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/malaysia-calendar/ios-4.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/malaysia-calendar/ios-5.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/malaysia-calendar/ios-6.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/malaysia-calendar/ios-7.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/malaysia-calendar/ios-8.webp",
+    "width": 480,
+    "height": 1043
+   }
   ]
  },
  "singapore-calendar": {
@@ -135,6 +177,48 @@
     "src": "/screenshots/kalendar-hijrah/android-8.webp",
     "width": 480,
     "height": 1071
+   }
+  ],
+  "ios": [
+   {
+    "src": "/screenshots/kalendar-hijrah/ios-1.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/kalendar-hijrah/ios-2.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/kalendar-hijrah/ios-3.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/kalendar-hijrah/ios-4.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/kalendar-hijrah/ios-5.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/kalendar-hijrah/ios-6.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/kalendar-hijrah/ios-7.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/kalendar-hijrah/ios-8.webp",
+    "width": 480,
+    "height": 1043
    }
   ]
  },
@@ -274,6 +358,48 @@
     "width": 480,
     "height": 1071
    }
+  ],
+  "ios": [
+   {
+    "src": "/screenshots/thailand-calendar/ios-1.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/thailand-calendar/ios-2.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/thailand-calendar/ios-3.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/thailand-calendar/ios-4.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/thailand-calendar/ios-5.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/thailand-calendar/ios-6.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/thailand-calendar/ios-7.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/thailand-calendar/ios-8.webp",
+    "width": 480,
+    "height": 1043
+   }
   ]
  },
  "vietnamese-calendar": {
@@ -325,6 +451,48 @@
     "width": 480,
     "height": 1011,
     "framed": true
+   }
+  ],
+  "ios": [
+   {
+    "src": "/screenshots/vietnamese-calendar/ios-1.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/vietnamese-calendar/ios-2.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/vietnamese-calendar/ios-3.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/vietnamese-calendar/ios-4.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/vietnamese-calendar/ios-5.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/vietnamese-calendar/ios-6.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/vietnamese-calendar/ios-7.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/vietnamese-calendar/ios-8.webp",
+    "width": 480,
+    "height": 1043
    }
   ]
  },
@@ -430,6 +598,48 @@
     "height": 1011,
     "framed": true
    }
+  ],
+  "ios": [
+   {
+    "src": "/screenshots/taiwan-calendar/ios-1.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/taiwan-calendar/ios-2.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/taiwan-calendar/ios-3.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/taiwan-calendar/ios-4.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/taiwan-calendar/ios-5.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/taiwan-calendar/ios-6.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/taiwan-calendar/ios-7.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/taiwan-calendar/ios-8.webp",
+    "width": 480,
+    "height": 1043
+   }
   ]
  },
  "south-korea-calendar": {
@@ -481,6 +691,48 @@
     "width": 480,
     "height": 1011,
     "framed": true
+   }
+  ],
+  "ios": [
+   {
+    "src": "/screenshots/south-korea-calendar/ios-1.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/south-korea-calendar/ios-2.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/south-korea-calendar/ios-3.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/south-korea-calendar/ios-4.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/south-korea-calendar/ios-5.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/south-korea-calendar/ios-6.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/south-korea-calendar/ios-7.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/south-korea-calendar/ios-8.webp",
+    "width": 480,
+    "height": 1043
    }
   ]
  },
@@ -534,6 +786,48 @@
     "height": 1011,
     "framed": true
    }
+  ],
+  "ios": [
+   {
+    "src": "/screenshots/indonesia-calendar/ios-1.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/indonesia-calendar/ios-2.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/indonesia-calendar/ios-3.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/indonesia-calendar/ios-4.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/indonesia-calendar/ios-5.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/indonesia-calendar/ios-6.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/indonesia-calendar/ios-7.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/indonesia-calendar/ios-8.webp",
+    "width": 480,
+    "height": 1043
+   }
   ]
  },
  "australia-calendar": {
@@ -584,6 +878,48 @@
     "width": 480,
     "height": 1016,
     "framed": true
+   }
+  ],
+  "ios": [
+   {
+    "src": "/screenshots/australia-calendar/ios-1.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/australia-calendar/ios-2.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/australia-calendar/ios-3.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/australia-calendar/ios-4.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/australia-calendar/ios-5.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/australia-calendar/ios-6.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/australia-calendar/ios-7.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/australia-calendar/ios-8.webp",
+    "width": 480,
+    "height": 1043
    }
   ]
  },

@@ -1,6 +1,8 @@
 // Downloads each app's phone screenshots from its Google Play and App Store listings into
 // public/screenshots/<app>/, and lists them in src/data/screenshots.json for the app pages.
-// Apps not in the stores yet read their store screenshots from a local folder instead.
+// Apps not in the stores yet read their store screenshots from a local folder instead, and the
+// country calendars, whose iPhone version is Lunar Calendar & Holidays, take its App Store set
+// for their country.
 // Needs ImageMagick (`magick`). Run it again after a listing's screenshots change:
 //
 //   node scripts/fetch-screenshots.mjs [app-id ...]
@@ -16,22 +18,24 @@ const MAX = 8; // per platform
 const WIDTH = 480; // shown at about 240px wide, so sharp on 2x screens
 
 const LUNAR_IOS = 'https://apps.apple.com/us/app/lunar-calendar-holidays/id6806542405';
+// `lunar`: the folder in App Material/Lunar Calendar with the App Store set for the country.
+// Singapore and Hong Kong have none yet; add `lunar` once theirs are made.
 const APPS = [
-  { id: 'malaysia-calendar', play: 'org.jm.malaysiahorsecalendar' },
+  { id: 'malaysia-calendar', play: 'org.jm.malaysiahorsecalendar', lunar: 'en' },
   { id: 'singapore-calendar', play: 'org.kf.singaporehorsecalendar' },
-  { id: 'kalendar-hijrah', play: 'org.jm.kalendarhijrahmalaysia' },
+  { id: 'kalendar-hijrah', play: 'org.jm.kalendarhijrahmalaysia', lunar: 'ms' },
   {
     id: 'housing-loan-calculator',
     play: 'com.houseloancalculator',
     appStore: 'https://apps.apple.com/my/app/housing-loan-calculator-my/id6806969416',
   },
-  { id: 'thailand-calendar', play: 'org.kf.thaicalendar' },
-  { id: 'vietnamese-calendar', play: 'org.kf.vietnamesecalendar' },
+  { id: 'thailand-calendar', play: 'org.kf.thaicalendar', lunar: 'th' },
+  { id: 'vietnamese-calendar', play: 'org.kf.vietnamesecalendar', lunar: 'vn' },
   { id: 'hong-kong-calendar', play: 'org.kf.hongkongcalendar' },
-  { id: 'taiwan-calendar', play: 'org.kf.taiwancalendar' },
-  { id: 'south-korea-calendar', play: 'org.kf.southkoreacalendar' },
-  { id: 'indonesia-calendar', play: 'org.kf.indonesiacalendar' },
-  { id: 'australia-calendar', play: 'org.kf.australiacalendar' },
+  { id: 'taiwan-calendar', play: 'org.kf.taiwancalendar', lunar: 'cn-traditional' },
+  { id: 'south-korea-calendar', play: 'org.kf.southkoreacalendar', lunar: 'kr' },
+  { id: 'indonesia-calendar', play: 'org.kf.indonesiacalendar', lunar: 'id' },
+  { id: 'australia-calendar', play: 'org.kf.australiacalendar', lunar: 'en-au' },
   {
     id: 'car-loan-calculator',
     play: 'org.kf.carloancalculatormalaysia',
@@ -77,6 +81,15 @@ function localShots(dir) {
     .filter((f) => /^\d+.*\.png$/.test(f))
     .sort()
     .map((f) => join(dir, f));
+}
+
+// A country's Lunar Calendar set with the home screen first, as the app page's hero shows the
+// first one, and the country picker, the set's first, after it.
+function lunarShots(locale) {
+  const shots = localShots(join(material, 'Lunar Calendar', locale));
+  const picker = shots.filter((f) => f.includes('settings-countries'));
+  const rest = shots.filter((f) => !picker.includes(f));
+  return [...rest.slice(0, 1), ...picker, ...rest.slice(1)];
 }
 
 // Some listings upload screenshots already drawn in a phone. Their edges read: a light metal
@@ -171,7 +184,11 @@ for (const app of APPS.filter((a) => only.length === 0 || only.includes(a.id))) 
   mkdirSync(dir, { recursive: true });
   const sources = {
     android: app.play ? await playShots(app.play) : localShots(app.local?.android ?? ''),
-    ios: app.appStore ? await appStoreShots(app.appStore) : localShots(app.local?.ios ?? ''),
+    ios: app.appStore
+      ? await appStoreShots(app.appStore)
+      : app.lunar
+        ? lunarShots(app.lunar)
+        : localShots(app.local?.ios ?? ''),
   };
   manifest[app.id] = {};
   for (const [platform, urls] of Object.entries(sources)) {

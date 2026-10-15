@@ -2,8 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import Breadcrumbs from '@/components/Breadcrumbs';
-import { HeroPromo, Terms } from '@/components/HolidayParts';
+import { HeroPromo, HolidayHero, type HeroStat } from '@/components/HolidayParts';
 import { findApp } from '@/data/apps';
 import {
   HIJRI_MONTHS_EN,
@@ -21,6 +20,7 @@ import {
 import {
   addDays,
   countries,
+  dayMonth,
   holidayPath,
   longDate,
   shortDate,
@@ -478,22 +478,45 @@ function YearNav({ system, year }: { system: System; year: number }) {
 
 function Promo({ system }: { system: System }) {
   const app = findApp(system === 'lunar' ? 'lunar-calendar' : 'kalendar-hijrah')!;
-  const link = (
-    <Link href={`/${app.id}/`} className="underline decoration-purple-400 hover:text-white">
-      {app.name}
-    </Link>
-  );
   return system === 'lunar' ? (
-    <HeroPromo app={app} heading="The lunar date on every day, on your phone">
-      {link} shows the lunar date, festivals and a Chinese almanac with your country&apos;s
-      holidays. On Android, our country calendars show it too.
+    <HeroPromo
+      app={app}
+      heading="The lunar date on every day, on your phone"
+      note="On Android, our country calendars show the lunar date too."
+    >
+      The lunar date, festivals and a Chinese almanac, with your country&apos;s holidays.
     </HeroPromo>
   ) : (
-    <HeroPromo app={app} heading="Tarikh Hijrah setiap hari, di telefon anda">
-      {link} shows the Hijri date on every day, the Takwim for your state and Malaysian public and
-      school holidays. On iPhone, get Lunar Calendar &amp; Holidays and choose Malaysia.
+    <HeroPromo
+      app={app}
+      heading="Tarikh Hijrah setiap hari, di telefon anda"
+      note="On iPhone, get Lunar Calendar & Holidays and choose Malaysia."
+    >
+      The Hijri date on every day, the Takwim for your state and Malaysian public and school
+      holidays.
     </HeroPromo>
   );
+}
+
+function heroStats(system: System, year: number): HeroStat[] {
+  if (system === 'lunar') {
+    const ly = lunarYear(year);
+    return [
+      { value: dayMonth(ly.newYear), label: 'Chinese New Year' },
+      { value: ly.zodiacEn, label: 'Year of the' },
+      { value: lunarFestivals(year).length, label: 'Festivals' },
+    ];
+  }
+  const dates = islamicDates(year);
+  const on = (ms: string) => {
+    const d = dates.find((d) => d.ms === ms);
+    return d && dayMonth(d.date);
+  };
+  return [
+    { value: on('Awal Ramadan'), label: 'Awal Ramadan' },
+    { value: on('Hari Raya Aidilfitri'), label: 'Aidilfitri' },
+    { value: on('Hari Raya Haji (Aidiladha)'), label: 'Aidiladha' },
+  ];
 }
 
 export function SystemPage({ system, year }: { system: System; year: number }) {
@@ -504,25 +527,17 @@ export function SystemPage({ system, year }: { system: System; year: number }) {
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-grow">
-        <div className="relative overflow-hidden bg-gradient-to-br from-purple-950 via-purple-900 to-indigo-900 py-14 sm:py-16">
-          <div className="absolute -top-24 -right-24 h-72 w-72 rounded-full bg-purple-500/20 blur-3xl" />
-          <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <Breadcrumbs
-              items={[
-                { name: 'Holidays', path: '/holidays/' },
-                { name: app.name, path: `/${app.id}/` },
-                { name: h1, path: systemPath(system, year) },
-              ]}
-            />
-            <h1 className="mt-6 text-4xl font-extrabold tracking-tight text-white sm:text-5xl text-center sm:text-left">
-              {h1}
-            </h1>
-            <div className="text-center sm:text-left">
-              <Terms terms={terms} />
-            </div>
-            <Promo system={system} />
-          </div>
-        </div>
+        <HolidayHero
+          crumbs={[
+            { name: 'Holidays', path: '/holidays/' },
+            { name: app.name, path: `/${app.id}/` },
+            { name: h1, path: systemPath(system, year) },
+          ]}
+          h1={h1}
+          terms={terms}
+          stats={heroStats(system, year)}
+          promo={<Promo system={system} />}
+        />
 
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <YearNav system={system} year={year} />

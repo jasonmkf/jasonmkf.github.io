@@ -3,9 +3,9 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import Breadcrumbs from '@/components/Breadcrumbs';
 import {
   AppPromo,
+  HolidayHero,
   HolidayNav,
   HolidaysByRegion,
   Legend,
@@ -14,7 +14,7 @@ import {
   OtherCountries,
   PublicHolidayTable,
   SchoolTable,
-  Terms,
+  type HeroStat,
   type View,
 } from '@/components/HolidayParts';
 import { SYSTEM_APPS, SystemPage, systemMetadata, systemPath } from '@/components/CalendarSystemPage';
@@ -24,6 +24,7 @@ import {
   carriedOverBreak,
   countries,
   countryForApp,
+  daysBetween,
   hasSchoolIn,
   HOLIDAY_YEARS,
   holidayPath,
@@ -114,6 +115,35 @@ function terms(c: Country, view: View, year: number) {
   return c.calendarTerms(year);
 }
 
+// The numbers the hero leads with, the same ones the page's intro gives.
+function heroStats(c: Country, view: View, year: number): HeroStat[] {
+  const { publicHolidays, observances } = yearData(c, year);
+  const weekends = { value: longWeekends(c, year).length, label: 'Long weekends' };
+  if (view === 'public') {
+    const national = publicHolidays.filter(isNational).length;
+    return [
+      { value: national, label: 'Nationwide' },
+      ...(regionsOf(c, year).length > 0 ? [{ value: publicHolidays.length - national, label: 'Regional' }] : []),
+      weekends,
+    ];
+  }
+  if (view === 'school') {
+    const breaks = schoolBreaks(c, year);
+    if (regional(c, year)) {
+      return [{ value: new Set(breaks.flatMap((p) => p.regions ?? [])).size, label: c.regionNounPlural }];
+    }
+    return [
+      { value: breaks.length, label: 'School breaks' },
+      { value: breaks.reduce((n, p) => n + daysBetween(p.start, p.end), 0), label: 'Days off school' },
+    ];
+  }
+  return [
+    { value: publicHolidays.length, label: 'Public holidays' },
+    weekends,
+    { value: observances.length, label: 'Festivals' },
+  ];
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, view: segment } = await params;
   const system = resolveSystem(slug, segment);
@@ -131,6 +161,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }),
     keywords: [...new Set([
       base,
+      `${c.name} holiday ${year}`,
+      `${c.name} holidays ${year}`,
       `${c.name} public holidays ${year}`,
       ...(hasSchoolIn(c, year) ? [`${c.name} school holidays ${year}`] : []),
       `${c.name} long weekends ${year}`,
@@ -328,25 +360,17 @@ export default async function HolidayPage({ params }: Props) {
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-grow">
-        <div className="relative overflow-hidden bg-gradient-to-br from-purple-950 via-purple-900 to-indigo-900 py-14 sm:py-16">
-          <div className="absolute -top-24 -right-24 h-72 w-72 rounded-full bg-purple-500/20 blur-3xl" />
-          <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <Breadcrumbs
-              items={[
-                { name: 'Holidays', path: '/holidays/' },
-                { name: app.name, path: `/${app.id}/` },
-                { name: h1, path },
-              ]}
-            />
-            <h1 className="mt-6 text-4xl font-extrabold tracking-tight text-white sm:text-5xl text-center sm:text-left">
-              {h1}
-            </h1>
-            <div className="text-center sm:text-left">
-              <Terms terms={terms(c, view, year)} />
-            </div>
-            <AppPromo country={c} />
-          </div>
-        </div>
+        <HolidayHero
+          crumbs={[
+            { name: 'Holidays', path: '/holidays/' },
+            { name: app.name, path: `/${app.id}/` },
+            { name: h1, path },
+          ]}
+          h1={h1}
+          terms={terms(c, view, year)}
+          stats={heroStats(c, view, year)}
+          promo={<AppPromo country={c} />}
+        />
 
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <HolidayNav country={c} current={path} />

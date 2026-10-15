@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import StoreBadges from '@/components/StoreBadges';
 import { findApp, type App } from '@/data/apps';
 import {
@@ -35,14 +36,79 @@ export const viewLabel = (c: Country, view: View, year: number) =>
 export function Terms({ terms }: { terms: Term[] }) {
   if (terms.length === 0) return null;
   return (
-    <p className="mt-3 text-base text-purple-200">
-      {terms.map((t, i) => (
-        <span key={t.text}>
-          {i > 0 && <span aria-hidden="true"> · </span>}
-          <span lang={t.lang}>{t.text}</span>
-        </span>
+    <ul className="mt-5 flex flex-wrap justify-center sm:justify-start gap-2">
+      {terms.map((t) => (
+        <li
+          key={t.text}
+          lang={t.lang}
+          className="rounded-full bg-white/10 px-2.5 py-1 text-xs text-purple-100 ring-1 ring-inset ring-white/15 sm:px-3 sm:text-sm"
+        >
+          {t.text}
+        </li>
       ))}
-    </p>
+    </ul>
+  );
+}
+
+export interface HeroStat {
+  value: string | number | undefined; // left out when empty or 0
+  label: string;
+}
+
+// The top of the holiday and calendar pages: the title, its search terms and a few numbers, beside
+// the app download, which the pages exist to bring in.
+export function HolidayHero({
+  crumbs,
+  h1,
+  terms,
+  stats,
+  promo,
+}: {
+  crumbs: { name: string; path: string }[];
+  h1: string;
+  terms: Term[];
+  stats: HeroStat[];
+  promo: React.ReactNode;
+}) {
+  // The last word of every title is the year, which gets the accent.
+  const split = h1.lastIndexOf(' ');
+  const shown = stats.filter((s) => s.value);
+  return (
+    <div className="relative overflow-hidden bg-gradient-to-br from-purple-950 via-purple-900 to-indigo-900">
+      <div className="absolute -top-24 -right-24 h-96 w-96 rounded-full bg-fuchsia-500/20 blur-3xl" />
+      <div className="absolute -bottom-32 -left-24 h-80 w-80 rounded-full bg-indigo-500/25 blur-3xl" />
+      <div
+        aria-hidden="true"
+        className="absolute inset-0 bg-[radial-gradient(rgba(255,255,255,0.08)_1px,transparent_1px)] [background-size:22px_22px] [mask-image:linear-gradient(to_bottom,black,transparent)]"
+      />
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+        <Breadcrumbs items={crumbs} />
+        <div className="mt-8 grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_380px] items-center gap-10 lg:gap-14">
+          <div className="text-center sm:text-left">
+            <h1 className="text-4xl font-extrabold leading-[1.08] tracking-tight text-balance text-white sm:text-5xl lg:text-6xl">
+              {h1.slice(0, split)}{' '}
+              <span className="bg-gradient-to-r from-fuchsia-300 to-amber-200 bg-clip-text text-transparent">
+                {h1.slice(split + 1)}
+              </span>
+            </h1>
+            <Terms terms={terms} />
+            {shown.length > 0 && (
+              <dl className="mt-8 flex flex-wrap justify-center sm:justify-start gap-x-6 gap-y-5 sm:gap-x-10">
+                {shown.map((s) => (
+                  <div key={s.label}>
+                    <dt className="text-[11px] font-semibold uppercase tracking-wider text-purple-300 sm:text-xs sm:tracking-widest">
+                      {s.label}
+                    </dt>
+                    <dd className="mt-1 text-2xl font-bold tracking-tight text-white sm:text-3xl">{s.value}</dd>
+                  </div>
+                ))}
+              </dl>
+            )}
+          </div>
+          {promo}
+        </div>
+      </div>
+    </div>
   );
 }
 
@@ -366,28 +432,50 @@ export function Legend({ school }: { school: boolean }) {
 
 // The app download in the hero of the holiday and calendar pages, which exist to bring in installs,
 // so the store badges are seen before the dates.
-export function HeroPromo({ app, heading, children }: { app: App; heading: string; children: React.ReactNode }) {
+export function HeroPromo({
+  app,
+  heading,
+  note,
+  children,
+}: {
+  app: App;
+  heading: string;
+  note?: string;
+  children: React.ReactNode;
+}) {
+  const meta = [
+    app.rating !== '-' && `${app.rating}★`,
+    app.downloads !== '-' && `${app.downloads} downloads`,
+    'Free',
+  ].filter(Boolean);
   return (
-    <div className="mt-8 flex flex-col sm:flex-row items-center sm:items-start gap-5 text-center sm:text-left">
-      <Image
-        src={app.icon}
-        alt={`${app.name} icon`}
-        width={72}
-        height={72}
-        className="rounded-2xl ring-4 ring-white/10 flex-shrink-0"
-        priority
-      />
-      <div>
-        <p className="text-lg font-bold text-white">{heading}</p>
-        <p className="mt-1 max-w-3xl text-purple-200">{children}</p>
-        <StoreBadges
-          name={app.name}
-          url={app.url}
-          appStoreUrl={app.appStoreUrl}
-          className="mt-4 flex flex-wrap justify-center sm:justify-start items-center gap-2"
-          badgeClassName="w-[150px] h-auto"
+    <div className="rounded-3xl bg-white/[0.07] p-6 ring-1 ring-white/15 shadow-2xl shadow-purple-950/50 backdrop-blur-sm sm:p-7">
+      <div className="flex items-center gap-4">
+        <Image
+          src={app.icon}
+          alt={`${app.name} icon`}
+          width={60}
+          height={60}
+          className="rounded-2xl ring-1 ring-white/20 shadow-lg flex-shrink-0"
+          priority
         />
+        <div className="min-w-0">
+          <Link href={`/${app.id}/`} className="block text-lg font-bold leading-snug text-white hover:underline">
+            {app.name}
+          </Link>
+          <p className="mt-0.5 text-sm text-purple-300">{meta.join(' · ')}</p>
+        </div>
       </div>
+      <p className="mt-5 text-lg font-semibold leading-snug text-balance text-white">{heading}</p>
+      <p className="mt-2 text-sm leading-relaxed text-pretty text-purple-200">{children}</p>
+      <StoreBadges
+        name={app.name}
+        url={app.url}
+        appStoreUrl={app.appStoreUrl}
+        className="mt-5 flex flex-wrap items-center gap-2"
+        badgeClassName="w-[140px] h-auto"
+      />
+      {note && <p className="mt-3 text-xs text-pretty text-purple-300">{note}</p>}
     </div>
   );
 }
@@ -395,13 +483,13 @@ export function HeroPromo({ app, heading, children }: { app: App; heading: strin
 export function AppPromo({ country }: { country: Country }) {
   const app = findApp(country.appId)!;
   return (
-    <HeroPromo app={app} heading={`Every ${country.name} holiday on your phone`}>
-      <Link href={`/${app.id}/`} className="underline decoration-purple-400 hover:text-white">
-        {app.name}
-      </Link>{' '}
-      shows public holidays, school holidays and long weekends, with the lunar calendar and a
-      home screen widget. It works offline and needs no sign-up. On iPhone, get Lunar
-      Calendar &amp; Holidays and choose {country.name}.
+    <HeroPromo
+      app={app}
+      heading={`Every ${country.name} holiday on your phone`}
+      note={`On iPhone, get Lunar Calendar & Holidays and choose ${country.name}.`}
+    >
+      Public holidays, school holidays and long weekends, with the lunar calendar and a home screen
+      widget. It works offline and needs no <span className="whitespace-nowrap">sign-up</span>.
     </HeroPromo>
   );
 }

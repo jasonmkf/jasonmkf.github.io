@@ -1230,5 +1230,91 @@
     "height": 1043
    }
   ]
+ },
+ "catnapped": {
+  "android": [
+   {
+    "src": "/screenshots/catnapped/android-1.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/catnapped/android-2.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/catnapped/android-3.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/catnapped/android-4.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/catnapped/android-5.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/catnapped/android-6.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/catnapped/android-7.webp",
+    "width": 480,
+    "height": 1071
+   },
+   {
+    "src": "/screenshots/catnapped/android-8.webp",
+    "width": 480,
+    "height": 1071
+   }
+  ],
+  "ios": [
+   {
+    "src": "/screenshots/catnapped/ios-1.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/catnapped/ios-2.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/catnapped/ios-3.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/catnapped/ios-4.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/catnapped/ios-5.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/catnapped/ios-6.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/catnapped/ios-7.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/catnapped/ios-8.webp",
+    "width": 480,
+    "height": 1043
+   }
+  ]
  }
 }

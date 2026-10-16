@@ -4,7 +4,8 @@ export type Policy =
   | { kind: 'calendar'; settings: string }
   | { kind: 'lunar' }
   | { kind: 'loan'; stored: string; exportFiles: boolean }
-  | { kind: 'shelfbell' };
+  | { kind: 'shelfbell' }
+  | { kind: 'catnapped' };
 
 export interface App {
   id: string; // URL slug: /<id>/ is the app page, /<id>/privacy.html its policy
@@ -21,6 +22,7 @@ export interface App {
   reviews: string;
   countries: string[]; // ISO 3166-1 alpha-2 codes of the markets the app serves
   category: string;
+  subCategory?: string; // schema.org applicationSubCategory, e.g. the genre of a game
   seo: { title: string; description: string; keywords?: string[] }; // <title>, meta description
   tagline: string;
   platforms: string;
@@ -679,6 +681,70 @@ export const allApps: App[] = [
       'only a hidden folder in your own Drive. The app shows ads from Google AdMob.',
     policy: { kind: 'shelfbell' },
     updated: '4 October 2026',
+  },
+  {
+    id: 'catnapped',
+    seo: {
+      title: 'Catnapped: Box the Cats, a Cat and Mouse Puzzle Game',
+      description:
+        'Push rows of crates, pen the cats in until they nap and grab the cheese: 120 levels in ten worlds, with skills and costumes. Free on Android, iPhone and iPad.',
+      keywords: [
+        'Catnapped', 'Catnapped game', 'cat and mouse game', 'cat and mouse puzzle', 'puzzle game',
+        'crate pushing puzzle', 'block pushing game', 'cat game', 'mouse game', 'offline puzzle game',
+        'free puzzle game', 'casual puzzle game',
+      ],
+    },
+    name: 'Catnapped',
+    description:
+      'A cosy cat-and-mouse puzzle game: push rows of crates, pen the cats in until they nap, and grab the cheese. 120 levels across ten worlds.',
+    icon: '/app-icons/catnapped.webp',
+    comingSoon: 'Coming soon to Google Play and the App Store',
+    rating: '-',
+    downloads: '-',
+    reviews: '-',
+    countries: [],
+    category: 'Game',
+    subCategory: 'Puzzle',
+    tagline: 'Box in the cats. Grab the cheese.',
+    platforms: 'Android, iPhone and iPad',
+    intro:
+      'Catnapped is a puzzle game for a small mouse in a big house full of cats. Push rows of ' +
+      'crates to shut each cat into a tiny space until it gives up and naps. Get every cat napping ' +
+      'at once and they all turn into cheese.',
+    features: [
+      '120 levels across ten worlds, from the Kitchen and the Garden up to the Museum and the Snowfield',
+      'Push a whole row of crates at once, in straight lines; the mouse itself can step diagonally',
+      'Five kinds of cat: orange tabbies, grey hunters, zoomies, bruisers and shadow cats, and masked cats that slip between corners',
+      'A skill to learn in every world, such as Hop, Squeak and Catnip; carry two into each level',
+      'A mouse costume for every world you clear: chef, pirate, hero and more',
+      'Mousetraps to spring with a crate, sticky honey, robot vacuums, and waves of cats that grow if you take too long',
+      'Up to three stars a level: clear it, dodge the cats, beat the par time',
+      'An on-screen pad with eight directions, or touch and hold where you want to go, on phones and tablets',
+    ],
+    sections: [
+      {
+        heading: 'How to play',
+        body:
+          'Walk into a crate to push it up, down, left or right; a whole row slides along if there ' +
+          'is room at the end. Shut a cat into a small space away from you and it gives up and naps. ' +
+          'When every cat is napping at once, they all turn into cheese. Eat the cheese for points, ' +
+          'and save it up for extra lives, level tips and costumes.',
+      },
+      {
+        heading: 'Free, with ads',
+        body:
+          'Catnapped is free and has no purchases. A full-screen ad comes now and then between ' +
+          'games, never a banner, and you can choose to watch a short video for a reward such as an ' +
+          'extra life; every reward can be paid for with cheese instead. The game plays offline.',
+      },
+    ],
+    languages:
+      'English, Bahasa Indonesia, Bahasa Melayu, Thai, Vietnamese, Simplified Chinese and Traditional Chinese.',
+    privacy:
+      'No account and no sign-up. Your progress stays on your device, and the game plays offline. ' +
+      'It shows ads from Google AdMob and never asks to track you on iPhone and iPad.',
+    policy: { kind: 'catnapped' },
+    updated: '17 October 2026',
   },
 ];
 

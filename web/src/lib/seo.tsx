@@ -7,8 +7,8 @@ export const APP_STORE_DEVELOPER = 'https://apps.apple.com/us/developer/kek-fu-m
 
 export const SITE_DESCRIPTION =
   'Free Android and iPhone apps from KF Production: public holiday calendars for Malaysia, ' +
-  'Singapore, Indonesia, Thailand, Vietnam, Hong Kong, Taiwan, South Korea and Australia, and ' +
-  'Malaysian loan calculators.';
+  'Singapore, Indonesia, Thailand, Vietnam, Hong Kong, Taiwan, South Korea and Australia, ' +
+  'Malaysian loan calculators, and Catnapped, a cat and mouse puzzle game.';
 
 const ORG_ID = `${SITE}/#organization`;
 
@@ -75,6 +75,9 @@ export function organizationJsonLd() {
   };
 }
 
+// The site's categories as schema.org's application categories.
+const CATEGORY: Record<string, string> = { Calculator: 'FinanceApplication', Game: 'GameApplication' };
+
 export function appJsonLd(app: App) {
   const stores = [app.url, app.appStoreUrl].filter((u): u is string => Boolean(u));
   return {
@@ -85,7 +88,8 @@ export function appJsonLd(app: App) {
     url: `${SITE}/${app.id}/`,
     image: `${SITE}${app.icon}`,
     operatingSystem: operatingSystem(app),
-    applicationCategory: app.category === 'Calculator' ? 'FinanceApplication' : 'UtilitiesApplication',
+    applicationCategory: CATEGORY[app.category] ?? 'UtilitiesApplication',
+    ...(app.subCategory && { applicationSubCategory: app.subCategory }),
     publisher: { '@type': 'Organization', '@id': ORG_ID, name: 'KF Production', url: `${SITE}/` },
     ...(stores.length > 0 && {
       installUrl: stores[0],

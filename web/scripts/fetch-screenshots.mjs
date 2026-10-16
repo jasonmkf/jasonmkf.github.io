@@ -17,6 +17,13 @@ const material = join(web, '../../App Material');
 const MAX = 8; // per platform
 const WIDTH = 480; // shown at about 240px wide, so sharp on 2x screens
 
+// Catnapped's store screenshots carry a headline and a phone already, so the page takes the
+// unframed captures they were made from, in the listing's order.
+const CATNAPPED = ['catnap', 'push', 'hazards', 'clear', 'levels', 'skins', 'skills', 'title'];
+function catnapped(device, names) {
+  return names.map((n) => join(material, 'Catnapped/raw', device, `${n}.png`));
+}
+
 const LUNAR_IOS = 'https://apps.apple.com/us/app/lunar-calendar-holidays/id6806542405';
 // `lunar`: the folder in App Material/Lunar Calendar with the App Store set for the country.
 // Singapore and Hong Kong have no set of their own yet, so they borrow the closest: the
@@ -49,6 +56,14 @@ const APPS = [
     // Its Play phone set is 9:16; make it as tall as the iPhone set so the two match.
     heightenAndroid: true,
   },
+  {
+    id: 'catnapped',
+    local: {
+      android: catnapped('pixel-10-pro', CATNAPPED),
+      // The title screen first, so the page's hero shows a game and the title side by side.
+      ios: catnapped('iphone-16-pro-max', ['title', ...CATNAPPED.filter((n) => n !== 'title')]),
+    },
+  },
 ];
 
 const UA =
@@ -76,7 +91,9 @@ async function appStoreShots(url) {
   return [...new Set(bases)].map((b) => `${b}/${WIDTH * 2}x${WIDTH * 5}bb.png`);
 }
 
+// A folder's numbered PNGs, or a list of files as it is.
 function localShots(dir) {
+  if (Array.isArray(dir)) return dir.filter((f) => existsSync(f));
   if (!existsSync(dir)) return [];
   return readdirSync(dir)
     .filter((f) => /^\d+.*\.png$/.test(f))

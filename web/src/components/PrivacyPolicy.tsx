@@ -329,6 +329,71 @@ function ShelfbellPolicy() {
   );
 }
 
+// Same text as docs/store/privacy-policy.md in the catnapped repo; update both together.
+function CatnappedPolicy() {
+  return (
+    <>
+      <p>
+        Catnapped (&quot;the game&quot;) is made by KF Production. This policy explains what the
+        game does with your information. In short: there is no account, your progress stays on your
+        device, and we run no servers. We do not collect analytics or crash reports of our own.
+      </p>
+
+      <h2>What stays on your device</h2>
+      <p>
+        Your progress (stars, best scores, cheese, costumes and skills), your settings (such as
+        sound, music, vibration, controls and language) and a few counters the game uses to space out
+        its ads (how many games you have played, when an ad last showed) are stored in the
+        game&apos;s own storage on your device. We cannot see them. On Android, the system&apos;s own
+        device backup may copy them to your Google account if you have backup turned on; on iPhone
+        and iPad, your iCloud or computer backup may include them. This is handled by Android or
+        Apple, not by us.
+      </p>
+
+      <h2>Advertising</h2>
+      <p>
+        The game is free and shows ads from Google AdMob: a full-screen ad now and then, between
+        games or when you come back to the game, and videos you choose to watch for a reward. The
+        AdMob SDK collects your device&apos;s IP address (which may be used to estimate your general
+        location), your interactions with the game and its ads (such as launches, taps and video
+        views), diagnostic information (such as launch time and responsiveness), and your
+        device&apos;s advertising ID and app set ID. Google uses this to serve and measure ads, for
+        analytics and to prevent fraud. See how Google uses this information: {ADS}
+      </p>
+      <p>
+        On iPhone and iPad the game does not ask to track you, so ads are not personalised. On
+        Android you can reset or delete your advertising ID in the system settings. In the European
+        Economic Area, the UK and Switzerland, Google&apos;s consent form asks for your choices before
+        any ad is loaded, and you can change them at any time under Settings &gt; Ad privacy choices.
+        Ads are limited to content rated suitable for general audiences with parental guidance.
+      </p>
+
+      <h2>Nothing else is sent</h2>
+      <p>Apart from ads, the game makes no network requests of its own. It plays fully offline.</p>
+
+      <h2>In-app purchases</h2>
+      <p>There are none.</p>
+
+      <h2>Children</h2>
+      <p>The game is not directed at children under 13.</p>
+
+      <h2>Deleting your data</h2>
+      <p>
+        Uninstall the game, or clear its storage, to remove everything on the device. We hold no copy
+        to delete.
+      </p>
+
+      <h2>Changes</h2>
+      <p>If this policy changes, the new version will be posted at this address with a new date.</p>
+
+      <h2>Contact</h2>
+      <p>
+        <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
+      </p>
+    </>
+  );
+}
+
 export default function PrivacyPolicy({ app }: { app: App }) {
   const p = app.policy;
   switch (p.kind) {
@@ -340,5 +405,7 @@ export default function PrivacyPolicy({ app }: { app: App }) {
       return <LoanPolicy app={app} stored={p.stored} exportFiles={p.exportFiles} />;
     case 'shelfbell':
       return <ShelfbellPolicy />;
+    case 'catnapped':
+      return <CatnappedPolicy />;
   }
 }

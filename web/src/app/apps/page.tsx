@@ -10,7 +10,8 @@ export const metadata = pageMetadata({
   title: 'Our Apps: Holiday Calendars and Loan Calculators',
   description:
     'All KF Production apps: holiday and lunar calendars for Asia and Australia, Malaysian car ' +
-    'and home loan calculators, and the Shelfbell expiry date reminder. Free on Android and iPhone.',
+    'and home loan calculators, the Shelfbell expiry date reminder and the Catnapped puzzle game. ' +
+    'Free on Android and iPhone.',
   path: '/apps/',
 });
 

@@ -15,6 +15,9 @@ const iphoneApps = [
       .map((a) => (a.iphoneApp ? findApp(a.iphoneApp)! : a)),
   ),
 ] as App[];
+// The dock holds four apps, as on a real iPhone; any more sit on the home screen.
+const dockApps = iphoneApps.slice(0, 4);
+const homeApps = iphoneApps.slice(4);
 const topApp = findApp('malaysia-calendar')!;
 const shelfbell = findApp('shelfbell')!;
 const lunar = findApp('lunar-calendar')!;
@@ -244,6 +247,23 @@ function IPhone() {
               <p className={widgetLabel}>{shelfbell.name}</p>
             </div>
 
+            {homeApps.length > 0 && (
+              <ul className="mt-[14px] grid grid-cols-4 px-[18px]">
+                {homeApps.map((app) => (
+                  <li key={app.id} className="flex flex-col items-center">
+                    <Image
+                      src={app.icon}
+                      alt=""
+                      width={54}
+                      height={54}
+                      className="h-[54px] w-[54px] rounded-[13px] shadow-md shadow-black/20"
+                    />
+                    <span className={`${widgetLabel} w-full truncate`}>{app.name}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
+
             <div className="absolute bottom-[118px] left-1/2 flex h-[27px] -translate-x-1/2 items-center gap-[5px] rounded-full bg-white/45 px-[13px] text-[11px] font-medium backdrop-blur-md">
               <svg width="11" height="11" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fillRule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.45 4.39l3.08 3.08a.75.75 0 11-1.06 1.06l-3.08-3.08A7 7 0 012 9z" clipRule="evenodd" />
@@ -252,7 +272,7 @@ function IPhone() {
             </div>
 
             <div className="absolute inset-x-[12px] bottom-[16px] flex h-[86px] items-center justify-evenly rounded-[36px] bg-white/25 ring-1 ring-white/35 backdrop-blur-xl">
-              {iphoneApps.map((app) => (
+              {dockApps.map((app) => (
                 <Image
                   key={app.id}
                   src={app.icon}

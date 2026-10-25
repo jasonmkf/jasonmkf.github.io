@@ -5,7 +5,8 @@ export type Policy =
   | { kind: 'lunar' }
   | { kind: 'loan'; stored: string; exportFiles: boolean }
   | { kind: 'shelfbell' }
-  | { kind: 'catnapped' };
+  | { kind: 'catnapped' }
+  | { kind: 'furtress' };
 
 export interface App {
   id: string; // URL slug: /<id>/ is the app page, /<id>/privacy.html its policy
@@ -745,6 +746,72 @@ export const allApps: App[] = [
       'It shows ads from Google AdMob and never asks to track you on iPhone and iPad.',
     policy: { kind: 'catnapped' },
     updated: '17 October 2026',
+  },
+  {
+    id: 'furtress',
+    seo: {
+      title: 'Furtress: Cat Tower Defense, Guard the Cheese from Mice',
+      description:
+        'Seat cats beside the path, grow their cat trees and shoo every mouse before it reaches the cheese: 144 levels in twelve worlds. Free on Android, iPhone and iPad.',
+      keywords: [
+        'Furtress', 'Furtress game', 'cat tower defense', 'tower defense game', 'cat and mouse game',
+        'cat game', 'mouse game', 'strategy game', 'offline tower defense', 'free tower defense',
+        'casual strategy game', 'tower defence',
+      ],
+    },
+    name: 'Furtress',
+    description:
+      'A cat tower defense game: seat cats beside the path, grow their cat trees and shoo every mouse before it reaches the cheese. 144 levels across twelve worlds.',
+    icon: '/app-icons/furtress.webp',
+    comingSoon: 'Coming soon to Google Play and the App Store',
+    rating: '-',
+    downloads: '-',
+    reviews: '-',
+    countries: [],
+    category: 'Game',
+    subCategory: 'Strategy',
+    tagline: 'Guard the cheese. Shoo the mice.',
+    platforms: 'Android, iPhone and iPad',
+    intro:
+      'Furtress is a tower defense game about cats guarding the pantry. The mice are after the ' +
+      'cheese, and only your cats stand in their way. A cat never hurts a mouse: it scares it off, ' +
+      'and every mouse sent running home drops fish to spend on more cats and taller trees.',
+    features: [
+      '144 levels across twelve worlds, from the Kitchen and the Garden up to the Bathroom and the Bedroom, each with a twist such as swing gates, trapdoors, toy trains or ice',
+      'Thirteen kinds of cat: tabbies that swat, hunters that throw, a basket of kittens, a singing Siamese, a Sphynx with a laser and more; each cat tree grows taller with every upgrade',
+      'Eighteen kinds of mouse, from lid knights behind their shields to hamster balls, gliders and diggers, with a mini boss and a boss in every world',
+      'Five champions who take to the board beside your cats, each with a power of their own',
+      'Twelve powers to learn, one in every world, such as mousetraps, honey and a robot vacuum; carry two into each level',
+      'An outfit for your champions from every world you clear, and a gold one for every star in it',
+      'The Cat Tree: spend your stars on upgrades for the house and for each cat',
+      'A daily board, endless waves in every world you clear and three challenges on every cleared level',
+      'Up to three stars a level: keep every wedge of cheese',
+      'On phones and tablets, with the board beside its panel when a tablet is on its side',
+    ],
+    sections: [
+      {
+        heading: 'How to play',
+        body:
+          'Seat your cats on cat trees beside the path, anywhere there is free floor. Swing the ' +
+          'gates to send the mice the long way round, move your cats between waves and keep your ' +
+          'powers for the wave that needs them. A mouse that reaches the pantry runs off with a ' +
+          'wedge of cheese, but catch it on its way home and the wedge is saved.',
+      },
+      {
+        heading: 'Free, with ads',
+        body:
+          'Furtress is free and has no purchases. An ad break comes now and then between games, ' +
+          'never a banner, and you can choose to watch a short video to keep playing, skip a level ' +
+          'or unlock tips; treats you save pay for the same. The game plays offline.',
+      },
+    ],
+    languages:
+      'English, Bahasa Indonesia, Bahasa Melayu, Thai, Vietnamese, Simplified Chinese and Traditional Chinese.',
+    privacy:
+      'No account and no sign-up. Your progress stays on your device, and the game plays offline. ' +
+      'It shows ads from Google AdMob and never asks to track you on iPhone and iPad.',
+    policy: { kind: 'furtress' },
+    updated: '22 October 2026',
   },
 ];
 

@@ -24,6 +24,12 @@ function catnapped(device, names) {
   return names.map((n) => join(material, 'Catnapped/raw', device, `${n}.png`));
 }
 
+// Furtress's are made the same way, from its own raw captures.
+const FURTRESS = ['shoo', 'cats', 'worlds', 'clear', 'casefiles', 'champions', 'more', 'title'];
+function furtress(device, names) {
+  return names.map((n) => join(material, 'Furtress/raw', device, `${n}.png`));
+}
+
 const LUNAR_IOS = 'https://apps.apple.com/us/app/lunar-calendar-holidays/id6806542405';
 // `lunar`: the folder in App Material/Lunar Calendar with the App Store set for the country.
 // Singapore and Hong Kong have no set of their own yet, so they borrow the closest: the
@@ -62,6 +68,13 @@ const APPS = [
       android: catnapped('pixel-10-pro', CATNAPPED),
       // The title screen first, so the page's hero shows a game and the title side by side.
       ios: catnapped('iphone-16-pro-max', ['title', ...CATNAPPED.filter((n) => n !== 'title')]),
+    },
+  },
+  {
+    id: 'furtress',
+    local: {
+      android: furtress('pixel-9-pro-xl', FURTRESS),
+      ios: furtress('iphone-16-pro-max', ['title', ...FURTRESS.filter((n) => n !== 'title')]),
     },
   },
 ];

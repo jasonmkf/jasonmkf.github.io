@@ -1316,5 +1316,91 @@
     "height": 1043
    }
   ]
+ },
+ "furtress": {
+  "android": [
+   {
+    "src": "/screenshots/furtress/android-1.webp",
+    "width": 480,
+    "height": 1069
+   },
+   {
+    "src": "/screenshots/furtress/android-2.webp",
+    "width": 480,
+    "height": 1069
+   },
+   {
+    "src": "/screenshots/furtress/android-3.webp",
+    "width": 480,
+    "height": 1069
+   },
+   {
+    "src": "/screenshots/furtress/android-4.webp",
+    "width": 480,
+    "height": 1069
+   },
+   {
+    "src": "/screenshots/furtress/android-5.webp",
+    "width": 480,
+    "height": 1069
+   },
+   {
+    "src": "/screenshots/furtress/android-6.webp",
+    "width": 480,
+    "height": 1069
+   },
+   {
+    "src": "/screenshots/furtress/android-7.webp",
+    "width": 480,
+    "height": 1069
+   },
+   {
+    "src": "/screenshots/furtress/android-8.webp",
+    "width": 480,
+    "height": 1069
+   }
+  ],
+  "ios": [
+   {
+    "src": "/screenshots/furtress/ios-1.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/furtress/ios-2.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/furtress/ios-3.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/furtress/ios-4.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/furtress/ios-5.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/furtress/ios-6.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/furtress/ios-7.webp",
+    "width": 480,
+    "height": 1043
+   },
+   {
+    "src": "/screenshots/furtress/ios-8.webp",
+    "width": 480,
+    "height": 1043
+   }
+  ]
  }
 }

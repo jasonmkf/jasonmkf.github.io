@@ -8,7 +8,8 @@ export const APP_STORE_DEVELOPER = 'https://apps.apple.com/us/developer/kek-fu-m
 export const SITE_DESCRIPTION =
   'Free Android and iPhone apps from KF Production: public holiday calendars for Malaysia, ' +
   'Singapore, Indonesia, Thailand, Vietnam, Hong Kong, Taiwan, South Korea and Australia, ' +
-  'Malaysian loan calculators, and Catnapped, a cat and mouse puzzle game.';
+  'Malaysian loan calculators, and two cat and mouse games: Catnapped, a puzzle game, and ' +
+  'Furtress, a tower defense game.';
 
 const ORG_ID = `${SITE}/#organization`;
 

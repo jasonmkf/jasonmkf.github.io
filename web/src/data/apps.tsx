@@ -745,7 +745,7 @@ export const allApps: App[] = [
       'No account and no sign-up. Your progress stays on your device, and the game plays offline. ' +
       'It shows ads from Google AdMob and never asks to track you on iPhone and iPad.',
     policy: { kind: 'catnapped' },
-    updated: '17 October 2026',
+    updated: '9 November 2026',
   },
   {
     id: 'furtress',
@@ -811,7 +811,7 @@ export const allApps: App[] = [
       'No account and no sign-up. Your progress stays on your device, and the game plays offline. ' +
       'It shows ads from Google AdMob and never asks to track you on iPhone and iPad.',
     policy: { kind: 'furtress' },
-    updated: '22 October 2026',
+    updated: '9 November 2026',
   },
 ];
 

@@ -361,8 +361,11 @@ function CatnappedPolicy() {
         analytics and to prevent fraud. See how Google uses this information: {ADS}
       </p>
       <p>
-        On iPhone and iPad the game does not ask to track you, so ads are not personalised. On
-        Android you can reset or delete your advertising ID in the system settings. In the European
+        On iPhone and iPad the game asks, with Apple&apos;s tracking prompt, whether Google may use
+        your device&apos;s advertising identifier to show you ads that suit you better. If you say
+        no, the identifier is not shared. You can change your answer at any time in Settings &gt;
+        Privacy &amp; Security &gt; Tracking. On Android you can reset or delete your advertising ID
+        in the system settings. In the European
         Economic Area, the UK and Switzerland, Google&apos;s consent form asks for your choices before
         any ad is loaded, and you can change them at any time under Settings &gt; Ad privacy choices.
         Ads are limited to content rated suitable for general audiences with parental guidance.
@@ -426,8 +429,11 @@ function FurtressPolicy() {
         analytics and to prevent fraud. See how Google uses this information: {ADS}
       </p>
       <p>
-        On iPhone and iPad the game does not ask to track you, so ads are not personalised. On
-        Android you can reset or delete your advertising ID in the system settings. In the European
+        On iPhone and iPad the game asks, with Apple&apos;s tracking prompt, whether Google may use
+        your device&apos;s advertising identifier to show you ads that suit you better. If you say
+        no, the identifier is not shared. You can change your answer at any time in Settings &gt;
+        Privacy &amp; Security &gt; Tracking. On Android you can reset or delete your advertising ID
+        in the system settings. In the European
         Economic Area, the UK and Switzerland, Google&apos;s consent form asks for your choices before
         any ad is loaded, and you can change them at any time under Settings &gt; Ad privacy choices.
         Ads are limited to content rated suitable for general audiences with parental guidance.
